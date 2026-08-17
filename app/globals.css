@@ -1,0 +1,169 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Regimental accents */
+  --color-gold: var(--gold);
+  --color-gold-muted: var(--gold-muted);
+  --color-crimson: var(--crimson);
+  --color-crimson-deep: var(--crimson-deep);
+  --color-ivory: var(--ivory);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  color-scheme: dark;
+
+  /* Base: bleu imperial — deep navy of the French line infantry coat */
+  --background: oklch(0.19 0.035 255);
+  --foreground: oklch(0.94 0.015 85);
+
+  --card: oklch(0.23 0.038 256);
+  --card-foreground: oklch(0.94 0.015 85);
+
+  --popover: oklch(0.21 0.038 256);
+  --popover-foreground: oklch(0.94 0.015 85);
+
+  /* Imperial gold */
+  --primary: oklch(0.76 0.11 85);
+  --primary-foreground: oklch(0.19 0.035 255);
+
+  --secondary: oklch(0.27 0.04 256);
+  --secondary-foreground: oklch(0.94 0.015 85);
+
+  --muted: oklch(0.27 0.038 256);
+  --muted-foreground: oklch(0.72 0.02 90);
+
+  --accent: oklch(0.3 0.05 256);
+  --accent-foreground: oklch(0.94 0.015 85);
+
+  /* Deep crimson (facings) */
+  --destructive: oklch(0.5 0.16 22);
+  --destructive-foreground: oklch(0.94 0.015 85);
+
+  --border: oklch(0.42 0.06 256);
+  --input: oklch(0.3 0.04 256);
+  --ring: oklch(0.76 0.11 85);
+
+  /* Named regimental tokens */
+  --gold: oklch(0.78 0.12 85);
+  --gold-muted: oklch(0.62 0.08 85);
+  --crimson: oklch(0.55 0.19 25);
+  --crimson-deep: oklch(0.44 0.17 25);
+  --ivory: oklch(0.95 0.015 85);
+
+  --radius: 0.5rem;
+
+  --sidebar: oklch(0.16 0.032 255);
+  --sidebar-foreground: oklch(0.9 0.015 85);
+  --sidebar-primary: oklch(0.78 0.12 85);
+  --sidebar-primary-foreground: oklch(0.16 0.032 255);
+  --sidebar-accent: oklch(0.26 0.04 256);
+  --sidebar-accent-foreground: oklch(0.94 0.015 85);
+  --sidebar-border: oklch(0.34 0.05 256);
+  --sidebar-ring: oklch(0.78 0.12 85);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'liga' 1, 'kern' 1;
+  }
+}
+
+@layer utilities {
+  /* Thin gold hairline rule with a diamond accent at center */
+  .gold-hairline {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--gold-muted) 20%,
+      var(--gold) 50%,
+      var(--gold-muted) 80%,
+      transparent
+    );
+  }
+  .tracking-command {
+    letter-spacing: 0.28em;
+  }
+  .tracking-wider-2 {
+    letter-spacing: 0.16em;
+  }
+  /* Subtle gold sheen used on emblem containers */
+  .gold-sheen {
+    background-image: radial-gradient(
+      120% 120% at 50% 0%,
+      color-mix(in oklch, var(--gold) 12%, transparent),
+      transparent 60%
+    );
+  }
+
+  /* Crimson sash — a bold red band edged in gold braid, the way the
+     sash cuts across Napoleon's dress coat. Used deliberately, not often. */
+  .sash-band {
+    background: linear-gradient(
+      to right,
+      var(--crimson-deep),
+      var(--crimson) 50%,
+      var(--crimson-deep)
+    );
+    border-top: 1px solid color-mix(in oklch, var(--gold) 70%, transparent);
+    border-bottom: 1px solid color-mix(in oklch, var(--gold) 70%, transparent);
+  }
+
+  /* Diagonal sash used as a single hero signature accent */
+  .sash-diagonal {
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      color-mix(in oklch, var(--gold) 65%, transparent) 8%,
+      var(--crimson) 8%,
+      var(--crimson-deep) 92%,
+      color-mix(in oklch, var(--gold) 65%, transparent) 92%,
+      transparent
+    );
+  }
+}
