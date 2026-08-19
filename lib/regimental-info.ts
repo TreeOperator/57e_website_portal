@@ -16,10 +16,12 @@ export interface InfoTable {
 export const infobox = {
   commandingOfficers: ['Colonel Vurellis', 'Général de Brigade. DullPuppyDog'],
   notableCommanders: [
-    'Vycosis', 'Crusader1965', 'PorcusDoria', 'DullPuppyDog', 'Howa0804',
-    'KorbynODuffy', 'cuhrabs', 'Vurellis', 'Ender_Ragnar', 'Zoldonn',
-    'Chrothium', 'Jake122410', 'fzmom',
+    'Vycosis', 'Crusader1965', 'PorcusDoria', 'DullPuppyDog', 'cuhrabs',
+    'Vurellis', 'Chrothium', 'Jake122410', 'fzmom',
   ],
+  // Blacklisted per HICOM (Aug 2026) — kept separate from the active/historical
+  // notable-commanders list, not removed from the record entirely.
+  blacklistedCommanders: ['Zoldonn', 'Ender_Ragnar', 'KorbynODuffy', 'Howa0804'],
   periodOfActivity: 'Mid 2020 (presumed) - Present',
   nation: 'Empire Français',
   brigadeDivisionCorps: 'Deuxième Corps (Ex. Troisième Corps)',
@@ -115,7 +117,7 @@ export const nwGenreHistory: string[] = [
 ]
 
 export const orgIntro =
-  "The regiment consists of 3 battalions, 7 companies, and 5 auxiliary departments in total. The first " +
+  "The regiment consists of 4 battalions, 7 companies, and 5 auxiliary departments in total. The first " +
   "battalion is the 3eme de Bataillon Auxiliaire which houses 5 departments to manage logistical work for " +
   "57e, secondly the 2/3eme Battalion du Fusiliers which houses 4 separate fusilier companies and 1 depot " +
   "company with their very own commanders, executives, and Non-commissioned officers, this battalion is " +
@@ -263,23 +265,6 @@ export const fusiliersBattalionsParagraph =
   'fusiliers on weekdays and could be 100 on weekends, making the combined battalion larger than some ' +
   'nations and corps. (Below are the commanders, executive officers, and Etat majors of each company)'
 
-export const fusiliersTable: InfoTable = {
-  title: 'Etat Général des Bataillon 57ème Fusiliers des Auxerre',
-  headers: [
-    'Bataillon', 'Compagnie', 'Commandant de Bataillon', 'Executif de Bataillon',
-    'Commandant de Compagnie', 'Exécutif de Compagnie', 'Etat-Major',
-  ],
-  rows: [
-    ['1er Battailon des Fusiliers de Alsace', '1er Fusiliers "Les Terribles"', 'Chef-B. kjvif', 'N/A', 'Adj. Axzlat', 'Adj. ahkdedn', 'Sgt. Iplazroblox291'],
-    ['1er Battailon des Fusiliers de Alsace', '2eme Fusiliers "Martinique"', 'Chef-B. kjvif', 'N/A', 'Adj. ash4561g', 'Adj. XywBoyo', 'Sgt-M. ArcoBoyo'],
-    ['', '', '', '', '', '', 'Cpl-F. exante802'],
-    ['2eme Battailon des Fusiliers de Gironde', '3eme Fusiliers "Rivoli"', 'Cpt. neenanz', 'N/A', 'S-Lt. Puppywad2', 'Adj. HydraBailen', 'Sgt-M. MnoanBoyo'],
-    ['', '', '', '', '', '', 'Sgt. PolishKosmos'],
-    ['2eme Battailon des Fusiliers de Gironde', '4eme Fusiliers "Borodino"', 'Cpt. neenanz', 'N/A', 'S-Lt. fadedstoriess', 'Adj. S_Cormac', 'Adj. Pop_SamBlade'],
-    ['2eme Battailon des Fusiliers de Gironde', 'Dépôt de Montbéliard', 'Cpt. neenanz', 'N/A', 'S-Lt. Puppywad2', 'Sgt-M. nexxustheirinco', 'Adj. Aspectious'],
-  ],
-}
-
 export const voltigeursParagraph =
   'The 57e Voltigeurs are the middle child of 57e, they have 2 separate companies with the same looks, ' +
   'their names are 1er Voltigeurs des Liévin "Austerlitz" and 2eme Voltigeurs des Liévin "Arcole", their ' +
@@ -290,19 +275,6 @@ export const voltigeursParagraph =
   'dangerous close-quarters melee combat, which gives them the upper hand when chasing weakened lines. To ' +
   'join this company, you must be able to get at least 45 or more kills per battle while being in one of ' +
   'the fusilier companies, you will be given a choice to be sent to the Voltigeurs or stay in Fusiliers.'
-
-export const voltigeursTable: InfoTable = {
-  title: 'Etat Général des 57ème Voltigeurs des Liévin',
-  headers: [
-    'Bataillon', 'Compagnie', 'Commandant de Bataillon', 'Executif de Bataillon',
-    'Commandant de Compagnie', 'Exécutif de Compagnie', 'Etat-Major',
-  ],
-  rows: [
-    ['1er Bataillon de Spécialistes', '1er Voltigeurs des Liévin "Austerlitz"', 'GdB. Vurellis', 'N/A', 'Adj. pakurg', 'Adj. Vannboyo', 'S-Lt. Nevu106'],
-    ['1er Bataillon de Spécialistes', '2eme Voltigeurs des Liévin "Arcole"', 'GdB. Vurellis', 'N/A', 'Adj-S. cuhrabs', 'S-Lt. xQcLuxi', 'Adj-S. 1Tanyaaaaa'],
-    ['', '', '', '', '', '', 'Adj. Xxice_armyxX'],
-  ],
-}
 
 export const grenadiersParagraph =
   'The 57e Grenadiers are the best Company that 57e has to offer, whenever a tough matchup arises, they are ' +
@@ -318,19 +290,6 @@ export const grenadiersParagraph =
   "Voltigeur's, and an ammo pouch with a grenade symbol on it, not to mention that they have a height " +
   'increase by around 3-5%. The Grenadiers of 57e are a true force to not be reckoned with as they are ' +
   'known to be one of the best in NW France.'
-
-export const grenadiersTable: InfoTable = {
-  title: 'Etat Général des 57ème Grenadiers de Amiens',
-  headers: [
-    'Bataillon', 'Compagnie', 'Commandant de Bataillon', 'Executif de Bataillon',
-    'Commandant de Compagnie', 'Exécutif de Compagnie', 'Etat-Major',
-  ],
-  rows: [
-    ['1er Bataillon de Spécialistes', '1er Grenadiers de Amiens "Les Terribles"', 'GdB. Vurellis', 'WIP', 'WIP', 'WIP', 'WIP'],
-    ['1er Bataillon de Spécialistes', '2eme Grenadiers de Amiens "Leipzig"', 'GdB. Dullqd', 'S-Lt. qstveil', 'Adj-S. SHADOW_FAX', '', ''],
-    ['', '', '', '', '', '', 'Adj. Aduricus'],
-  ],
-}
 
 export const grenadiersEliteParagraph =
   "To achieve this temporary position of Pendantif d'Elite you first be in the Grenadiers company which " +
@@ -357,24 +316,6 @@ export const commandStructureHQTable: InfoTable = {
   ],
 }
 
-export const commandStructureBattalionsTable: InfoTable = {
-  headers: [
-    'Bataillon', 'Compagnie', 'Commandant de Bataillon', 'Executif de Bataillon',
-    'Commandant de Compagnie', 'Executif de Compagnie',
-  ],
-  rows: [
-    ['2eme Bataillon de Fusiliers', '1er Fusiliers "Les Terribles"', 'Chef-B. kjvif', 'N/A', 'Adj. Axzlat', 'Adj. ahkdedn'],
-    ['2eme Bataillon de Fusiliers', '2eme Fusiliers "Martinique"', 'Chef-B. kjvif', 'N/A', 'Adj. ash4561g', 'Adj. XywBoyo'],
-    ['3eme Bataillon de Fusiliers', '3eme Fusiliers "Rivoli"', 'Cpt. neenanz', 'N/A', 'S-Lt. Puppywad2', 'Adj. HydraBailen'],
-    ['3eme Bataillon de Fusiliers', '4eme Fusiliers "Borodino"', 'Cpt. neenanz', 'N/A', 'Adj-S. fadedstoriess', 'Adj. S_Cormac'],
-    ['3eme Bataillon de Fusiliers', 'Dépôt de Montbéliard', 'Cpt. neenanz', 'N/A', 'S-Lt. Puppywad2', 'Sgt-M. nexxustheirinco'],
-    ['1er Bataillon de Spécialistes', '1er Voltigeurs des Liévin "Austerlitz"', 'GdB. Vurellis', 'N/A', 'Adj. pakurg', 'Adj. Vannboyo'],
-    ['1er Bataillon de Spécialistes', '2eme Voltigeurs des Liévin "Arcole"', 'GdB. Vurellis', 'N/A', 'Adj. cuhrabs', 'Adj-S. xQcLuxi'],
-    ['1er Bataillon de Spécialistes', '1er Grenadiers de Amiens "Les Terribles"', 'GdB. Vurellis', 'N/A', 'N/A', 'N/A'],
-    ['1er Bataillon de Spécialistes', '2eme Grenadiers de Amiens "Leipzig"', 'GdB. Vurellis', 'N/A', 'GdB. Dullqd', 'S-Lt. Dwelldiver'],
-  ],
-}
-
 export const trivia: string[] = [
   'The 57e Grenadiers was the company that had the highest DPP and points in the French Side in one of the Northern German Campaign battles.',
   "The 57e Asia is one of the regiments that has never lost an Aigle (Eagle) ever in Empire Français, during a grand battle, a very rarely used flag which dons the Empire's glorious Eagle, Marcus. Along with its regimental number below the plate, the flag is blessed by Emperor Gory himself and losing it to enemy hands brings great shame.",
@@ -383,5 +324,5 @@ export const trivia: string[] = [
   'Despite being called "57e Grenadiers "Leipzig"" the Regiment did not fight at the actual Battle of Leipzig, and certainly meaning they were not in fact, a steel wall at Leipzig.',
   'Puppywad2, is the current main editor of this wiki page and was a sapeur in the past.',
   '57e is also featured in another Roblox game called "Blackpowder", costing 500 coins to unlock at tier 2.',
-  '57e as of 16/06/2026 (DD/MM/YYYY), is the biggest regiment in the entirety of all Napoleonic Wars related genres, boasting 200+ active members in 1 campaign battle.',
+  '57e as of 16/06/2026 (DD/MM/YYYY), is the biggest regiment in the entirety of all Napoleonic Wars related genres, boasting 210+ active members in 1 campaign battle.',
 ]

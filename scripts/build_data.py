@@ -16,6 +16,9 @@ DATA_DIR = ROOT / "data"
 
 SPREADSHEET_ID = "1jDCXIWrkTjDgxRX-2zddojWoUnD3TKYTFWdQz2DD6zc"
 
+# A second spreadsheet (medals/awards), separate from the main roster sheet above.
+MEDALS_SPREADSHEET_ID = "1bwlwOFWKjZXIaXx5u53wPzUyUdWz0T10EJ7aPxWdmCk"
+
 # Sheets we actually parse into structured JSON.
 SHEETS = [
     {"name": "roster", "gid": "1946443746", "kind": "roster"},
@@ -26,23 +29,37 @@ SHEETS = [
     {"name": "orbat", "gid": "2141834013", "kind": "orbat"},
     {"name": "player_stats", "gid": "931290841", "kind": "player_stats"},
     {"name": "recruitment", "gid": "2031020815", "kind": "raw"},
+    {"name": "medals", "gid": "1868836415", "kind": "medals", "spreadsheet_id": MEDALS_SPREADSHEET_ID, "endpoint": "gviz"},
 ]
 
 # Reference/working sheets, downloaded as raw CSV only (not parsed for the site).
 RAW_ONLY_SHEETS = [
     {"name": "kill_log", "gid": "1095406146"},
     {"name": "grading_curve", "gid": "567217808"},
-    {"name": "colour_guard", "gid": "367345434"},
+    {"name": "flag_guard", "gid": "367345434"},
     {"name": "daily_input", "gid": "1662116744"},
     {"name": "rally_summary", "gid": "429239458"},
 ]
 
 
-def download_csv(name: str, gid: str) -> str:
-    """Download a sheet tab as CSV and return the content."""
-    url = f"https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export?format=csv&gid={gid}"
+def download_csv(name: str, gid: str, spreadsheet_id: str = SPREADSHEET_ID, endpoint: str = "export") -> str:
+    """
+    Download a sheet tab as CSV and return the content.
+
+    `endpoint="export"` (default) hits /export?format=csv, which matches the
+    exact column headers the parsers below expect. Some spreadsheets 401 on
+    that endpoint (Workspace-restricted export), but still work via the
+    gviz/tq visualization endpoint — pass endpoint="gviz" for those. Note
+    gviz output adds a leading blank column and trailing spaces on headers,
+    so it isn't a drop-in replacement for the other parsers.
+    """
+    if endpoint == "gviz":
+        url = f"https://docs.google.com/spreadsheets/d/{spreadsheet_id}/gviz/tq?tqx=out:csv&gid={gid}"
+    else:
+        url = f"https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?format=csv&gid={gid}"
     print(f"Downloading {name} from {url}...")
-    with urllib.request.urlopen(url) as response:
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as response:
         return response.read().decode("utf-8")
 
 
@@ -303,6 +320,41 @@ def parse_raw_csv(content: str) -> list[list[str]]:
     return list(csv.reader(content.splitlines()))
 
 
+def parse_medals_csv(content: str) -> list[dict]:
+    """
+    Parse the medals/awards sheet: one row per medal awarded, columns
+    Username, Profile Link, Medal, Class. A player with multiple medals
+    (or multiple classes of the same medal) has one row per award.
+    """
+    rows = list(csv.reader(content.splitlines()))
+    if not rows:
+        return []
+
+    header = [c.strip() for c in rows[0]]
+    idx_username = header.index("Username") if "Username" in header else 0
+    idx_profile = header.index("Profile Link") if "Profile Link" in header else 1
+    idx_medal = header.index("Medal") if "Medal" in header else 2
+    idx_class = header.index("Class") if "Class" in header else 3
+
+    results = []
+    for row in rows[1:]:
+        def get(idx: int) -> str:
+            return row[idx].strip() if idx < len(row) else ""
+
+        medal = get(idx_medal)
+        if not medal:
+            continue
+
+        results.append({
+            "username": get(idx_username),
+            "profileLink": get(idx_profile),
+            "medal": medal,
+            "class": get(idx_class),
+        })
+
+    return results
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
 
@@ -312,8 +364,10 @@ def main():
         name = sheet["name"]
         gid = sheet["gid"]
         kind = sheet["kind"]
+        spreadsheet_id = sheet.get("spreadsheet_id", SPREADSHEET_ID)
+        endpoint = sheet.get("endpoint", "export")
 
-        csv_content = download_csv(name, gid)
+        csv_content = download_csv(name, gid, spreadsheet_id, endpoint)
 
         if kind == "roster":
             data = parse_roster_csv(csv_content)
@@ -324,6 +378,8 @@ def main():
             data = parse_orbat_csv(csv_content)
         elif kind == "player_stats":
             data = parse_player_stats_csv(csv_content)
+        elif kind == "medals":
+            data = parse_medals_csv(csv_content)
         else:
             data = parse_raw_csv(csv_content)
 

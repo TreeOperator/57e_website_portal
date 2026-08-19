@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
 import { battalionRosters, type ActivityRow, type CompanyRoster } from '@/lib/roster-data'
+import { RankBadge } from '@/components/rank-badge'
 
 function MemberRow({ member }: { member: ActivityRow }) {
   const vacant = !member.name
@@ -12,7 +13,7 @@ function MemberRow({ member }: { member: ActivityRow }) {
         {member.position || '—'}
       </td>
       <td className="px-2.5 py-1.5 text-center text-[11px] text-muted-foreground">
-        {vacant ? '—' : member.rank}
+        {vacant ? '—' : <RankBadge rank={member.rank} className="justify-center" />}
       </td>
       <td className="px-2.5 py-1.5 text-ivory font-serif text-sm">
         {vacant ? <span className="text-[11px] italic text-muted-foreground/50">Vacant</span> : member.name}

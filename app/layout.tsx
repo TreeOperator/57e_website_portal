@@ -19,7 +19,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "57e Régiment d'Infanterie de Ligne — Portail du Régiment",
   description:
-    "Official regimental portal of the 57e Régiment d'Infanterie de Ligne — order of battle, officer roster, and the regimental archive. Les Terribles.",
+    "Official regimental portal of the 57e Régiment d'Infanterie de Ligne — chain of command, company rosters, and the regimental archive. Les Terribles.",
   generator: 'v0.app',
 }
 
@@ -35,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${sourceSans.variable} bg-background`}>
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased" suppressHydrationWarning>
         <AppShell>{children}</AppShell>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

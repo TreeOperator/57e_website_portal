@@ -4,7 +4,7 @@ import { OrgChart } from '@/components/org-chart'
 import { regimentMeta } from '@/lib/regiment-data'
 
 export const metadata: Metadata = {
-  title: 'Order of Battle — 57e de Ligne',
+  title: 'Chain of Command — 57e de Ligne',
   description: 'The chain of command of the 57e Régiment d\'Infanterie de Ligne, from the colonel to the company officers.',
 }
 
@@ -19,7 +19,7 @@ export default function OrderOfBattlePage() {
     <div className="px-6 py-14 lg:px-10">
       <PageHeader
         eyebrow="Ordre de Bataille"
-        title="Order of Battle"
+        title="Chain of Command"
         description={`The chain of command of the regiment, organised across ${regimentMeta.battalions} battalions. Select a battalion to review its companies.`}
       />
 

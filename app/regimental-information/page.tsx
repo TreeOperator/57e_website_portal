@@ -12,19 +12,52 @@ import {
   departments,
   fusiliersDepotParagraph,
   fusiliersBattalionsParagraph,
-  fusiliersTable,
   voltigeursParagraph,
-  voltigeursTable,
   grenadiersParagraph,
-  grenadiersTable,
   grenadiersEliteParagraph,
   sapeursParagraph,
   commandStructureDate,
   commandStructureHQTable,
-  commandStructureBattalionsTable,
   trivia,
   type InfoTable as InfoTableType,
 } from '@/lib/regimental-info'
+import { companyCommandRows, type CompanyCommandRow, type ActivityRow } from '@/lib/roster-data'
+import fusiliersData from '@/data/fusiliers.json'
+import voltsData from '@/data/volts.json'
+import grensData from '@/data/grens.json'
+import depotData from '@/data/depot.json'
+
+const COMMAND_HEADERS = [
+  'Compagnie', 'Commandant de Bataillon', 'Commandant de Compagnie', 'Exécutif de Compagnie', 'Etat-Major',
+]
+
+/** Live company command tables, sourced directly from the parsed activity JSON (not hand-transcribed). */
+function toCommandTable(title: string, rows: CompanyCommandRow[]): InfoTableType {
+  return {
+    title,
+    headers: COMMAND_HEADERS,
+    rows: rows.map((r) => [
+      r.company,
+      r.battalionCommandant,
+      r.companyCommandant,
+      r.companyExecutif,
+      r.etatMajor.length > 0 ? r.etatMajor.join('\n') : 'N/A',
+    ]),
+  }
+}
+
+const fusiliersTable = toCommandTable(
+  'Etat Général des Bataillon 57ème Fusiliers (live, from fusiliers.json + depot.json)',
+  [...companyCommandRows(fusiliersData as ActivityRow[]), ...companyCommandRows(depotData as ActivityRow[])],
+)
+const voltigeursTable = toCommandTable(
+  'Etat Général des 57ème Voltigeurs des Liévin (live, from volts.json)',
+  companyCommandRows(voltsData as ActivityRow[]),
+)
+const grenadiersTable = toCommandTable(
+  'Etat Général des 57ème Grenadiers de Amiens (live, from grens.json)',
+  companyCommandRows(grensData as ActivityRow[]),
+)
 
 export const metadata: Metadata = {
   title: 'Regimental Information — 57e de Ligne',
@@ -132,6 +165,10 @@ export default function RegimentalInformationPage() {
               <p className="text-[10px] uppercase tracking-wider text-gold-muted">Notable Commanders</p>
               <p className="mt-0.5 text-ivory">{infobox.notableCommanders.join(', ')}</p>
             </div>
+            <div className="sm:col-span-2">
+              <p className="text-[10px] uppercase tracking-wider text-red-400">Blacklisted Commanders</p>
+              <p className="mt-0.5 text-muted-foreground">{infobox.blacklistedCommanders.join(', ')}</p>
+            </div>
           </div>
         </div>
 
@@ -227,9 +264,10 @@ export default function RegimentalInformationPage() {
 
         <Section title={`Command Structure Overview (As of ${commandStructureDate})`}>
           <InfoTable table={commandStructureHQTable} />
-          <div className="mt-4">
-            <InfoTable table={commandStructureBattalionsTable} />
-          </div>
+          <p className="text-xs text-muted-foreground">
+            Company-level command staff are shown live above, under each battalion&apos;s own section — sourced
+            directly from the roster spreadsheet rather than hand-transcribed here.
+          </p>
         </Section>
 
         <Section title="Trivia">

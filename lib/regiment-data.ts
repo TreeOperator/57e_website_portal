@@ -46,10 +46,10 @@ export const regimentMeta = {
   formerCorps: 'Troisième Corps',
   empire: 'Empire Français',
   unitType: 'Line Infantry',
-  battalions: 3,
+  battalions: 4,
   companies: 7,
   auxiliaryDepartments: 5,
-  peakStrength: '200+',
+  peakStrength: '210+',
 }
 
 /* Historical (real-world) engagements — sourced from the "Real life History" */
