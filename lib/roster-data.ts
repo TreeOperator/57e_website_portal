@@ -52,6 +52,36 @@ export function getCommandStaff(members: ActivityRow[]): ActivityRow[] {
   )
 }
 
+/** Formats a member as "Rank Name", or "N/A" if the billet is empty/unassigned. */
+function fmtMember(member: ActivityRow | undefined): string {
+  if (!member || !member.name) return 'N/A'
+  return `${member.rank} ${member.name}`.trim()
+}
+
+export interface CompanyCommandRow {
+  company: string
+  battalionCommandant: string
+  companyCommandant: string
+  companyExecutif: string
+  etatMajor: string[]
+}
+
+/**
+ * Builds a live company-command table (Commandant/Exécutif de Compagnie,
+ * Etat-Major, and — where the sheet records it — Commandant de Bataillon)
+ * straight from the parsed activity JSON, so this never has to be
+ * hand-transcribed/hardcoded.
+ */
+export function companyCommandRows(members: ActivityRow[]): CompanyCommandRow[] {
+  return groupByCompany(members).map(({ name, members: companyMembers }) => ({
+    company: name,
+    battalionCommandant: fmtMember(companyMembers.find((m) => m.position === 'CO de Bataillon')),
+    companyCommandant: fmtMember(companyMembers.find((m) => m.position === 'CO de Compagnie')),
+    companyExecutif: fmtMember(companyMembers.find((m) => m.position === 'XO de Compagnie')),
+    etatMajor: companyMembers.filter((m) => m.position === 'Etat Major').map(fmtMember),
+  }))
+}
+
 const BATTALION_LABELS: Record<string, string> = {
   grens: 'Grenadiers de Amiens',
   volts: 'Voltigeurs de Liévin',

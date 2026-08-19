@@ -4,8 +4,10 @@ import { useMemo, useState } from 'react'
 import { Search, ChevronDown } from 'lucide-react'
 import { PageHeader } from '@/components/page-header'
 import { RankerTracker } from '@/components/ranker-tracker'
+import { RankBadge } from '@/components/rank-badge'
 import type { SpreadsheetRow } from '@/lib/csv-parser'
 import { findActivityByName } from '@/lib/roster-data'
+import { findMedalsByUsername } from '@/lib/medals-data'
 import rosterData from '@/data/roster.json'
 
 const roster = rosterData as SpreadsheetRow[]
@@ -55,6 +57,7 @@ export default function LookupPage() {
                   const key = `${r.name}-${i}`
                   const isOpen = expanded === key
                   const activity = findActivityByName(r.name)
+                  const medals = findMedalsByUsername(r.name || r.returningUsername)
                   return (
                     <li
                       key={key}
@@ -68,7 +71,7 @@ export default function LookupPage() {
                           <p className="mt-0.5 text-xs text-muted-foreground">{r.company}</p>
                         </div>
                         <div className="flex items-center gap-2 text-right">
-                          <span className="text-sm text-gold">{r.rank}</span>
+                          <RankBadge rank={r.rank} className="text-sm text-gold" />
                           {activity && (
                             <ChevronDown
                               className={`size-4 text-muted-foreground transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
@@ -95,6 +98,22 @@ export default function LookupPage() {
                               Roblox Profile
                             </a>
                           </p>
+                        )}
+                        {medals.length > 0 && (
+                          <div className="pt-1">
+                            <span className="text-gold-muted">Medals:</span>
+                            <div className="mt-1 flex flex-wrap gap-1.5">
+                              {medals.map((m, mi) => (
+                                <span
+                                  key={mi}
+                                  className="rounded-full border border-gold/30 bg-gold/10 px-2 py-0.5 text-[11px] text-gold"
+                                >
+                                  {m.medal}
+                                  {m.class ? ` — ${m.class}` : ''}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
                         )}
                       </div>
 

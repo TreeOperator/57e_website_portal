@@ -15,13 +15,13 @@ const sections = [
   {
     href: '/order-of-battle',
     icon: Network,
-    title: 'Order of Battle',
+    title: 'Chain of Command',
     desc: 'The chain of command from the colonel to the company officers, arranged by battalion.',
   },
   {
     href: '/roster',
     icon: Users,
-    title: 'Officer Roster',
+    title: 'Company Rosters',
     desc: 'The complete contrôle of commissioned officers and senior non-commissioned ranks.',
   },
   {

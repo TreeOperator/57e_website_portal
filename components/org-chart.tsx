@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils'
 import { Bicorne } from '@/components/insignia'
 import { regimentStaffFromSheet, type OrbatStaffMember } from '@/lib/orbat-data'
 import { battalionRosters, getCommandStaff, type ActivityRow, type BattalionRoster } from '@/lib/roster-data'
+import { RankBadge } from '@/components/rank-badge'
 
 /* A single billet row: position on the left, holder on the right. */
 function StaffRow({ member, command = false }: { member: OrbatStaffMember; command?: boolean }) {
@@ -37,7 +38,7 @@ function CompanyMemberRow({ member }: { member: ActivityRow }) {
       </span>
       {filled ? (
         <span className="flex items-center gap-2 text-right">
-          <span className="font-mono text-[11px] text-muted-foreground">{member.rank}</span>
+          <RankBadge rank={member.rank} className="font-mono text-[11px] text-muted-foreground" />
           <span className="font-serif text-sm text-ivory">{member.name}</span>
         </span>
       ) : (

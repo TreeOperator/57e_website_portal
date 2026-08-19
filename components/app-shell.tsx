@@ -11,8 +11,8 @@ import { regimentMeta } from '@/lib/regiment-data'
 const NAV = [
   { href: '/', label: 'Overview', french: 'Aperçu', icon: Home },
   { href: '/regimental-information', label: 'Regimental Information', french: 'Informations', icon: BookOpen },
-  { href: '/order-of-battle', label: 'Order of Battle', french: 'Ordre de Bataille', icon: Network },
-  { href: '/roster', label: 'Officer Roster', french: 'Contrôle des Officiers', icon: Users },
+  { href: '/order-of-battle', label: 'Chain of Command', french: 'Ordre de Bataille', icon: Network },
+  { href: '/roster', label: 'Company Rosters', french: 'Contrôle des Officiers', icon: Users },
   { href: '/lookup', label: 'Player Lookup', french: 'Recherche de Joueur', icon: Search },
 ]
 
