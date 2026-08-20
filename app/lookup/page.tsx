@@ -5,10 +5,11 @@ import { Search, ChevronDown } from 'lucide-react'
 import { PageHeader } from '@/components/page-header'
 import { RankerTracker } from '@/components/ranker-tracker'
 import { RankBadge } from '@/components/rank-badge'
+import { MedalDisplayCase } from '@/components/medal-display-case'
 import type { SpreadsheetRow } from '@/lib/csv-parser'
 import { findActivityByName } from '@/lib/roster-data'
 import { findMedalsByUsername } from '@/lib/medals-data'
-import { findHonoursByUsername, HONOUR_BADGE_STYLES, HONOUR_TYPE_LABELS } from '@/lib/honours-data'
+import { findHonoursByUsername } from '@/lib/honours-data'
 import rosterData from '@/data/roster.json'
 
 const roster = rosterData as SpreadsheetRow[]
@@ -125,37 +126,8 @@ export default function LookupPage() {
                             </a>
                           </p>
                         )}
-                        {medals.length > 0 && (
-                          <div className="pt-1">
-                            <span className="text-gold-muted">Medals:</span>
-                            <div className="mt-1 flex flex-wrap gap-1.5">
-                              {medals.map((m, mi) => (
-                                <span
-                                  key={mi}
-                                  className="rounded-full border border-gold/30 bg-gold/10 px-2 py-0.5 text-[11px] text-gold"
-                                >
-                                  {m.medal}
-                                  {m.class ? ` — ${m.class}` : ''}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                        {honours.length > 0 && (
-                          <div className="pt-1">
-                            <span className="text-gold-muted">Honours:</span>
-                            <div className="mt-1 flex flex-wrap gap-1.5">
-                              {honours.map((h, hi) => (
-                                <span
-                                  key={hi}
-                                  className={`rounded-full border px-2 py-0.5 text-[11px] ${HONOUR_BADGE_STYLES[h.type]}`}
-                                  title={`${HONOUR_TYPE_LABELS[h.type]} — ${h.status}${h.date ? ` — ${h.date}` : ''}`}
-                                >
-                                  {HONOUR_TYPE_LABELS[h.type]}: {h.label}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
+                        {(medals.length > 0 || honours.length > 0) && (
+                          <MedalDisplayCase medals={medals} honours={honours} />
                         )}
                       </div>
 

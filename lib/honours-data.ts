@@ -35,13 +35,6 @@ export function findHonoursByUsername(name: string): HonourAward[] {
   return allHonours.filter((h) => h.username.trim().toLowerCase() === target)
 }
 
-/** Tailwind classes for each honour type's badge, per regiment styling. */
-export const HONOUR_BADGE_STYLES: Record<HonourType, string> = {
-  nobility: 'border-purple-400/30 bg-purple-400/10 text-purple-300',
-  grandbattle: 'border-blue-400/30 bg-blue-400/10 text-blue-300',
-  veneration: 'border-red-400/30 bg-red-400/10 text-red-300',
-}
-
 export const HONOUR_TYPE_LABELS: Record<HonourType, string> = {
   nobility: 'Nobility',
   grandbattle: 'Grand Battle',

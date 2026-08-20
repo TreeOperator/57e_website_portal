@@ -35,6 +35,7 @@ SHEETS = [
     {"name": "player_stats", "gid": "931290841", "kind": "player_stats"},
     {"name": "recruitment", "gid": "2031020815", "kind": "raw"},
     {"name": "medals", "gid": "1868836415", "kind": "medals", "spreadsheet_id": MEDALS_SPREADSHEET_ID, "endpoint": "gviz"},
+    {"name": "legion_honneur", "gid": "0", "kind": "legion_honneur", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
     {"name": "nobility", "gid": "477285371", "kind": "nobility", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
     {"name": "grandbattles", "gid": "423540682", "kind": "grandbattle", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
     {"name": "venerations", "gid": "236760628", "kind": "veneration", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
@@ -431,6 +432,51 @@ def parse_medals_csv(content: str) -> list[dict]:
             "profileLink": get(idx_profile),
             "medal": medal,
             "class": get(idx_class),
+            "reason": "",
+        })
+
+    return results
+
+
+def parse_legion_honneur_csv(content: str) -> list[dict]:
+    """
+    Parse the France-nationwide Légion d'Honneur sheet (gid=0 of the
+    Empire-wide honours spreadsheet). Same conceptual shape as
+    `parse_medals_csv` (username/medal/class), but Empire-wide, with extra
+    columns (corps, regiment, recommender, reason) we don't need for the
+    site except "Recommended Reason", which we keep so the UI can show why
+    a player received the award. A few leading/trailing blank columns exist
+    in the raw sheet, so columns are located by header name rather than
+    fixed position.
+    """
+    rows = list(csv.reader(content.splitlines()))
+    header_idx = _find_header_row(rows, ["Username", "Profile Link", "Medal", "Medal Class"])
+    if header_idx == -1:
+        return []
+
+    header = [c.strip() for c in rows[header_idx]]
+    idx_username = header.index("Username")
+    idx_profile = header.index("Profile Link")
+    idx_medal = header.index("Medal")
+    idx_class = header.index("Medal Class")
+    idx_reason = header.index("Recommended Reason") if "Recommended Reason" in header else -1
+
+    results = []
+    for row in rows[header_idx + 1:]:
+        def get(i: int) -> str:
+            return row[i].strip() if 0 <= i < len(row) else ""
+
+        username = get(idx_username)
+        medal = get(idx_medal)
+        if not username or not medal:
+            continue
+
+        results.append({
+            "username": username,
+            "profileLink": get(idx_profile),
+            "medal": medal,
+            "class": get(idx_class),
+            "reason": get(idx_reason) if idx_reason != -1 else "",
         })
 
     return results
@@ -523,6 +569,8 @@ def main():
 
     activity_all = []
     roster_usernames: set[str] = set()
+    medals_data: list[dict] = []
+    legion_honneur_data: list[dict] = []
 
     for sheet in SHEETS:
         name = sheet["name"]
@@ -551,6 +599,11 @@ def main():
             data = parse_player_stats_csv(csv_content)
         elif kind == "medals":
             data = parse_medals_csv(csv_content)
+            medals_data = data
+        elif kind == "legion_honneur":
+            data = parse_legion_honneur_csv(csv_content)
+            data = [r for r in data if r["username"].strip().lower() in roster_usernames]
+            legion_honneur_data = data
         elif kind == "nobility":
             data = parse_nobility_csv(csv_content)
             data = [r for r in data if r["username"].strip().lower() in roster_usernames]
@@ -574,6 +627,26 @@ def main():
 
         count = len(data) if isinstance(data, list) else 1
         print(f"Saved {count} rows to {out_path}")
+
+    # Merge the France-nationwide Légion d'Honneur list into medals.json,
+    # skipping any award a player already has from the primary medals sheet
+    # (same username + medal + class, case-insensitive).
+    existing_keys = {
+        (m["username"].strip().lower(), m["medal"].strip().lower(), m["class"].strip().lower())
+        for m in medals_data
+    }
+    merged_medals = list(medals_data)
+    for m in legion_honneur_data:
+        key = (m["username"].strip().lower(), m["medal"].strip().lower(), m["class"].strip().lower())
+        if key in existing_keys:
+            continue
+        existing_keys.add(key)
+        merged_medals.append(m)
+
+    medals_path = DATA_DIR / "medals.json"
+    with open(medals_path, "w", encoding="utf-8") as f:
+        json.dump(merged_medals, f, indent=2, ensure_ascii=False)
+    print(f"Merged {len(legion_honneur_data)} Legion d'Honneur rows into medals.json ({len(merged_medals)} total, {len(medals_data)} were original)")
 
     # Combined activity file across all battalions.
     activity_path = DATA_DIR / "activity.json"
