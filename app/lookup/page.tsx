@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Search, ChevronDown } from 'lucide-react'
 import { PageHeader } from '@/components/page-header'
 import { RankerTracker } from '@/components/ranker-tracker'
@@ -11,10 +11,13 @@ import { findMedalsByUsername } from '@/lib/medals-data'
 import rosterData from '@/data/roster.json'
 
 const roster = rosterData as SpreadsheetRow[]
+const PAGE_SIZE = 10
 
 export default function LookupPage() {
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<string | null>(null)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+  const sentinelRef = useRef<HTMLDivElement | null>(null)
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -25,6 +28,27 @@ export default function LookupPage() {
         r.returningUsername.toLowerCase().includes(q),
     )
   }, [query])
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [query])
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current
+    if (!sentinel) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((c) => Math.min(c + PAGE_SIZE, results.length))
+        }
+      },
+      { rootMargin: '200px' },
+    )
+    observer.observe(sentinel)
+    return () => observer.disconnect()
+  }, [results.length])
+
+  const visibleResults = results.slice(0, visibleCount)
 
   return (
     <div className="px-6 py-14 lg:px-10">
@@ -53,7 +77,7 @@ export default function LookupPage() {
               <p className="text-center text-sm text-muted-foreground">No Roblox user found matching &ldquo;{query}&rdquo;.</p>
             ) : (
               <ul className="space-y-3">
-                {results.map((r, i) => {
+                {visibleResults.map((r, i) => {
                   const key = `${r.name}-${i}`
                   const isOpen = expanded === key
                   const activity = findActivityByName(r.name)
@@ -126,6 +150,11 @@ export default function LookupPage() {
                   )
                 })}
               </ul>
+            )}
+            {visibleCount < results.length && (
+              <div ref={sentinelRef} className="mt-4 py-2 text-center text-xs text-muted-foreground">
+                Loading more…
+              </div>
             )}
           </div>
         )}
