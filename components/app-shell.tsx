@@ -147,7 +147,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <main className="flex-1">{children}</main>
 
         <footer className="border-t border-border px-6 py-8 lg:px-10">
-          <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 text-center">
+          <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 text-center">
+            <Image
+              src="/Deuxieme_eagle_flags.png"
+              alt="Insignia of the Deuxième Corps"
+              width={550}
+              height={230}
+              className="h-auto w-full max-w-xs opacity-90 sm:max-w-sm"
+            />
             <p className="font-serif text-sm text-gold">« {regimentMeta.motto} »</p>
             <p className="text-xs text-muted-foreground">
               {regimentMeta.name} — Portail du Régiment · Registre tenu par l&apos;État-Major
