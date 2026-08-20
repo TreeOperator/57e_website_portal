@@ -8,6 +8,7 @@ import { RankBadge } from '@/components/rank-badge'
 import type { SpreadsheetRow } from '@/lib/csv-parser'
 import { findActivityByName } from '@/lib/roster-data'
 import { findMedalsByUsername } from '@/lib/medals-data'
+import { findHonoursByUsername, HONOUR_BADGE_STYLES, HONOUR_TYPE_LABELS } from '@/lib/honours-data'
 import rosterData from '@/data/roster.json'
 
 const roster = rosterData as SpreadsheetRow[]
@@ -82,6 +83,7 @@ export default function LookupPage() {
                   const isOpen = expanded === key
                   const activity = findActivityByName(r.name)
                   const medals = findMedalsByUsername(r.name || r.returningUsername)
+                  const honours = findHonoursByUsername(r.name || r.returningUsername)
                   return (
                     <li
                       key={key}
@@ -134,6 +136,22 @@ export default function LookupPage() {
                                 >
                                   {m.medal}
                                   {m.class ? ` — ${m.class}` : ''}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        {honours.length > 0 && (
+                          <div className="pt-1">
+                            <span className="text-gold-muted">Honours:</span>
+                            <div className="mt-1 flex flex-wrap gap-1.5">
+                              {honours.map((h, hi) => (
+                                <span
+                                  key={hi}
+                                  className={`rounded-full border px-2 py-0.5 text-[11px] ${HONOUR_BADGE_STYLES[h.type]}`}
+                                  title={`${HONOUR_TYPE_LABELS[h.type]} — ${h.status}${h.date ? ` — ${h.date}` : ''}`}
+                                >
+                                  {HONOUR_TYPE_LABELS[h.type]}: {h.label}
                                 </span>
                               ))}
                             </div>

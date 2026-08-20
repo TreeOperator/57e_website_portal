@@ -19,6 +19,10 @@ SPREADSHEET_ID = "1jDCXIWrkTjDgxRX-2zddojWoUnD3TKYTFWdQz2DD6zc"
 # A second spreadsheet (medals/awards), separate from the main roster sheet above.
 MEDALS_SPREADSHEET_ID = "1bwlwOFWKjZXIaXx5u53wPzUyUdWz0T10EJ7aPxWdmCk"
 
+# A third spreadsheet (Nobility / Grand Battles / Venerations), Empire-wide —
+# covers every regiment, so results are filtered down to our own roster below.
+HONOURS_SPREADSHEET_ID = "1eagZsy-IcPyHwDddsWQRzqnZQPry4L_5ZpOEVBsx1XM"
+
 # Sheets we actually parse into structured JSON.
 SHEETS = [
     {"name": "roster", "gid": "1946443746", "kind": "roster"},
@@ -31,6 +35,9 @@ SHEETS = [
     {"name": "player_stats", "gid": "931290841", "kind": "player_stats"},
     {"name": "recruitment", "gid": "2031020815", "kind": "raw"},
     {"name": "medals", "gid": "1868836415", "kind": "medals", "spreadsheet_id": MEDALS_SPREADSHEET_ID, "endpoint": "gviz"},
+    {"name": "nobility", "gid": "477285371", "kind": "nobility", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "grandbattles", "gid": "423540682", "kind": "grandbattle", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "venerations", "gid": "236760628", "kind": "veneration", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
 ]
 
 # Reference/working sheets, downloaded as raw CSV only (not parsed for the site).
@@ -429,10 +436,93 @@ def parse_medals_csv(content: str) -> list[dict]:
     return results
 
 
+def parse_nobility_csv(content: str) -> list[dict]:
+    """
+    Parse the Nobility sheet: one row per title. "Nobility Class" (e.g.
+    "Noblesse Impériale") is the order; the badge-worthy title itself
+    ("Baron", "Comte", "Duc", "Chevalier") sits in the next, unlabeled
+    column, followed by "Stage" (actually the approval status).
+    """
+    rows = list(csv.reader(content.splitlines()))
+    header_idx = _find_header_row(rows, ["Username", "Profile Link", "Nobility Class"])
+    if header_idx == -1:
+        return []
+
+    header = [c.strip() for c in rows[header_idx]]
+    idx_username = header.index("Username")
+    idx_profile = header.index("Profile Link")
+    idx_order = header.index("Nobility Class")
+    idx_title = idx_order + 1
+    idx_status = header.index("Stage") if "Stage" in header else -1
+    idx_date = header.index("Recommended Date") if "Recommended Date" in header else -1
+
+    results = []
+    for row in rows[header_idx + 1:]:
+        def get(i: int) -> str:
+            return row[i].strip() if 0 <= i < len(row) else ""
+
+        username = get(idx_username)
+        title = get(idx_title)
+        if not username or not title:
+            continue
+
+        results.append({
+            "username": username,
+            "profileLink": get(idx_profile),
+            "order": get(idx_order),
+            "label": title,
+            "status": get(idx_status),
+            "date": get(idx_date),
+        })
+
+    return results
+
+
+def parse_honour_csv(content: str, honour_type: str, date_label: str) -> list[dict]:
+    """
+    Parse the Grand Battles / Venerations sheets: both share the same
+    Username/Profile Link/Type/Rank/Status/.../Date shape, differing only
+    in the label of the date column.
+    """
+    rows = list(csv.reader(content.splitlines()))
+    header_idx = _find_header_row(rows, ["Username", "Profile Link", "Rank"])
+    if header_idx == -1:
+        return []
+
+    header = [c.strip() for c in rows[header_idx]]
+    idx_username = header.index("Username")
+    idx_profile = header.index("Profile Link")
+    idx_rank = header.index("Rank")
+    idx_status = header.index("Status") if "Status" in header else -1
+    idx_date = header.index(date_label) if date_label in header else -1
+
+    results = []
+    for row in rows[header_idx + 1:]:
+        def get(i: int) -> str:
+            return row[i].strip() if 0 <= i < len(row) else ""
+
+        username = get(idx_username)
+        rank = get(idx_rank)
+        if not username or not rank:
+            continue
+
+        results.append({
+            "username": username,
+            "profileLink": get(idx_profile),
+            "type": honour_type,
+            "label": f"Rank {rank}",
+            "status": get(idx_status) if idx_status != -1 else "",
+            "date": get(idx_date) if idx_date != -1 else "",
+        })
+
+    return results
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
 
     activity_all = []
+    roster_usernames: set[str] = set()
 
     for sheet in SHEETS:
         name = sheet["name"]
@@ -445,6 +535,13 @@ def main():
 
         if kind == "roster":
             data = parse_roster_csv(csv_content)
+            # Every username our players are known by, for filtering the
+            # Empire-wide Nobility/Grand Battles/Venerations sheets down to
+            # just our own roster below.
+            for r in data:
+                for key in ("name", "returningUsername"):
+                    if r.get(key):
+                        roster_usernames.add(r[key].strip().lower())
         elif kind == "activity":
             data = parse_activity_csv(csv_content, battalion=name)
             activity_all.extend(data)
@@ -454,6 +551,13 @@ def main():
             data = parse_player_stats_csv(csv_content)
         elif kind == "medals":
             data = parse_medals_csv(csv_content)
+        elif kind == "nobility":
+            data = parse_nobility_csv(csv_content)
+            data = [r for r in data if r["username"].strip().lower() in roster_usernames]
+        elif kind in ("grandbattle", "veneration"):
+            date_label = "Date Awarded" if kind == "grandbattle" else "Date Changed"
+            data = parse_honour_csv(csv_content, kind, date_label)
+            data = [r for r in data if r["username"].strip().lower() in roster_usernames]
         elif kind == "flag_guard":
             data = parse_flag_guard_csv(csv_content)
             # Backfill real military rank from the combat rosters (this sheet's
