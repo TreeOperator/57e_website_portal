@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowUpRight, Network, Users, BookOpen } from 'lucide-react'
+import { ArrowUpRight, Network, Users, BookOpen, Trophy } from 'lucide-react'
 import { LaurelDivider, StarAccent } from '@/components/insignia'
 import { regimentMeta, battleHonours, notableEngagements, regimentHistory } from '@/lib/regiment-data'
 
@@ -29,6 +29,12 @@ const sections = [
     icon: BookOpen,
     title: 'Regimental Information',
     desc: 'Full regimental history, departments, and command structure, from the regimental wiki.',
+  },
+  {
+    href: '/leaderboards',
+    icon: Trophy,
+    title: 'Leaderboards',
+    desc: 'Rankings by kills, KPE, activity, and grade, plus head-to-head player comparisons.',
   },
 ]
 
@@ -93,7 +99,7 @@ export default function OverviewPage() {
 
       <div className="mx-auto max-w-6xl px-6 py-16 lg:px-10">
         {/* Section quick links */}
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {sections.map((s) => {
             const Icon = s.icon
             return (

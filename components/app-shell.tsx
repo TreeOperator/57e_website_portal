@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Home, Network, Users, Search, BookOpen, Shield } from 'lucide-react'
+import { Menu, X, Home, Network, Users, Search, BookOpen, Shield, Trophy } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { regimentMeta } from '@/lib/regiment-data'
 
@@ -14,6 +14,7 @@ const NAV = [
   { href: '/order-of-battle', label: 'Chain of Command', french: 'Ordre de Bataille', icon: Network },
   { href: '/roster', label: 'Company Rosters', french: 'Contrôle des Officiers', icon: Users },
   { href: '/lookup', label: 'Player Lookup', french: 'Recherche de Joueur', icon: Search },
+  { href: '/leaderboards', label: 'Leaderboards', french: 'Classement', icon: Trophy },
 ]
 
 function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
