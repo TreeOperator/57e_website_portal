@@ -45,12 +45,18 @@ function groupByCompany(rows: ActivityRow[]): CompanyRoster[] {
   return Array.from(map.entries()).map(([name, members]) => ({ name, members }))
 }
 
-const COMMAND_POSITIONS = ['CO de Compagnie', 'XO de Compagnie', 'Etat Major']
+const SINGLE_COMMAND_POSITIONS = ['CO de Compagnie', 'XO de Compagnie']
 
+/**
+ * Returns the command staff for a company: one CO and one XO (if present),
+ * plus every Etat Major member — some companies have more than one.
+ */
 export function getCommandStaff(members: ActivityRow[]): ActivityRow[] {
-  return COMMAND_POSITIONS.map((pos) => members.find((m) => m.position === pos)).filter(
+  const singles = SINGLE_COMMAND_POSITIONS.map((pos) => members.find((m) => m.position === pos)).filter(
     (m): m is ActivityRow => Boolean(m),
   )
+  const etatMajor = members.filter((m) => m.position === 'Etat Major')
+  return [...singles, ...etatMajor]
 }
 
 /** Formats a member as "Rank Name", or "N/A" if the billet is empty/unassigned. */
