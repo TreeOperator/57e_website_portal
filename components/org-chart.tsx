@@ -32,12 +32,12 @@ function StaffRow({ member, command = false }: { member: OrbatStaffMember; comma
 function CompanyMemberRow({ member }: { member: ActivityRow }) {
   const filled = Boolean(member.name)
   return (
-    <div className="flex items-center justify-between gap-3 py-1.5">
+    <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-0.5 py-1.5">
       <span className="text-[10px] font-medium uppercase tracking-wider-2 text-gold-muted">
         {member.position}
       </span>
       {filled ? (
-        <span className="flex items-center gap-2 text-right">
+        <span className="ml-auto flex items-center gap-2 text-right">
           <RankBadge rank={member.rank} className="font-mono text-[11px] text-muted-foreground" />
           <span className="font-serif text-sm text-ivory">{member.name}</span>
         </span>
@@ -53,16 +53,25 @@ function Stem({ className }: { className?: string }) {
   return <span className={cn('mx-auto block w-px bg-gold/40', className)} aria-hidden="true" />
 }
 
-function CompanyCard({ name, members }: { name: string; members: ActivityRow[] }) {
-  const command = getCommandStaff(members)
+function CompanyCard({
+  name,
+  members,
+  showAll = false,
+}: {
+  name: string
+  members: ActivityRow[]
+  /** When true (e.g. Flag Guard), list every member instead of only command billets. */
+  showAll?: boolean
+}) {
+  const displayed = showAll ? members : getCommandStaff(members)
   return (
     <div className="rounded-md border border-border/70 bg-background/40 px-3.5 py-3 transition-colors duration-300 hover:border-gold/40">
       <p className="border-b border-border/60 pb-2 text-center font-serif text-[13px] leading-snug text-ivory text-pretty">
         {name}
       </p>
       <div className="mt-1 divide-y divide-border/40">
-        {command.length > 0 ? (
-          command.map((m, i) => <CompanyMemberRow key={`${m.position}-${i}`} member={m} />)
+        {displayed.length > 0 ? (
+          displayed.map((m, i) => <CompanyMemberRow key={`${m.position}-${i}`} member={m} />)
         ) : (
           <p className="py-2 text-center text-[11px] italic text-muted-foreground/60">No command data</p>
         )}
@@ -71,7 +80,7 @@ function CompanyCard({ name, members }: { name: string; members: ActivityRow[] }
   )
 }
 
-function BattalionColumn({ battalion }: { battalion: BattalionRoster }) {
+function BattalionColumn({ battalion, showAll = false }: { battalion: BattalionRoster; showAll?: boolean }) {
   const [open, setOpen] = useState(true)
 
   return (
@@ -111,7 +120,7 @@ function BattalionColumn({ battalion }: { battalion: BattalionRoster }) {
           <ul className="flex flex-col gap-3">
             {battalion.companies.map((c) => (
               <li key={c.name}>
-                <CompanyCard name={c.name} members={c.members} />
+                <CompanyCard name={c.name} members={c.members} showAll={showAll} />
               </li>
             ))}
           </ul>
@@ -141,16 +150,16 @@ export function OrgChart() {
       <Stem className="h-6" />
 
       {/* Horizontal bus above the battalion row */}
-      <div className="w-full max-w-6xl px-4">
-        <div className="mx-auto h-px w-full max-w-5xl bg-gold/40" aria-hidden="true" />
+      <div className="w-full max-w-[100rem] px-4">
+        <div className="mx-auto h-px w-full max-w-[90rem] bg-gold/40" aria-hidden="true" />
       </div>
 
-      {/* Battalion row — symmetrical grid */}
-      <div className="mt-0 grid w-full max-w-6xl items-start gap-6 px-4 pt-6 md:grid-cols-2 xl:grid-cols-4">
+      {/* Battalion row — symmetrical grid, wide enough to fit every battalion (incl. Flag Guard) on one row */}
+      <div className="mt-0 grid w-full max-w-[100rem] items-start gap-4 px-4 pt-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         {battalionRosters.map((b) => (
           <div key={b.key} className="flex flex-col items-center">
             <Stem className="-mt-6 h-6" />
-            <BattalionColumn battalion={b} />
+            <BattalionColumn battalion={b} showAll={b.key === 'flag_guard'} />
           </div>
         ))}
       </div>

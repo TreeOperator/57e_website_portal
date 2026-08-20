@@ -26,6 +26,7 @@ SHEETS = [
     {"name": "volts", "gid": "1207657529", "kind": "activity"},
     {"name": "depot", "gid": "1247444176", "kind": "activity"},
     {"name": "fusiliers", "gid": "1586669991", "kind": "activity"},
+    {"name": "flag_guard", "gid": "367345434", "kind": "flag_guard"},
     {"name": "orbat", "gid": "2141834013", "kind": "orbat"},
     {"name": "player_stats", "gid": "931290841", "kind": "player_stats"},
     {"name": "recruitment", "gid": "2031020815", "kind": "raw"},
@@ -36,7 +37,6 @@ SHEETS = [
 RAW_ONLY_SHEETS = [
     {"name": "kill_log", "gid": "1095406146"},
     {"name": "grading_curve", "gid": "567217808"},
-    {"name": "flag_guard", "gid": "367345434"},
     {"name": "daily_input", "gid": "1662116744"},
     {"name": "rally_summary", "gid": "429239458"},
 ]
@@ -320,6 +320,80 @@ def parse_raw_csv(content: str) -> list[list[str]]:
     return list(csv.reader(content.splitlines()))
 
 
+def parse_flag_guard_csv(content: str) -> list[dict]:
+    """
+    Parse the Flag Guard (Garde du Drapeau) sheet: one continuous roster of
+    members drawn from every company, each holding a Flag Guard role (e.g.
+    "Porte Drapeau", "FD Staff") rather than a military rank. The sheet's
+    "Rank" column (after Username) is actually this role/specialization —
+    it's a mislabeled header, not a military rank. Each member's home
+    company is recorded separately in the "Company" column. Military rank
+    is left blank here and backfilled in main() from the combat rosters.
+    """
+    rows = list(csv.reader(content.splitlines()))
+
+    header_idx = -1
+    for i, row in enumerate(rows):
+        cells = [c.strip() for c in row]
+        if "Username" in cells and "Company" in cells:
+            header_idx = i
+            break
+    if header_idx == -1:
+        return []
+
+    header = [c.strip() for c in rows[header_idx]]
+    idx_username = header.index("Username")
+    idx_discord = header.index("Discord ID", idx_username)
+    idx_role = header.index("Rank", idx_username)
+    idx_company = header.index("Company", idx_username)
+    idx_guarding = header.index("Guarding", idx_username)
+    idx_bearing = header.index("Bearing", idx_username)
+    idx_fg_points = header.index("Total FG Points", idx_username)
+    idx_fb_points = header.index("Total FB Points", idx_username)
+    idx_loa = header.index("LOA", idx_username)
+    idx_activity = header.index("Activity", idx_username)
+
+    date_cols = [
+        (header[i], i)
+        for i in range(idx_activity + 1, len(header))
+        if "/" in header[i] and header[i].replace("/", "").isdigit()
+    ]
+
+    results = []
+    for row in rows[header_idx + 1:]:
+        def get(i: int) -> str:
+            return row[i].strip() if i < len(row) else ""
+
+        name = get(idx_username)
+        if not name:
+            continue
+
+        attendance = {label: get(i) for label, i in date_cols}
+
+        results.append({
+            "battalion": "flag_guard",
+            "company": get(idx_company),
+            "points": get(idx_fg_points),
+            "position": get(idx_role),
+            "rank": "",
+            "name": name,
+            "discordId": get(idx_discord),
+            "kills": "",
+            "kpe": "",
+            "kdr": "",
+            "activity": "",
+            "activityPct": get(idx_activity),
+            "loa": get(idx_loa),
+            "grade": "",
+            "attendance": attendance,
+            "guarding": get(idx_guarding),
+            "bearing": get(idx_bearing),
+            "totalFbPoints": get(idx_fb_points),
+        })
+
+    return results
+
+
 def parse_medals_csv(content: str) -> list[dict]:
     """
     Parse the medals/awards sheet: one row per medal awarded, columns
@@ -380,6 +454,13 @@ def main():
             data = parse_player_stats_csv(csv_content)
         elif kind == "medals":
             data = parse_medals_csv(csv_content)
+        elif kind == "flag_guard":
+            data = parse_flag_guard_csv(csv_content)
+            # Backfill real military rank from the combat rosters (this sheet's
+            # own "Rank" column is actually the Flag Guard role, not a rank).
+            rank_by_name = {r["name"].lower(): r["rank"] for r in activity_all if r.get("name")}
+            for row in data:
+                row["rank"] = rank_by_name.get(row["name"].lower(), "")
         else:
             data = parse_raw_csv(csv_content)
 

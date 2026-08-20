@@ -72,6 +72,20 @@ export const notableEngagements = [
   { name: 'Asian Grand Battle', result: 'Victory', note: 'Defeated Naples and the British Army alone in a 6K victory with no eagles or standards lost.' },
 ]
 
+/* Dated log of major in-game victories, maintained by the regiment since 2025. */
+export const majorVictories = [
+  { opponent: 'Naples + BA', date: '11/24/24', note: '6K Sweep' },
+  { opponent: 'Naples + BA', date: '2/2/25', note: '7K Sweep' },
+  { opponent: 'Naples', date: '3/5/25', note: '5K Sweep' },
+  { opponent: 'Viertes', date: '7/9/25', note: '4K Sweep' },
+  { opponent: 'Naples', date: '7/27/25', note: '8K Sweep' },
+  { opponent: 'Garde', date: '8/8/25', note: '' },
+  { opponent: '10e', date: '1/31/26', note: '4K Sweep' },
+  { opponent: 'Household Guard + 58th', date: '3/1/26', note: 'British Surrendered!' },
+  { opponent: '87th + RDW', date: '4/25/26', note: '' },
+  { opponent: 'Spain', date: '5/17/26', note: '4K Sweep' },
+]
+
 /* History, sourced verbatim from the regiment's Fandom wiki entry. See      */
 /* lib/regimental-info.ts and the /regimental-information page for the full */
 /* transcription. */

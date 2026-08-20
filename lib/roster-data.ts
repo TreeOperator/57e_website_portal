@@ -2,6 +2,7 @@ import grensData from '@/data/grens.json'
 import voltsData from '@/data/volts.json'
 import depotData from '@/data/depot.json'
 import fusiliersData from '@/data/fusiliers.json'
+import flagGuardData from '@/data/flag_guard.json'
 
 export interface ActivityRow {
   battalion: string
@@ -87,6 +88,7 @@ const BATTALION_LABELS: Record<string, string> = {
   volts: 'Voltigeurs de Liévin',
   depot: 'Dépôt de Montbéliard',
   fusiliers: 'Bataillons de Fusiliers',
+  flag_guard: 'Garde du Drapeau',
 }
 
 export const battalionRosters: BattalionRoster[] = [
@@ -94,6 +96,7 @@ export const battalionRosters: BattalionRoster[] = [
   { key: 'volts', label: BATTALION_LABELS.volts, companies: groupByCompany(voltsData as ActivityRow[]) },
   { key: 'depot', label: BATTALION_LABELS.depot, companies: groupByCompany(depotData as ActivityRow[]) },
   { key: 'fusiliers', label: BATTALION_LABELS.fusiliers, companies: groupByCompany(fusiliersData as ActivityRow[]) },
+  { key: 'flag_guard', label: BATTALION_LABELS.flag_guard, companies: groupByCompany(flagGuardData as ActivityRow[]) },
 ]
 
 export const allActivityRows: ActivityRow[] = [
