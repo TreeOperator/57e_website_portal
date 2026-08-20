@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { RankTier } from '@/lib/regiment-data'
 import { cn } from '@/lib/utils'
 
@@ -119,4 +120,21 @@ export function LaurelDivider({ className }: { className?: string }) {
 
 export function StarAccent({ className }: { className?: string }) {
   return <Star className={cn('text-gold', className)} />
+}
+
+/* ------------------------------------------------------------------ */
+/*  Ornate star-and-laurel section divider (57e_star_divider.png)      */
+/* ------------------------------------------------------------------ */
+
+export function StarDivider({ className }: { className?: string }) {
+  return (
+    <Image
+      src="/57e_star_divider.png"
+      alt=""
+      width={558}
+      height={46}
+      aria-hidden="true"
+      className={cn('h-auto max-h-14 w-full object-contain opacity-90', className)}
+    />
+  )
 }

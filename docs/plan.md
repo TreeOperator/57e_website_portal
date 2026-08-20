@@ -1,3 +1,9 @@
+> **Note:** This is the original integration plan and predates the current
+> implementation. Most of "Future sources" (medals, honours) and much of
+> "Current status" below are now done — see `docs/architecture.md` for the
+> actual, up-to-date architecture. Keeping this file for historical context
+> on the BloxLink/admin-bot longer-term ideas, which are still not built.
+
 # 57e Regimental Portal — Integration Plan
 
 ## Goal

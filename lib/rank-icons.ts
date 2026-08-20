@@ -1,29 +1,16 @@
 /**
- * Maps a rank's letter/number tier code (e.g. "A0", "B3", "C1") to the
- * insignia PNG filename in /public. Add more entries here as insignia
- * images are dropped into /public — anything not listed here (or any
- * rank string without a code prefix) simply falls back to plain text.
+ * Rank tier codes (e.g. "A0", "B3", "C1") with a corresponding insignia
+ * image in public/ranks/{code}.png, scraped from the French Empire Fandom
+ * wiki's "Ranks" table (see scripts/fetch_rank_icons.py). Anything not
+ * listed here (or any rank string without a code prefix) simply falls
+ * back to plain text.
  */
-const RANK_ICON_FILES: Record<string, string> = {
-  A0: 'A0_conscrit.png',
-  A1: 'A1_soldat.png',
-  A2: 'A2_soldat_de_premier.png',
-  A3: 'A3_caporal.png',
-  A4: 'A4_caporal_de_premier.png',
-  A5: 'A5_caporal_fourrier.png',
-  A6: 'A6_honorary_sergent.png',
-  B1: 'B1_sergent.png',
-  B2: 'B2_sergent_major.png',
-  B3: 'B3_adjutant.png',
-  B4: 'B4_adjudant_sous_officier.png',
-  C1: 'C1_sous_lieutenant.png',
-  C2: 'C2_lieutenant.png',
-  C3: 'C3_capitaine.png',
-  C4: 'C4_chef_de_bataillon.png',
-  C5: 'C5_major.png',
-  C6: 'C6_colonel.png',
-  D1: 'D1_general_de_brigade.png',
-}
+const RANK_ICON_CODES = new Set([
+  'A0', 'A1', 'A2', 'A3', 'A4', 'A5', 'A6',
+  'B1', 'B2', 'B3', 'B4',
+  'C1', 'C2', 'C3', 'C4', 'C5', 'C6',
+  'D1',
+])
 
 export interface ParsedRank {
   /** Tier code, e.g. "A0" — null if the rank string has no code prefix. */
@@ -44,6 +31,6 @@ export function parseRank(rank: string): ParsedRank {
     return { code: null, label: trimmed, icon: null }
   }
   const [, code, label] = match
-  const file = RANK_ICON_FILES[code.toUpperCase()]
-  return { code, label, icon: file ? `/${file}` : null }
+  const upperCode = code.toUpperCase()
+  return { code, label, icon: RANK_ICON_CODES.has(upperCode) ? `/ranks/${upperCode}.png` : null }
 }

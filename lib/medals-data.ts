@@ -5,6 +5,7 @@ export interface MedalAward {
   profileLink: string
   medal: string
   class: string
+  reason?: string
 }
 
 const medals = medalsData as MedalAward[]

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { PageHeader } from '@/components/page-header'
+import { StarDivider } from '@/components/insignia'
 import {
   infobox,
   introParagraph,
@@ -113,7 +114,8 @@ function InfoTable({ table }: { table: InfoTableType }) {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-14">
-      <h2 className="border-b border-border pb-3 font-serif text-2xl text-ivory">{title}</h2>
+      <StarDivider className="mb-6" />
+      <h2 className="pb-3 text-center font-serif text-2xl text-ivory">{title}</h2>
       <div className="mt-5 space-y-4">{children}</div>
     </section>
   )

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight, Network, Users, BookOpen, Trophy, Crown } from 'lucide-react'
-import { LaurelDivider, StarAccent } from '@/components/insignia'
+import { LaurelDivider, StarAccent, StarDivider } from '@/components/insignia'
 import { regimentMeta, battleHonours, notableEngagements, majorVictories, regimentHistory } from '@/lib/regiment-data'
 
 const stats = [
@@ -122,7 +122,8 @@ export default function OverviewPage() {
         </div>
 
         {/* History */}
-        <section className="mt-16 max-w-3xl">
+        <StarDivider className="mt-16" />
+        <section className="mt-8 max-w-3xl">
           <h2 className="font-serif text-2xl text-ivory">History</h2>
           <div className="mt-5 space-y-4">
             {regimentHistory.map((p, i) => (
@@ -141,7 +142,8 @@ export default function OverviewPage() {
         </section>
 
         {/* Historical engagements + in-game record */}
-        <div className="mt-16 grid gap-12 lg:grid-cols-5">
+        <StarDivider className="mt-16" />
+        <div className="mt-8 grid gap-12 lg:grid-cols-5">
           {/* Historical engagements */}
           <section className="lg:col-span-3">
             <div className="flex items-baseline justify-between">
@@ -194,7 +196,8 @@ export default function OverviewPage() {
         </div>
 
         {/* Major victories */}
-        <section className="mt-16">
+        <StarDivider className="mt-16" />
+        <section className="mt-8">
           <div className="flex items-baseline justify-between">
             <h2 className="font-serif text-2xl text-ivory">Major Victories</h2>
             <span className="text-[11px] uppercase tracking-wider-2 text-muted-foreground">Since 2025</span>
