@@ -23,7 +23,7 @@ export default function OrderOfBattlePage() {
         description={`The chain of command of the regiment, organised across ${regimentMeta.battalions} battalions. Select a battalion to review its companies.`}
       />
 
-      <div className="mx-auto mt-14 max-w-6xl">
+      <div className="mx-auto mt-14 max-w-[100rem]">
         <OrgChart />
       </div>
 

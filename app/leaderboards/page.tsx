@@ -11,6 +11,8 @@ import {
   rankByMetric,
   companyNames,
   companyStats,
+  FLAG_GUARD_METRICS,
+  rankFlagGuardByMetric,
   type LeaderboardRow,
   type CompanyStats,
 } from '@/lib/leaderboard-data'
@@ -365,8 +367,89 @@ function CompanyTab() {
   )
 }
 
+function FlagGuardTab() {
+  const [metricKey, setMetricKey] = useState(FLAG_GUARD_METRICS[0].key)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+  const sentinelRef = useRef<HTMLDivElement | null>(null)
+
+  const metric = FLAG_GUARD_METRICS.find((m) => m.key === metricKey) ?? FLAG_GUARD_METRICS[0]
+  const ranked = useMemo(() => rankFlagGuardByMetric(metric), [metric])
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [metricKey])
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current
+    if (!sentinel) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((c) => Math.min(c + PAGE_SIZE, ranked.length))
+        }
+      },
+      { rootMargin: '200px' },
+    )
+    observer.observe(sentinel)
+    return () => observer.disconnect()
+  }, [ranked.length])
+
+  const visible = ranked.slice(0, visibleCount)
+
+  return (
+    <div>
+      <p className="mx-auto mb-6 max-w-lg text-center text-xs text-muted-foreground">
+        Flag Guard duty doesn&apos;t carry kills, KPE, or grade — members are ranked here on Flag Guard-specific
+        stats instead, separate from their home company&apos;s combat leaderboard.
+      </p>
+      <div className="mb-6 flex flex-wrap justify-center gap-2 border-b border-border pb-4">
+        {FLAG_GUARD_METRICS.map((m) => (
+          <button
+            key={m.key}
+            onClick={() => setMetricKey(m.key)}
+            className={cn(
+              'rounded-md border px-4 py-2 text-xs font-semibold uppercase tracking-wider-2 transition-colors',
+              m.key === metricKey
+                ? 'border-gold bg-gold/10 text-gold'
+                : 'border-border text-muted-foreground hover:border-gold/40 hover:text-ivory',
+            )}
+          >
+            {m.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="overflow-hidden rounded-lg border border-gold/30 bg-card">
+        <div className="border-b border-border bg-background/60 px-4 py-2.5 text-center">
+          <p className="font-serif text-sm text-ivory">Top by {metric.label}</p>
+        </div>
+        <ul className="divide-y divide-border/60">
+          {visible.map((row, i) => (
+            <li key={`${row.name}-${i}`} className="flex items-center gap-3 px-4 py-3">
+              <RankBubble position={i + 1} />
+              <div className="min-w-0 flex-1">
+                <p className="truncate font-serif text-sm text-ivory">{row.name}</p>
+                <p className="truncate text-[11px] text-muted-foreground">
+                  {row.position} — {row.company}
+                </p>
+              </div>
+              <RankBadge rank={row.rank} className="hidden shrink-0 text-xs text-gold-muted sm:flex" />
+              <span className="shrink-0 text-right font-serif text-base text-gold">{metric.format(row)}</span>
+            </li>
+          ))}
+        </ul>
+        {visibleCount < ranked.length && (
+          <div ref={sentinelRef} className="py-3 text-center text-xs text-muted-foreground">
+            Loading more…
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
 export default function LeaderboardsPage() {
-  const [tab, setTab] = useState<'rankings' | 'compare' | 'companies'>('rankings')
+  const [tab, setTab] = useState<'rankings' | 'compare' | 'companies' | 'flagGuard'>('rankings')
 
   return (
     <div className="px-6 py-14 lg:px-10">
@@ -411,9 +494,28 @@ export default function LeaderboardsPage() {
           >
             Companies
           </button>
+          <button
+            onClick={() => setTab('flagGuard')}
+            className={cn(
+              'rounded-md border px-5 py-2 text-xs font-semibold uppercase tracking-wider-2 transition-colors',
+              tab === 'flagGuard'
+                ? 'border-gold bg-gold/10 text-gold'
+                : 'border-border text-muted-foreground hover:border-gold/40 hover:text-ivory',
+            )}
+          >
+            Flag Guard
+          </button>
         </div>
 
-        {tab === 'rankings' ? <LeaderboardTab /> : tab === 'compare' ? <CompareTab /> : <CompanyTab />}
+        {tab === 'rankings' ? (
+          <LeaderboardTab />
+        ) : tab === 'compare' ? (
+          <CompareTab />
+        ) : tab === 'companies' ? (
+          <CompanyTab />
+        ) : (
+          <FlagGuardTab />
+        )}
       </div>
     </div>
   )

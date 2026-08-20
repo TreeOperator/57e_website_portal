@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowUpRight, Network, Users, BookOpen, Trophy } from 'lucide-react'
+import { ArrowUpRight, Network, Users, BookOpen, Trophy, Crown } from 'lucide-react'
 import { LaurelDivider, StarAccent } from '@/components/insignia'
-import { regimentMeta, battleHonours, notableEngagements, regimentHistory } from '@/lib/regiment-data'
+import { regimentMeta, battleHonours, notableEngagements, majorVictories, regimentHistory } from '@/lib/regiment-data'
 
 const stats = [
   { label: 'Established', value: regimentMeta.formed, note: regimentMeta.empire },
@@ -192,6 +192,31 @@ export default function OverviewPage() {
             </ul>
           </section>
         </div>
+
+        {/* Major victories */}
+        <section className="mt-16">
+          <div className="flex items-baseline justify-between">
+            <h2 className="font-serif text-2xl text-ivory">Major Victories</h2>
+            <span className="text-[11px] uppercase tracking-wider-2 text-muted-foreground">Since 2025</span>
+          </div>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {majorVictories.map((v, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 rounded-lg border border-border bg-card p-4 transition-colors hover:border-gold/40"
+              >
+                <Crown className="mt-0.5 size-4 shrink-0 text-gold" />
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-baseline justify-between gap-2">
+                    <h3 className="truncate font-serif text-base text-ivory">{v.opponent}</h3>
+                    <span className="shrink-0 font-mono text-xs text-muted-foreground">{v.date}</span>
+                  </div>
+                  {v.note && <p className="mt-1 text-xs text-gold">{v.note}</p>}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   )

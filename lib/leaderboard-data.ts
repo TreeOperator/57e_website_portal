@@ -1,5 +1,6 @@
 import { allActivityRows, type ActivityRow } from '@/lib/roster-data'
 import { findMedalsByUsername } from '@/lib/medals-data'
+import flagGuardData from '@/data/flag_guard.json'
 
 const GRADE_VALUES: Record<string, number> = {
   'F': 0,
@@ -141,4 +142,69 @@ export function companyStats(): CompanyStats[] {
       totals,
     }
   })
+}
+
+/**
+ * Flag Guard members aren't comparable to combat-battalion players (no
+ * kills/KPE/grade), so they're kept out of `leaderboardRows`/`companyStats`
+ * entirely and ranked separately here, using Flag Guard-specific metrics.
+ */
+export interface FlagGuardRow extends ActivityRow {
+  guarding: string
+  bearing: string
+  totalFbPoints: string
+}
+
+function countStars(value: string | undefined): number {
+  if (!value) return 0
+  return (value.match(/★/g) ?? []).length
+}
+
+export const flagGuardRows: FlagGuardRow[] = (flagGuardData as FlagGuardRow[]).filter(
+  (r) => r.name.trim().length > 0,
+)
+
+export interface FlagGuardMetric {
+  key: string
+  label: string
+  value: (row: FlagGuardRow) => number
+  format: (row: FlagGuardRow) => string
+}
+
+export const FLAG_GUARD_METRICS: FlagGuardMetric[] = [
+  {
+    key: 'fgPoints',
+    label: 'FG Points',
+    value: (r) => toNumber(r.points),
+    format: (r) => r.points || '0',
+  },
+  {
+    key: 'fbPoints',
+    label: 'FB Points',
+    value: (r) => toNumber(r.totalFbPoints),
+    format: (r) => r.totalFbPoints || '0',
+  },
+  {
+    key: 'activityPct',
+    label: 'Activity %',
+    value: (r) => toNumber(r.activityPct),
+    format: (r) => r.activityPct || '0%',
+  },
+  {
+    key: 'guarding',
+    label: 'Guarding',
+    value: (r) => countStars(r.guarding),
+    format: (r) => r.guarding || '☆☆☆☆☆',
+  },
+  {
+    key: 'bearing',
+    label: 'Bearing',
+    value: (r) => countStars(r.bearing),
+    format: (r) => r.bearing || '☆☆☆☆☆',
+  },
+]
+
+/** Returns Flag Guard members sorted descending by the given FG metric. */
+export function rankFlagGuardByMetric(metric: FlagGuardMetric): FlagGuardRow[] {
+  return [...flagGuardRows].sort((a, b) => metric.value(b) - metric.value(a))
 }
