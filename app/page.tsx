@@ -82,6 +82,26 @@ export default function OverviewPage() {
         </div>
       </section>
 
+      {/* Regiment in action */}
+      <section className="border-b border-border bg-background/60">
+        <div className="mx-auto max-w-4xl px-6 py-10 text-center">
+          <p className="text-[11px] font-semibold uppercase tracking-command text-gold">
+            Le Régiment au Combat
+          </p>
+          {/* Source GIF is natively 374x189 — kept near its native size so it isn't upscaled/blurred. */}
+          <div className="mx-auto mt-4 max-w-sm overflow-hidden rounded-lg border border-gold/30 shadow-lg">
+            <Image
+              src="/57e-regiment.gif"
+              alt="The 57e de Ligne on the field of battle"
+              width={374}
+              height={189}
+              unoptimized
+              className="h-auto w-full"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Stats strip */}
       <section className="border-b border-border">
         <div className="mx-auto grid max-w-6xl grid-cols-2 divide-x divide-border md:grid-cols-4">
