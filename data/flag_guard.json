@@ -1367,7 +1367,7 @@
   {
     "battalion": "flag_guard",
     "company": "2eme Fusiliers \"La Moscowa\"",
-    "points": "38",
+    "points": "39",
     "position": "FD Staff",
     "rank": "B2. Sergent Major",
     "name": "ArcoBoyo",
@@ -1376,7 +1376,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "0%",
+    "activityPct": "8%",
     "loa": "FALSE",
     "grade": "",
     "attendance": {
@@ -1392,7 +1392,7 @@
       "8/26": "FALSE",
       "8/27": "FALSE",
       "8/28": "FALSE",
-      "8/29": "FALSE",
+      "8/29": "TRUE",
       "8/30": "FALSE"
     },
     "guarding": "★★★★☆",
@@ -1437,7 +1437,7 @@
   {
     "battalion": "flag_guard",
     "company": "2eme Fusiliers \"La Moscowa\"",
-    "points": "42",
+    "points": "43",
     "position": "Porte Drapeau",
     "rank": "A5. Caporal Fourrier",
     "name": "AL_T85",
@@ -1446,7 +1446,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "0%",
+    "activityPct": "8%",
     "loa": "FALSE",
     "grade": "",
     "attendance": {
@@ -1462,7 +1462,7 @@
       "8/26": "FALSE",
       "8/27": "FALSE",
       "8/28": "FALSE",
-      "8/29": "FALSE",
+      "8/29": "TRUE",
       "8/30": "FALSE"
     },
     "guarding": "★★★☆☆",
@@ -1822,7 +1822,7 @@
   {
     "battalion": "flag_guard",
     "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "7",
+    "points": "8",
     "position": "Garde du Drapeau",
     "rank": "A5. Caporal Fourrier",
     "name": "BlackReaperJohn",
@@ -1831,7 +1831,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "8%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "",
     "attendance": {
@@ -1847,7 +1847,7 @@
       "8/26": "FALSE",
       "8/27": "FALSE",
       "8/28": "TRUE",
-      "8/29": "FALSE",
+      "8/29": "TRUE",
       "8/30": "FALSE"
     },
     "guarding": "★★☆☆☆",
@@ -1962,7 +1962,7 @@
   {
     "battalion": "flag_guard",
     "company": "4eme Fusiliers \"Le Vainqueur\"",
-    "points": "0",
+    "points": "1",
     "position": "Garde du Drapeau",
     "rank": "A4. Caporal de Premier",
     "name": "cj71980",
@@ -1971,7 +1971,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "0%",
+    "activityPct": "8%",
     "loa": "FALSE",
     "grade": "",
     "attendance": {
@@ -1987,7 +1987,7 @@
       "8/26": "FALSE",
       "8/27": "FALSE",
       "8/28": "FALSE",
-      "8/29": "FALSE",
+      "8/29": "TRUE",
       "8/30": "FALSE"
     },
     "guarding": "☆☆☆☆☆",

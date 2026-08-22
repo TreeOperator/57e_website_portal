@@ -11154,7 +11154,7 @@
     "username": "FootImage",
     "profileLink": "https://www.roblox.com/users/968881462/profile?friendshipSourceType=PlayerSearch",
     "medal": "Ordre de la Fidèle",
-    "class": "Légionnaire",
+    "class": "Officier",
     "reason": "Grand Review of EU/NA 9/20/25"
   },
   {
@@ -18919,5 +18919,19 @@
     "medal": "Médaille du Croix de Battaile",
     "class": "de Bronze",
     "reason": "Quatrième Ceremony 16/08/2026"
+  },
+  {
+    "username": "AwesomeRights",
+    "profileLink": "https://www.roblox.com/users/118410962/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "xXElonMuskOofXx",
+    "profileLink": "https://www.roblox.com/users/941252151/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
   }
 ]
