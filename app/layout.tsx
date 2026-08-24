@@ -19,7 +19,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "57e Régiment d'Infanterie de Ligne — Portail du Régiment",
   description:
-    "Official regimental portal of the 57e Régiment d'Infanterie de Ligne — chain of command, company rosters, and the regimental archive. Les Terribles.",
+    "Official regimental portal of the 57e Régiment d'Infanterie de Ligne: Chain of command, company rosters, and the regimental archive. Les Terribles.",
   generator: 'v0.app',
 }
 
