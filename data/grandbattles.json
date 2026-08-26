@@ -48,6 +48,14 @@
     "date": "5/7/2026"
   },
   {
+    "username": "gelldiver",
+    "profileLink": "https://www.roblox.com/users/2322696102/profile",
+    "type": "grandbattle",
+    "label": "Rank 1",
+    "status": "Approved",
+    "date": "5/7/2026"
+  },
+  {
     "username": "AwesomeRights",
     "profileLink": "https://www.roblox.com/users/118410962/profile",
     "type": "grandbattle",
@@ -731,9 +739,9 @@
     "username": "MADMOUN",
     "profileLink": "https://www.roblox.com/users/181645662/profile",
     "type": "grandbattle",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Approved",
-    "date": "5/7/2026"
+    "date": "8/25/2026"
   },
   {
     "username": "COCONUTMILKRRR",
@@ -1648,6 +1656,14 @@
     "date": "5/7/2026"
   },
   {
+    "username": "Roblox777_SK2",
+    "profileLink": "https://www.roblox.com/users/3797453047/profile",
+    "type": "grandbattle",
+    "label": "Rank 1",
+    "status": "Approved",
+    "date": "5/7/2026"
+  },
+  {
     "username": "csgo32271",
     "profileLink": "https://www.roblox.com/users/4200425800/profile",
     "type": "grandbattle",
@@ -1856,14 +1872,6 @@
     "date": "5/7/2026"
   },
   {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "type": "grandbattle",
-    "label": "Rank 1",
-    "status": "Approved",
-    "date": "5/7/2026"
-  },
-  {
     "username": "Marc_fr05",
     "profileLink": "https://www.roblox.com/users/7619031854/profile",
     "type": "grandbattle",
@@ -2006,5 +2014,13 @@
     "label": "Rank 1",
     "status": "Approved",
     "date": "8/4/2026"
+  },
+  {
+    "username": "ExecutiveLemonade",
+    "profileLink": "https://www.roblox.com/users/3458875342/profile",
+    "type": "grandbattle",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "8/24/2026"
   }
 ]

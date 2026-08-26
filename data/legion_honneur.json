@@ -1617,6 +1617,13 @@
     "reason": "REAL G"
   },
   {
+    "username": "gelldiver",
+    "profileLink": "https://www.roblox.com/users/2322696102/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "d'Argent",
+    "reason": ""
+  },
+  {
     "username": "64xto",
     "profileLink": "https://www.roblox.com/users/15980431/profile",
     "medal": "Ordre de l'Aigle Impériale",
@@ -2334,8 +2341,8 @@
     "username": "Botorx9",
     "profileLink": "https://www.roblox.com/users/146480275/profile",
     "medal": "Légion d'Honneur",
-    "class": "Officier",
-    "reason": "Grand Review 4/6/2024"
+    "class": "Commandeur",
+    "reason": "Grand Review 4/6/2024 - Upgraded Grand Review 08/22/2026"
   },
   {
     "username": "Bast2k",
@@ -3538,7 +3545,7 @@
     "username": "Hussaricus",
     "profileLink": "https://www.roblox.com/users/1190798160/profile",
     "medal": "Ordre de la Fidèle",
-    "class": "Légionnaire",
+    "class": "Officier",
     "reason": "20/07/24 Grand Review"
   },
   {
@@ -4961,6 +4968,13 @@
     "medal": "Médaille du Mérite Initiaf",
     "class": "d'Argent",
     "reason": "Quatrieme Corps Ceremony 4/19/2025"
+  },
+  {
+    "username": "XaintleDiAurelia",
+    "profileLink": "https://www.roblox.com/users/5270709262/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Officier",
+    "reason": "Grand Review Feb 1 2025"
   },
   {
     "username": "Ethan9_hokage",
@@ -6608,6 +6622,13 @@
     "reason": "Grand Review 04/052025"
   },
   {
+    "username": "gelldiver",
+    "profileLink": "https://www.roblox.com/users/2322696102/profile",
+    "medal": "Médaille Campagne d'Italie",
+    "class": "de Bronze",
+    "reason": "Grand Review 04/052025"
+  },
+  {
     "username": "CikaMareZ",
     "profileLink": "https://www.roblox.com/users/405997239/profile",
     "medal": "Médaille Campagne d'Italie",
@@ -7220,7 +7241,7 @@
     "username": "xtian1108",
     "profileLink": "https://www.roblox.com/users/374365768/profile",
     "medal": "Légion d'Honneur",
-    "class": "Légionnaire",
+    "class": "Officier",
     "reason": "Grand Review 04/052025"
   },
   {
@@ -7278,20 +7299,6 @@
     "medal": "Médaille du Croix de Battaile",
     "class": "de Bronze",
     "reason": "Missed at the Troisieme Ceremony"
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "medal": "Médaille du Mérite Militaire",
-    "class": "d'Argent",
-    "reason": "Premier Inspection 31/05/2025"
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "medal": "Médaille du Mérite Initiaf",
-    "class": "d'Argent",
-    "reason": "Premier Inspection 10/01/2026"
   },
   {
     "username": "Vazspla",
@@ -7551,13 +7558,6 @@
     "medal": "Médaille du Mérite en Recrutement",
     "class": "d'Or",
     "reason": "Premier Inspection 10/01/2026"
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "medal": "Pendantif Benevole",
-    "class": "d'Or",
-    "reason": "Premier Inspection 6/28/2025"
   },
   {
     "username": "Botorx9",
@@ -7998,13 +7998,6 @@
     "profileLink": "https://www.roblox.com/users/941252151/profile",
     "medal": "Médaille du Mérite Commandant",
     "class": "de Bronze",
-    "reason": "Premier Inspection 07/26/2025"
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "medal": "Premier Mérite",
-    "class": "Légionnaire",
     "reason": "Premier Inspection 07/26/2025"
   },
   {
@@ -8662,7 +8655,7 @@
     "username": "Hussaricus",
     "profileLink": "https://www.roblox.com/users/1190798160/profile",
     "medal": "Croix de la Troisième Valliance",
-    "class": "Légionnaire",
+    "class": "Officier",
     "reason": "Troisieme Corps Ceremony 9/07/2025"
   },
   {
@@ -9228,13 +9221,6 @@
   {
     "username": "xXElonMuskOofXx",
     "profileLink": "https://www.roblox.com/users/941252151/profile",
-    "medal": "Médaille de la Campagne d'Allemagne",
-    "class": "de Bronze",
-    "reason": ""
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
     "medal": "Médaille de la Campagne d'Allemagne",
     "class": "de Bronze",
     "reason": ""
@@ -11112,7 +11098,7 @@
     "username": "15kanktus",
     "profileLink": "https://www.roblox.com/users/796375171/profile",
     "medal": "Légion d'Honneur",
-    "class": "Légionnaire",
+    "class": "Officier",
     "reason": "Grand Review of EU/NA 9/20/25"
   },
   {
@@ -11980,7 +11966,7 @@
     "username": "suummertag3",
     "profileLink": "https://www.roblox.com/users/2684795688/profile",
     "medal": "Médaille du Mérite en Recrutement",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisieme Corps Ceremony 11/23/2025"
   },
   {
@@ -12009,13 +11995,6 @@
     "profileLink": "https://www.roblox.com/users/2726859976/profile",
     "medal": "Médaille du Croix de Battaile",
     "class": "de Bronze",
-    "reason": "Premier Ceremony 29/11/2025"
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "medal": "Médaille du Mérite Porte-Aigle",
-    "class": "d'Argent",
     "reason": "Premier Ceremony 29/11/2025"
   },
   {
@@ -13044,7 +13023,7 @@
     "username": "grzegorzjasinski",
     "profileLink": "https://www.roblox.com/users/1320156463/profile",
     "medal": "Médaille du Croix de Battaile",
-    "class": "d'Argent",
+    "class": "d'Or",
     "reason": "Troisieme Corps Ceremony 2/1/2026"
   },
   {
@@ -14059,7 +14038,7 @@
     "username": "E3X0A",
     "profileLink": "https://www.roblox.com/users/6047382398/profile",
     "medal": "Médaille du Mérite Militaire",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Garde Inspection February, 01/03/2026"
   },
   {
@@ -14346,7 +14325,7 @@
     "username": "linkenbra",
     "profileLink": "https://www.roblox.com/users/1884019696/profile",
     "medal": "Médaille du Mérite Initiaf",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 03/08/2026"
   },
   {
@@ -15886,7 +15865,7 @@
     "username": "doku251",
     "profileLink": "https://www.roblox.com/users/573671817/profile",
     "medal": "Médaille du Mérite Initiaf",
-    "class": "d'Argent",
+    "class": "d'Or",
     "reason": "Troisième Corps Ceremony 05/17/2026"
   },
   {
@@ -15907,7 +15886,7 @@
     "username": "hieue53",
     "profileLink": "https://www.roblox.com/users/1899434804/profile",
     "medal": "Médaille du Mérite Militaire",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 05/17/2026"
   },
   {
@@ -16096,7 +16075,7 @@
     "username": "M4rkAltair",
     "profileLink": "https://www.roblox.com/users/2750391476/profile",
     "medal": "Pendantif Benevole",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 12/04/2026"
   },
   {
@@ -16586,7 +16565,7 @@
     "username": "tmmrt123",
     "profileLink": "https://www.roblox.com/users/1590060722/profile?friendshipSourceType=PlayerSearch",
     "medal": "Médaille du Mérite Militaire",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Neuv Ceremony 14/6/2026"
   },
   {
@@ -17265,7 +17244,7 @@
     "username": "Aviate31",
     "profileLink": "https://www.roblox.com/users/5625924578/profile",
     "medal": "Médaille du Mérite Militaire",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 06/26/2026"
   },
   {
@@ -17293,7 +17272,7 @@
     "username": "robloxnoob67678",
     "profileLink": "https://www.roblox.com/users/2770220603/profile",
     "medal": "Médaille du Mérite Porte-Aigle",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 06/26/2026"
   },
   {
@@ -17839,7 +17818,7 @@
     "username": "ER04R",
     "profileLink": "https://www.roblox.com/users/3080141747/profile?friendshipSourceType=PlayerSearch",
     "medal": "Médaille du Mérite Porte-Aigle",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Neuv Ceremony 19/7/2026"
   },
   {
@@ -17921,7 +17900,7 @@
   },
   {
     "username": "olly998877",
-    "profileLink": "https://www.roblox.com/users/76583160/profile",
+    "profileLink": "https://www.roblox.com/users/80641474/profile",
     "medal": "Médaille du Mérite Porte-Aigle",
     "class": "de Bronze",
     "reason": "Quatrième Ceremony 19/07/2026"
@@ -18000,6 +17979,13 @@
     "username": "READY4DRAFTSSIR",
     "profileLink": "https://www.roblox.com/users/8997869413/profile",
     "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "ASOC Garde Inspection July 07/26/2026"
+  },
+  {
+    "username": "shin22034",
+    "profileLink": "https://www.roblox.com/users/4721579792/profile",
+    "medal": "Médaille du Mérite en Recrutement",
     "class": "de Bronze",
     "reason": "ASOC Garde Inspection July 07/26/2026"
   },
@@ -18091,14 +18077,14 @@
     "username": "OriflameFleurye",
     "profileLink": "https://www.roblox.com/users/2246997868/profile",
     "medal": "Médaille du Mérite Porte-Aigle",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 07/26/2026"
   },
   {
     "username": "SubtoToastyTD",
     "profileLink": "https://www.roblox.com/users/1271034175/profile",
     "medal": "Médaille du Mérite en Recrutement",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 07/26/2026"
   },
   {
@@ -18126,7 +18112,7 @@
     "username": "goldflsh0",
     "profileLink": "https://www.roblox.com/users/836147796/profile",
     "medal": "Pendantif Benevole",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 07/26/2026"
   },
   {
@@ -18147,7 +18133,7 @@
     "username": "SamFleurye",
     "profileLink": "https://www.roblox.com/users/2569448349/profile",
     "medal": "Pendantif Benevole",
-    "class": "de Bronze",
+    "class": "d'Argent",
     "reason": "Troisième Corps Ceremony 07/26/2026"
   },
   {
@@ -18933,5 +18919,411 @@
     "medal": "Légion d'Honneur",
     "class": "Légionnaire",
     "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "baconelitedumm",
+    "profileLink": "https://www.roblox.com/users/2048384205/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "CoolBananaGuyRocks",
+    "profileLink": "https://www.roblox.com/users/1269423513/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "StormyKing1231",
+    "profileLink": "https://www.roblox.com/users/1076427164/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "Yorick_Stirling",
+    "profileLink": "https://www.roblox.com/users/93522575/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "Lord_Xibe",
+    "profileLink": "https://www.roblox.com/users/8195044888/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "viktor5341",
+    "profileLink": "https://www.roblox.com/users/1512631006/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "SteyetNouzen",
+    "profileLink": "https://www.roblox.com/users/1110896348/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "Paralocks",
+    "profileLink": "https://www.roblox.com/users/7228692568/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "GryyVonLoudon",
+    "profileLink": "https://www.roblox.com/users/265145777/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "davigenial9898",
+    "profileLink": "https://www.roblox.com/users/1294608909/profile",
+    "medal": "Médaille de la Campagne d'Espagne",
+    "class": "d'Argent",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "paralocks",
+    "profileLink": "https://www.roblox.com/users/7228692568/profile",
+    "medal": "Médaille de la Campagne d'Espagne",
+    "class": "d'Argent",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "Grzegorzjasinski",
+    "profileLink": "https://www.roblox.com/users/1320156463/profile",
+    "medal": "Médaille de la Campagne d'Espagne",
+    "class": "d'Argent",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "Marc_fr05",
+    "profileLink": "https://www.roblox.com/users/7619031854/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "VIC20091222",
+    "profileLink": "https://www.roblox.com/users/299935714/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "GodOf_Knight",
+    "profileLink": "https://www.roblox.com/users/3535491342/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "TaskaAureus",
+    "profileLink": "https://www.roblox.com/users/1806587659/profile",
+    "medal": "Médaille du Mérite Militaire",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "robloxnoob67678",
+    "profileLink": "https://www.roblox.com/users/2770220603/profile",
+    "medal": "Médaille du Mérite Militaire",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "123456rtlgq4",
+    "profileLink": "https://www.roblox.com/users/7810683095/profile",
+    "medal": "Médaille du Mérite Militaire",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "MarshyAviz",
+    "profileLink": "https://www.roblox.com/users/5129700996/profile",
+    "medal": "Médaille du Mérite Militaire",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "krysteq_25",
+    "profileLink": "https://www.roblox.com/users/1177892275/profile",
+    "medal": "Médaille du Mérite Initiaf",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "spoconyw",
+    "profileLink": "https://www.roblox.com/users/1964746658/profile",
+    "medal": "Médaille du Mérite Initiaf",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "TaskaAureus",
+    "profileLink": "https://www.roblox.com/users/1806587659/profile",
+    "medal": "Médaille du Mérite Porte-Aigle",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "Hieue53",
+    "profileLink": "https://www.roblox.com/users/1899434804/profile",
+    "medal": "Médaille du Mérite en Recrutement",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "Nauxilocks",
+    "profileLink": "https://www.roblox.com/users/7958124926/profile",
+    "medal": "Médaille du Mérite en Recrutement",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "doku251",
+    "profileLink": "https://www.roblox.com/users/573671817/profile",
+    "medal": "Médaille du Mérite Commandant",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "TaskaAureus",
+    "profileLink": "https://www.roblox.com/users/1806587659/profile",
+    "medal": "Médaille du Mérite Artistique",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "OriflameFleurye",
+    "profileLink": "https://www.roblox.com/users/2246997868/profile",
+    "medal": "Médaille du Mérite Artistique",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "SubtoToastyTD",
+    "profileLink": "https://www.roblox.com/users/1271034175/profile",
+    "medal": "Pendantif Benevole",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "GodOf_Knight",
+    "profileLink": "https://www.roblox.com/users/3535491342/profile",
+    "medal": "Pendantif Benevole",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "TomatsopaAviz",
+    "profileLink": "https://www.roblox.com/users/333806941/profile",
+    "medal": "Pendantif Benevole",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "cegla_guy903",
+    "profileLink": "https://www.roblox.com/users/3878127933/profile",
+    "medal": "Médaille du Mérite Sociaux",
+    "class": "d'Argent",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "argu_Official",
+    "profileLink": "https://www.roblox.com/users/2276149952/profile",
+    "medal": "Pendantif Benevole",
+    "class": "de Bronze",
+    "reason": "Troisième Corps Ceremony 07/26/2026"
+  },
+  {
+    "username": "Redhawk208221",
+    "profileLink": "https://www.roblox.com/users/3731081139/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "EU/NA Grand Review 23/Aug/2026"
+  },
+  {
+    "username": "kingsnake768",
+    "profileLink": "https://www.roblox.com/users/539541241/profile",
+    "medal": "Légion d'Honneur",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "Honouricus",
+    "profileLink": "https://www.roblox.com/users/4180730497/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "HB_1088",
+    "profileLink": "https://www.roblox.com/users/119162350/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "schlibidy",
+    "profileLink": "https://www.roblox.com/users/8496263871/profile",
+    "medal": "Ordre de la Fidèle",
+    "class": "Légionnaire",
+    "reason": "Grand Review of 8/22/2026"
+  },
+  {
+    "username": "AGKS_JDEOCGSH",
+    "profileLink": "https://www.roblox.com/users/4013962093/profile",
+    "medal": "Pendantif Benevole",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "GOS_MORI",
+    "profileLink": "https://www.roblox.com/users/7171230123/profile",
+    "medal": "Médaille du Mérite Artistique",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "3335sjux",
+    "profileLink": "https://www.roblox.com/users/5777411178/profile",
+    "medal": "Neuvième Mérite",
+    "class": "Légionnaire",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "Fireman50134",
+    "profileLink": "https://www.roblox.com/users/188963758/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "Ethan_OfficialGaming",
+    "profileLink": "https://www.roblox.com/users/1437140050/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "xZenAxia",
+    "profileLink": "https://www.roblox.com/users/2570453665/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "suay_sud",
+    "profileLink": "https://www.roblox.com/users/2243230889/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "suay_sud",
+    "profileLink": "https://www.roblox.com/users/2243230889/profile",
+    "medal": "Médaille du Mérite Artistique",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "ProFuryDark",
+    "profileLink": "https://www.roblox.com/users/9405116636/profile",
+    "medal": "Médaille du Mérite Artistique",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "ELITEFLAGSELLER",
+    "profileLink": "https://www.roblox.com/users/10066066292/profile",
+    "medal": "Médaille du Mérite Artistique",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "ahhhhzanbenya",
+    "profileLink": "https://www.roblox.com/users/2410638001/profile",
+    "medal": "Médaille du Mérite Sociaux",
+    "class": "d'Argent",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "Randouso21",
+    "profileLink": "https://www.roblox.com/users/2329203080/profile",
+    "medal": "Médaille du Mérite Sociaux",
+    "class": "d'Argent",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "backwolfthepro",
+    "profileLink": "https://www.roblox.com/users/1997721782/profile",
+    "medal": "Médaille du Mérite Militaire",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "cozmonest",
+    "profileLink": "https://www.roblox.com/users/518548520/profile",
+    "medal": "Médaille du Mérite Militaire",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "A3DVive",
+    "profileLink": "https://www.roblox.com/users/1340082616/profile",
+    "medal": "Neuvième Mérite",
+    "class": "Légionnaire",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "tusemuse",
+    "profileLink": "https://www.roblox.com/users/1191181896/profile",
+    "medal": "Neuvième Mérite",
+    "class": "Légionnaire",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "Killer_knight4567",
+    "profileLink": "https://www.roblox.com/users/1611980262/profile",
+    "medal": "Pendantif d'Elite",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "tusemuse",
+    "profileLink": "https://www.roblox.com/users/1191181896/profile",
+    "medal": "Pendantif d'Elite",
+    "class": "de Bronze",
+    "reason": "Neuv Ceremony 8/23/2026"
+  },
+  {
+    "username": "Sossola29",
+    "profileLink": "https://www.roblox.com/users/3138439407/profile",
+    "medal": "Médaille de la Campagne d'Espagne",
+    "class": "d'Argent",
+    "reason": "AS/OC Grand Review"
+  },
+  {
+    "username": "tusemuse",
+    "profileLink": "https://www.roblox.com/users/1191181896/profile",
+    "medal": "Médaille de la Campagne d'Espagne",
+    "class": "d'Argent",
+    "reason": "AS/OC Grand Review"
+  },
+  {
+    "username": "cozmonest",
+    "profileLink": "https://www.roblox.com/users/518548520/profile",
+    "medal": "Médaille de la Campagne d'Espagne",
+    "class": "d'Argent",
+    "reason": "AS/OC Grand Review"
   }
 ]
