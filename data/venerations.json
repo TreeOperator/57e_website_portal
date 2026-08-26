@@ -80,6 +80,14 @@
     "date": "6/3/2025"
   },
   {
+    "username": "gelldiver",
+    "profileLink": "https://www.roblox.com/users/2322696102/profile",
+    "type": "veneration",
+    "label": "Rank 5",
+    "status": "Expired",
+    "date": "3/11/2023"
+  },
+  {
     "username": "STYXPLAYS",
     "profileLink": "https://www.roblox.com/users/766489403/profile",
     "type": "veneration",
@@ -1388,7 +1396,7 @@
     "profileLink": "https://www.roblox.com/users/1721229478/profile",
     "type": "veneration",
     "label": "Rank 12",
-    "status": "Expired",
+    "status": "Active",
     "date": "2/17/2026"
   },
   {
@@ -2123,7 +2131,7 @@
     "username": "cozmonest",
     "profileLink": "https://www.roblox.com/users/518548520/profile",
     "type": "veneration",
-    "label": "Rank 10",
+    "label": "Rank 11",
     "status": "Active",
     "date": "4/20/2026"
   },
@@ -2803,9 +2811,9 @@
     "username": "puppywad2",
     "profileLink": "https://www.roblox.com/users/2337225314/profile",
     "type": "veneration",
-    "label": "Rank 7",
+    "label": "Rank 8",
     "status": "Active",
-    "date": "5/27/2026"
+    "date": "8/25/2026"
   },
   {
     "username": "superherojoker1",
@@ -3406,14 +3414,6 @@
     "label": "Rank 7",
     "status": "Active",
     "date": "2/4/2026"
-  },
-  {
-    "username": "fadedstoriess",
-    "profileLink": "https://www.roblox.com/users/362640757/profile",
-    "type": "veneration",
-    "label": "Rank 6",
-    "status": "Active",
-    "date": "8/6/2026"
   },
   {
     "username": "Lyft_Cavi",
@@ -4216,6 +4216,14 @@
     "date": "12/25/2025"
   },
   {
+    "username": "Roblox777_SK2",
+    "profileLink": "https://www.roblox.com/users/3797453047/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "1/1/2026"
+  },
+  {
     "username": "Endthian",
     "profileLink": "https://www.roblox.com/users/4429904981/profile",
     "type": "veneration",
@@ -4419,9 +4427,9 @@
     "username": "oboo453",
     "profileLink": "https://www.roblox.com/users/1307758881/profile",
     "type": "veneration",
-    "label": "Rank 5",
+    "label": "Rank 7",
     "status": "Active",
-    "date": "2/28/2026"
+    "date": "8/24/2026"
   },
   {
     "username": "lukajz1",
@@ -5067,9 +5075,9 @@
     "username": "MasterMarco17",
     "profileLink": "https://www.roblox.com/users/388215933/profile",
     "type": "veneration",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Active",
-    "date": "6/13/2026"
+    "date": "8/25/2026"
   },
   {
     "username": "AQEEP_vbn",
@@ -5294,5 +5302,21 @@
     "label": "Rank 1",
     "status": "Active",
     "date": "8/17/2026"
+  },
+  {
+    "username": "EIectric_man",
+    "profileLink": "https://www.roblox.com/users/1954400619/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "8/25/2026"
+  },
+  {
+    "username": "Meme_gamer360",
+    "profileLink": "https://www.roblox.com/users/1348718647/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "8/25/2026"
   }
 ]
