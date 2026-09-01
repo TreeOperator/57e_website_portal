@@ -387,7 +387,7 @@
   {
     "battalion": "flag_guard",
     "company": "Voltiguers de Liévin \"Austerlitz\"",
-    "points": "63",
+    "points": "64",
     "position": "FD Staff",
     "rank": "A6. Honorary Sergent",
     "name": "specopsgamin2",
@@ -396,7 +396,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "17%",
+    "activityPct": "25%",
     "loa": "FALSE",
     "grade": "",
     "attendance": {
@@ -408,7 +408,7 @@
       "8/29": "FALSE",
       "8/30": "FALSE",
       "8/31": "",
-      "9/1": "FALSE",
+      "9/1": "TRUE",
       "9/2": "FALSE",
       "9/3": "FALSE",
       "9/4": "FALSE",
@@ -606,7 +606,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "25%",
+    "activityPct": "33%",
     "loa": "FALSE",
     "grade": "",
     "attendance": {
@@ -618,7 +618,7 @@
       "8/29": "FALSE",
       "8/30": "FALSE",
       "8/31": "",
-      "9/1": "FALSE",
+      "9/1": "TRUE",
       "9/2": "FALSE",
       "9/3": "FALSE",
       "9/4": "FALSE",
@@ -627,7 +627,7 @@
     },
     "guarding": "★★★☆☆",
     "bearing": "★★☆☆☆",
-    "totalFbPoints": "13"
+    "totalFbPoints": "14"
   },
   {
     "battalion": "flag_guard",
