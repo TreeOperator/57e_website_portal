@@ -80,14 +80,6 @@
     "date": ""
   },
   {
-    "username": "Crusader1965",
-    "profileLink": "https://www.roblox.com/users/925243262/profile",
-    "order": "Titres de Victoire",
-    "label": "Crusader, Duc d'Unseburg",
-    "status": "Approved",
-    "date": ""
-  },
-  {
     "username": "ADIIOOlostmyoriginal",
     "profileLink": "https://www.roblox.com/users/134491007/profile",
     "order": "Noblesse Impériale",
@@ -216,26 +208,10 @@
     "date": ""
   },
   {
-    "username": "fred239i",
-    "profileLink": "https://www.roblox.com/users/51224167/profile",
-    "order": "Noblesse Impériale",
-    "label": "Baron",
-    "status": "Denied",
-    "date": ""
-  },
-  {
     "username": "UnfinishedGalaxies",
     "profileLink": "https://www.roblox.com/users/97144571/profile",
     "order": "Noblesse Impériale",
     "label": "Chevalier",
-    "status": "Approved",
-    "date": ""
-  },
-  {
-    "username": "ADIIOOlostmyoriginal",
-    "profileLink": "https://www.roblox.com/users/134491007/profile",
-    "order": "Titres de Victoire",
-    "label": "Adio, Comte de l'Empire",
     "status": "Approved",
     "date": ""
   },
@@ -341,14 +317,6 @@
     "order": "Noblesse Impériale",
     "label": "Chevalier",
     "status": "Approved",
-    "date": ""
-  },
-  {
-    "username": "RoyalTvillagerT",
-    "profileLink": "https://www.roblox.com/users/174798577/profile",
-    "order": "Noblesse Impériale",
-    "label": "Chevalier",
-    "status": "Denied",
     "date": ""
   },
   {
@@ -508,6 +476,22 @@
     "profileLink": "https://www.roblox.com/users/539541241/profile",
     "order": "Noblesse Impériale",
     "label": "Chevalier",
+    "status": "Approved",
+    "date": ""
+  },
+  {
+    "username": "ADIIOOlostmyoriginal",
+    "profileLink": "https://www.roblox.com/users/134491007/profile",
+    "order": "Titres de Victoire",
+    "label": "Adio, Comte de l'Empire",
+    "status": "Approved",
+    "date": ""
+  },
+  {
+    "username": "Crusader1965",
+    "profileLink": "https://www.roblox.com/users/925243262/profile",
+    "order": "Titres de Victoire",
+    "label": "Crusader, Duc d'Unseburg",
     "status": "Approved",
     "date": ""
   }
