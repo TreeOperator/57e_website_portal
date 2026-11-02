@@ -6,6 +6,8 @@ export interface MedalAward {
   medal: string
   class: string
   reason?: string
+  /** "Awarded Date" from the France-wide medal list — "3/Apr/2022" style, month spelled out. */
+  awardedDate?: string
 }
 
 const medals = medalsData as MedalAward[]

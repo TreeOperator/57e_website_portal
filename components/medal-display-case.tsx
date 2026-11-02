@@ -24,7 +24,7 @@ function medalEntries(medals: MedalAward[]): Entry[] {
         key: `medal-${index}`,
         iconPath,
         title: `${m.medal}${m.class ? ` — ${m.class}` : ''}`,
-        caption: m.reason,
+        caption: [m.awardedDate, m.reason].filter(Boolean).join(' — ') || undefined,
       },
     ]
   })

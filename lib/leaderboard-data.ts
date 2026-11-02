@@ -1,6 +1,7 @@
 import { allActivityRows, type ActivityRow } from '@/lib/roster-data'
 import { findMedalsByUsername } from '@/lib/medals-data'
 import flagGuardData from '@/data/flag_guard.json'
+import recruitmentData from '@/data/recruitment.json'
 
 const GRADE_VALUES: Record<string, number> = {
   'F': 0,
@@ -207,4 +208,73 @@ export const FLAG_GUARD_METRICS: FlagGuardMetric[] = [
 /** Returns Flag Guard members sorted descending by the given FG metric. */
 export function rankFlagGuardByMetric(metric: FlagGuardMetric): FlagGuardRow[] {
   return [...flagGuardRows].sort((a, b) => metric.value(b) - metric.value(a))
+}
+
+/**
+ * Recruiters are ranked separately — their sheet tracks recruit counts
+ * per timezone window (AS/EU/MO), a lifetime total (LT), and a recruitment
+ * medal tier rather than combat stats.
+ */
+export interface RecruitmentRow extends ActivityRow {
+  medal: string
+  stats: Record<string, string>
+}
+
+export const recruitmentRows: RecruitmentRow[] = (recruitmentData as RecruitmentRow[]).filter(
+  (r) => r.name.trim().length > 0 && r.company !== 'Etat Major du Recrutement',
+)
+
+const RECRUIT_MEDAL_VALUES: Record<string, number> = {
+  'none': 0, 'bronze': 1, 'silver': 2, 'gold': 3,
+}
+
+export interface RecruitmentMetric {
+  key: string
+  label: string
+  value: (row: RecruitmentRow) => number
+  format: (row: RecruitmentRow) => string
+}
+
+export const RECRUITMENT_METRICS: RecruitmentMetric[] = [
+  {
+    key: 'lifetime',
+    label: 'Lifetime',
+    value: (r) => toNumber(r.stats?.LT),
+    format: (r) => r.stats?.LT || '0',
+  },
+  {
+    key: 'regions',
+    label: 'Total (AS+EU)',
+    value: (r) => toNumber(r.stats?.AS) + toNumber(r.stats?.EU),
+    format: (r) => `${toNumber(r.stats?.AS) + toNumber(r.stats?.EU)}`,
+  },
+  {
+    key: 'as',
+    label: 'AS',
+    value: (r) => toNumber(r.stats?.AS),
+    format: (r) => r.stats?.AS || '0',
+  },
+  {
+    key: 'eu',
+    label: 'EU',
+    value: (r) => toNumber(r.stats?.EU),
+    format: (r) => r.stats?.EU || '0',
+  },
+  {
+    key: 'mo',
+    label: 'Monthly (MO)',
+    value: (r) => toNumber(r.stats?.MO),
+    format: (r) => r.stats?.MO || '0',
+  },
+  {
+    key: 'medal',
+    label: 'Medal',
+    value: (r) => RECRUIT_MEDAL_VALUES[r.medal?.trim().toLowerCase() ?? ''] ?? -1,
+    format: (r) => r.medal || 'None',
+  },
+]
+
+/** Returns recruiters sorted descending by the given metric. */
+export function rankRecruitmentByMetric(metric: RecruitmentMetric): RecruitmentRow[] {
+  return [...recruitmentRows].sort((a, b) => metric.value(b) - metric.value(a))
 }

@@ -12,6 +12,8 @@ import {
   companyNames,
   companyStats,
   FLAG_GUARD_METRICS,
+  RECRUITMENT_METRICS,
+  rankRecruitmentByMetric,
   rankFlagGuardByMetric,
   type LeaderboardRow,
   type CompanyStats,
@@ -367,13 +369,24 @@ function CompanyTab() {
   )
 }
 
-function FlagGuardTab() {
-  const [metricKey, setMetricKey] = useState(FLAG_GUARD_METRICS[0].key)
+function MetricBoard<
+  R extends { name: string; position: string; company: string; rank: string },
+  M extends { key: string; label: string; format: (row: R) => string },
+>({
+  metrics,
+  rankFn,
+  description,
+}: {
+  metrics: M[]
+  rankFn: (metric: M) => R[]
+  description: string
+}) {
+  const [metricKey, setMetricKey] = useState(metrics[0].key)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const sentinelRef = useRef<HTMLDivElement | null>(null)
 
-  const metric = FLAG_GUARD_METRICS.find((m) => m.key === metricKey) ?? FLAG_GUARD_METRICS[0]
-  const ranked = useMemo(() => rankFlagGuardByMetric(metric), [metric])
+  const metric = metrics.find((m) => m.key === metricKey) ?? metrics[0]
+  const ranked = useMemo(() => rankFn(metric), [metric])
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE)
@@ -399,11 +412,10 @@ function FlagGuardTab() {
   return (
     <div>
       <p className="mx-auto mb-6 max-w-lg text-center text-xs text-muted-foreground">
-        Flag Guard duty doesn&apos;t carry kills, KPE, or grade — members are ranked here on Flag Guard-specific
-        stats instead, separate from their home company&apos;s combat leaderboard.
+        {description}
       </p>
       <div className="mb-6 flex flex-wrap justify-center gap-2 border-b border-border pb-4">
-        {FLAG_GUARD_METRICS.map((m) => (
+        {metrics.map((m) => (
           <button
             key={m.key}
             onClick={() => setMetricKey(m.key)}
@@ -448,8 +460,28 @@ function FlagGuardTab() {
   )
 }
 
+function FlagGuardTab() {
+  return (
+    <MetricBoard
+      metrics={FLAG_GUARD_METRICS}
+      rankFn={rankFlagGuardByMetric}
+      description="Drapeu duty doesn't carry kills, KPE, or grade — members are ranked here on Drapeu-specific stats instead, separate from their home company's combat leaderboard."
+    />
+  )
+}
+
+function RecruitmentTab() {
+  return (
+    <MetricBoard
+      metrics={RECRUITMENT_METRICS}
+      rankFn={rankRecruitmentByMetric}
+      description="Recruiters are ranked on their recruit counts — lifetime total (LT, includes bonus recruits), per-region totals (AS / EU), and monthly (MO) — plus their recruitment medal tier."
+    />
+  )
+}
+
 export default function LeaderboardsPage() {
-  const [tab, setTab] = useState<'rankings' | 'compare' | 'companies' | 'flagGuard'>('rankings')
+  const [tab, setTab] = useState<'rankings' | 'compare' | 'companies' | 'flagGuard' | 'recruitment'>('rankings')
 
   return (
     <div className="px-6 py-14 lg:px-10">
@@ -503,7 +535,18 @@ export default function LeaderboardsPage() {
                 : 'border-border text-muted-foreground hover:border-gold/40 hover:text-ivory',
             )}
           >
-            Flag Guard
+            Drapeu
+          </button>
+          <button
+            onClick={() => setTab('recruitment')}
+            className={cn(
+              'rounded-md border px-5 py-2 text-xs font-semibold uppercase tracking-wider-2 transition-colors',
+              tab === 'recruitment'
+                ? 'border-gold bg-gold/10 text-gold'
+                : 'border-border text-muted-foreground hover:border-gold/40 hover:text-ivory',
+            )}
+          >
+            Recruitment
           </button>
         </div>
 
@@ -513,8 +556,10 @@ export default function LeaderboardsPage() {
           <CompareTab />
         ) : tab === 'companies' ? (
           <CompanyTab />
-        ) : (
+        ) : tab === 'flagGuard' ? (
           <FlagGuardTab />
+        ) : (
+          <RecruitmentTab />
         )}
       </div>
     </div>

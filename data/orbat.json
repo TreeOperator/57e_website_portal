@@ -1,230 +1,338 @@
 [
   {
-    "group": "Etat Major du Régiment d'Infanterie Ligne",
-    "position": "Commandant du Régiment",
-    "rank": "Colonel",
+    "group": "Quartier Général du 57e Régiment d'Infanterie de Ligne",
+    "position": "Commandant",
+    "rank": "General de Brigade",
     "name": "Vurelis"
   },
   {
-    "group": "Etat Major du Régiment d'Infanterie Ligne",
-    "position": "Executif du Régiment",
+    "group": "Quartier Général du 57e Régiment d'Infanterie de Ligne",
+    "position": "Exécutif",
     "rank": "Major",
     "name": "JustinTheGreat2006"
   },
   {
-    "group": "Etat Major du Régiment d'Infanterie Ligne",
-    "position": "Adjoint du Régiment",
-    "rank": "Adjutant",
-    "name": "Alynum"
-  },
-  {
-    "group": "Etat Major du 1er Bataillon de Spécialistes",
-    "position": "Commandant du Bataillon",
-    "rank": "Colonel",
-    "name": "Vurelis"
-  },
-  {
-    "group": "Etat Major du 2eme Bataillon de Fusiliers",
-    "position": "Commandant du Bataillon",
-    "rank": "Chef de Battailion",
+    "group": "Quartier Général du 57e Régiment d'Infanterie de Ligne",
+    "position": "Battalion Commandant",
+    "rank": "Chef de Battalion",
     "name": "kjvif"
   },
   {
-    "group": "Etat Major du 3eme Bataillon de Fusiliers",
-    "position": "Commandant du Bataillon",
-    "rank": "Capitane",
-    "name": "neenaz"
+    "group": "Quartier Général du 57e Régiment d'Infanterie de Ligne",
+    "position": "Battalion Commandant",
+    "rank": "Sous-Lieutenant",
+    "name": "FadeddGalaxies"
   },
   {
-    "group": "Etat Major du Bataillon Auxiliaire",
-    "position": "Commandant du Auxiliaire",
-    "rank": "Adj.",
-    "name": "Alynum"
+    "group": "Quartier Général des 1er Grenadiers",
+    "position": "Commandant",
+    "rank": "Marshal",
+    "name": "Orpios"
   },
   {
-    "group": "",
-    "position": "Commadant du Compagnie",
-    "rank": "Gen. d'B.",
+    "group": "Quartier Général des 2eme Grenadiers",
+    "position": "Commandant",
+    "rank": "General de Brigade",
     "name": "dullqd"
   },
   {
-    "group": "",
-    "position": "Executif du Compagnie",
-    "rank": "S-Lt.",
-    "name": "hauntedbydwell"
+    "group": "Quartier Général des 2eme Grenadiers",
+    "position": "Exécutif",
+    "rank": "Lieutenant",
+    "name": "dwellAltair"
   },
   {
-    "group": "",
-    "position": "Etat-Major",
-    "rank": "Adj-S.",
+    "group": "Quartier Général des 2eme Grenadiers",
+    "position": "Etat Major",
+    "rank": "Adjudant Sous-Officier",
     "name": "SHADOW_FAX"
   },
   {
-    "group": "",
-    "position": "Commadant du Compagnie",
-    "rank": "Adj.",
-    "name": "ahkdedn"
+    "group": "Quartier Général des 2eme Grenadiers",
+    "position": "Etat Major",
+    "rank": "Sergent Major",
+    "name": "auellqd"
   },
   {
-    "group": "",
-    "position": "Executif du Compagnie",
-    "rank": "Sgt-M.",
-    "name": "Iplazroblox291"
+    "group": "Quartier Général des 2eme Grenadiers",
+    "position": "Etat Major",
+    "rank": "Sergent Major",
+    "name": "johnnybarrett"
   },
   {
-    "group": "",
-    "position": "Commadant du Compagnie",
-    "rank": "S-Lt.",
-    "name": "Puppywad2"
+    "group": "Quartier Général de Recrutement",
+    "position": "Commandant",
+    "rank": "Sergent",
+    "name": "Yurilici0us"
   },
   {
-    "group": "",
-    "position": "Executif du Compagnie",
-    "rank": "Adj.",
-    "name": "Hydrabailen"
+    "group": "Quartier Général de Recrutement",
+    "position": "Exécutif",
+    "rank": "Caporal-Fourrier",
+    "name": "TrollOperator2"
   },
   {
-    "group": "",
-    "position": "Etat-Major",
-    "rank": "Sgt.",
-    "name": "PolishKosmos"
+    "group": "Quartier Général de Recrutement",
+    "position": "Etat Major",
+    "rank": "Sous-Lieutenant",
+    "name": "FadeddGalaxies"
   },
   {
-    "group": "",
-    "position": "Etat-Major",
-    "rank": "Sgt-M.",
-    "name": "MnoanBoyo"
+    "group": "Quartier Général de Recrutement",
+    "position": "Etat Major",
+    "rank": "Sous-Lieutenant",
+    "name": "cuhrabs"
   },
   {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "📂",
-    "rank": "Adj.",
-    "name": "Alynum"
-  },
-  {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "",
-    "rank": "Sgt.",
+    "group": "Quartier Général de Recrutement",
+    "position": "Etat Major",
+    "rank": "Adjudant Sous-Officier",
     "name": "S_Cormac"
   },
   {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "✍️",
-    "rank": "Sgt-M.",
-    "name": "nexxustheirinco"
-  },
-  {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "",
-    "rank": "Sgt-M.",
-    "name": "Pop_SamBlade"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Commadant du Compagnie",
-    "rank": "Adj.",
-    "name": "ash4561g"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Executif du Compagnie",
-    "rank": "Adj.",
-    "name": "XywBoyo"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Etat-Major",
-    "rank": "Sgt-M.",
-    "name": "ArcoBoyo"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Etat-Major",
-    "rank": "Cpl-f",
-    "name": "ChanHei2047secondacc"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Commadant du Compagnie",
-    "rank": "S-Lt.",
-    "name": "fadedstoriess"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Executif du Compagnie",
-    "rank": "Adj.",
-    "name": "S_Cormac"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Etat-Major",
-    "rank": "Adj.",
-    "name": "Pop_SamBlade"
-  },
-  {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "🎨",
-    "rank": "Sgt-M.",
-    "name": "tobuyas"
-  },
-  {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "",
-    "rank": "Cpl-f",
-    "name": "Lovelyrules12"
-  },
-  {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "⛳",
-    "rank": "Adj.",
+    "group": "Quartier Général de Recrutement",
+    "position": "Etat Major",
+    "rank": "Adjudant Sous-Officier",
     "name": "1Tanyaaaaa"
   },
   {
-    "group": "Quartier Général du Auxiliaire",
+    "group": "Quartier Général de Recrutement",
     "position": "",
-    "rank": "Adj.",
+    "rank": "",
+    "name": "a"
+  },
+  {
+    "group": "Quartier Général des 1er Voltigeurs",
+    "position": "Commandant",
+    "rank": "Sergent",
+    "name": "DmannKosmos"
+  },
+  {
+    "group": "Quartier Général des 1er Voltigeurs",
+    "position": "Exécutif",
+    "rank": "Sous-Lieutenant",
+    "name": "Nevu106"
+  },
+  {
+    "group": "Quartier Général des 1er Voltigeurs",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "poopoopooninja"
+  },
+  {
+    "group": "Quartier Général des 1er Voltigeurs",
+    "position": "Etat Major",
+    "rank": "Caporal Fourrier",
+    "name": "Theelectron_0917"
+  },
+  {
+    "group": "Quartier Général des 2eme Voltigeurs",
+    "position": "Commandant",
+    "rank": "Sous-Lieutenant",
+    "name": "xQcLuxi"
+  },
+  {
+    "group": "Quartier Général des 2eme Voltigeurs",
+    "position": "Exécutif",
+    "rank": "Adjudant Sous-Officier",
+    "name": "1Tanyaaaaa"
+  },
+  {
+    "group": "Quartier Général des 2eme Voltigeurs",
+    "position": "Etat Major",
+    "rank": "Major",
+    "name": "ansleyng5555"
+  },
+  {
+    "group": "Quartier Général des 2eme Voltigeurs",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "PresentMentor"
+  },
+  {
+    "group": "Quartier Général du Propaganda",
+    "position": "Commandant",
+    "rank": "Sous-Lieutenant",
+    "name": "FadeddGalaxies"
+  },
+  {
+    "group": "Quartier Général du Propaganda",
+    "position": "Exécutif",
+    "rank": "Adjudant Sous-Officier",
+    "name": "S_Cormac"
+  },
+  {
+    "group": "Quartier Général du Propaganda",
+    "position": "Etat Major",
+    "rank": "",
+    "name": "xQcLuxi"
+  },
+  {
+    "group": "Quartier Général du Propaganda",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "alexel73829"
+  },
+  {
+    "group": "Quartier Général des 1er Fusiliers",
+    "position": "Commandant",
+    "rank": "Adjudant",
     "name": "ahkdedn"
   },
   {
-    "group": "Etat-Major",
-    "position": "Commadant du Compagnie",
-    "rank": "S-Lt.",
+    "group": "Quartier Général des 1er Fusiliers",
+    "position": "Exécutif",
+    "rank": "Sous-Lieutenant",
+    "name": "S_Cormac"
+  },
+  {
+    "group": "Quartier Général des 1er Fusiliers",
+    "position": "Etat Major",
+    "rank": "Adjudant",
+    "name": "Iplazroblox291"
+  },
+  {
+    "group": "Quartier Général des 2eme Fusiliers",
+    "position": "Commandant",
+    "rank": "Adjudant Sous-Officier",
+    "name": "ash4561g"
+  },
+  {
+    "group": "Quartier Général des 2eme Fusiliers",
+    "position": "Exécutif",
+    "rank": "Sous-Lieutenant",
+    "name": "XywBoyo"
+  },
+  {
+    "group": "Quartier Général des 2eme Fusiliers",
+    "position": "Etat Major",
+    "rank": "Adjudant Sous-Officier",
+    "name": "Pop_SamBlade"
+  },
+  {
+    "group": "Quartier Général des 2eme Fusiliers",
+    "position": "Etat Major",
+    "rank": "Adjudant",
+    "name": "ArcoBoyo"
+  },
+  {
+    "group": "Quartier Général des 2eme Fusiliers",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "ChanHei2047secondacc"
+  },
+  {
+    "group": "Quartier Général des Défense du Drapeau",
+    "position": "Commandant",
+    "rank": "Adjudant Sous-Officier",
+    "name": "1Tanyaaaaa"
+  },
+  {
+    "group": "Quartier Général des Défense du Drapeau",
+    "position": "Exécutif",
+    "rank": "Adjudant",
+    "name": "ahkdedn"
+  },
+  {
+    "group": "Quartier Général des Défense du Drapeau",
+    "position": "Etat Major",
+    "rank": "Sous-Lieutenant",
+    "name": "FadeddGalaxies"
+  },
+  {
+    "group": "Quartier Général des Défense du Drapeau",
+    "position": "Etat Major",
+    "rank": "Adjudant Sous-Officier",
+    "name": "Pop_SamBlade"
+  },
+  {
+    "group": "Quartier Général des 3eme Fusiliers",
+    "position": "Commandant",
+    "rank": "Lieutenant",
+    "name": "cuhrabs"
+  },
+  {
+    "group": "Quartier Général des 3eme Fusiliers",
+    "position": "Exécutif",
+    "rank": "Sous-Lieutenant",
     "name": "Puppywad2"
   },
   {
-    "group": "Etat-Major",
-    "position": "Executif du Compagnie",
-    "rank": "Sgt-M.",
+    "group": "Quartier Général des 3eme Fusiliers",
+    "position": "Etat Major",
+    "rank": "Adjudant",
+    "name": "Hydrabailen"
+  },
+  {
+    "group": "Quartier Général des 3eme Fusiliers",
+    "position": "Etat Major",
+    "rank": "Adjudant",
+    "name": "MnoanBoyo"
+  },
+  {
+    "group": "Quartier Général du Administration",
+    "position": "Commandant",
+    "rank": "Adjudant Sous-Officier",
+    "name": "S_Cormac"
+  },
+  {
+    "group": "Quartier Général du Administration",
+    "position": "Etat Major",
+    "rank": "Sous-Lieutenant",
+    "name": "FadeddGalaxies"
+  },
+  {
+    "group": "Quartier Général du Administration",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "KSK207777"
+  },
+  {
+    "group": "Quartier Général du Administration",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "Yurilici0us"
+  },
+  {
+    "group": "Quartier Général des Depot",
+    "position": "Commandant",
+    "rank": "Sous-Lieutenant",
+    "name": "Puppywad2"
+  },
+  {
+    "group": "Quartier Général des Depot",
+    "position": "Exécutif",
+    "rank": "Adjudant",
     "name": "nexxustheirinco"
   },
   {
-    "group": "Etat-Major",
-    "position": "Etat-Major",
-    "rank": "Adj.",
-    "name": "Aspectious"
-  },
-  {
-    "group": "Etat-Major",
-    "position": "Etat-Major",
-    "rank": "Sgt.",
+    "group": "Quartier Général des Depot",
+    "position": "Etat Major",
+    "rank": "Sergent",
     "name": "2Sajeedur"
   },
   {
-    "group": "Etat-Major",
-    "position": "Etat-Major",
-    "rank": "Cpl-f",
-    "name": "Neospearton2"
+    "group": "Quartier Général des Depot",
+    "position": "Etat Major",
+    "rank": "Sergent",
+    "name": "hauntedbyscar"
   },
   {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "📜",
-    "rank": "Adj-S.",
-    "name": "fadedstoriess"
+    "group": "Quartier Général des Depot",
+    "position": "Etat Major",
+    "rank": "Caporal de Premier",
+    "name": "MorganTudor"
   },
   {
-    "group": "Quartier Général du Auxiliaire",
-    "position": "",
-    "rank": "Cpl-F",
-    "name": "S_Cormac"
+    "group": "Quartier Général des Depot",
+    "position": "Etat Major",
+    "rank": "Caporal Fourrier",
+    "name": "InvisibleScott"
+  },
+  {
+    "group": "Quartier Général des Depot",
+    "position": "Etat Major",
+    "rank": "Caporal",
+    "name": "jango_gaming"
   }
 ]
