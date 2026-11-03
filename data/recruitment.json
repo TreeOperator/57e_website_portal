@@ -143,10 +143,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "11",
+      "AS": "12",
       "EU": "2",
       "MO": "0",
-      "LT": "188"
+      "LT": "189"
     }
   },
   {
@@ -391,30 +391,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Adjudant",
-    "name": "MnoanBoyo",
-    "discordId": "<@1457903108301520910>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "TRUE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Silver",
-    "stats": {
-      "AS": "0",
-      "EU": "1",
-      "MO": "0",
-      "LT": "50"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "2eme Voltigeurs \"Arcole\"",
     "points": "",
     "position": "Recruteur",
@@ -433,6 +409,30 @@
     "stats": {
       "AS": "30",
       "EU": "16",
+      "MO": "0",
+      "LT": "51"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Adjudant",
+    "name": "MnoanBoyo",
+    "discordId": "<@1457903108301520910>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "TRUE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
       "LT": "50"
     }
@@ -1039,6 +1039,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "1er Voltigeurs \"Austerlitz\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "IvanPetroteva112",
+    "discordId": "<@1534194268342583447>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "7",
+      "EU": "0",
+      "MO": "3",
+      "LT": "7"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1082,30 +1106,6 @@
       "AS": "4",
       "EU": "1",
       "MO": "0",
-      "LT": "6"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "IvanPetroteva112",
-    "discordId": "<@1534194268342583447>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "6",
-      "EU": "0",
-      "MO": "3",
       "LT": "6"
     }
   },
@@ -1441,6 +1441,30 @@
     "stats": {
       "AS": "0",
       "EU": "1",
+      "MO": "0",
+      "LT": "3"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal de Premier",
+    "name": "bruhguy6278",
+    "discordId": "<@1207604402450337813>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
       "LT": "3"
     }
@@ -2722,30 +2746,6 @@
     "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "Caporal de Premier",
-    "name": "bruhguy6278",
-    "discordId": "<@1207604402450337813>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "1",
-      "EU": "0",
-      "MO": "0",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
     "rank": "Caporal Fourrier",
     "name": "Mao_office1",
     "discordId": "<@1296416450264961085>",
@@ -2767,7 +2767,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
+    "company": "2eme Fusiliers \"La Martinique\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Caporal",
@@ -2786,6 +2786,54 @@
       "AS": "1",
       "EU": "0",
       "MO": "1",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "GhostKillerFront",
+    "discordId": "#N/A",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "1",
+      "EU": "0",
+      "MO": "0",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "Depot de Montbéliard",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Conscrit",
+    "name": "ABzSHOPx31284",
+    "discordId": "<@1550841998955643021>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "1",
+      "EU": "0",
+      "MO": "0",
       "LT": "1"
     }
   }
