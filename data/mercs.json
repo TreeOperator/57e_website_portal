@@ -11,7 +11,7 @@
     "kpe": "0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -43,7 +43,7 @@
     "kpe": "0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -75,7 +75,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -107,7 +107,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -139,7 +139,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -171,7 +171,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -203,7 +203,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -235,7 +235,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -267,7 +267,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -299,7 +299,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -331,7 +331,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -363,7 +363,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -395,7 +395,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -427,7 +427,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -459,7 +459,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -491,7 +491,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -523,12 +523,44 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
+      "9/23": "FALSE",
+      "9/24": "FALSE",
+      "9/25": "FALSE",
+      "9/26": "FALSE",
+      "9/27": "FALSE",
+      "9/28": "",
+      "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "FALSE",
+      "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "46",
+    "position": "Merc",
+    "rank": "Conscrit",
+    "name": "coolboy1234_COOL",
+    "discordId": "",
+    "kills": "75",
+    "kpe": "75.0",
+    "kdr": "1.67",
+    "activity": "1",
+    "activityPct": "100%",
+    "loa": "FALSE",
+    "grade": "A",
+    "attendance": {
+      "9/21": "",
+      "9/22": "TRUE",
       "9/23": "FALSE",
       "9/24": "FALSE",
       "9/25": "FALSE",
@@ -555,7 +587,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -587,39 +619,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
-    "loa": "FALSE",
-    "grade": "F",
-    "attendance": {
-      "9/21": "",
-      "9/22": "FALSE",
-      "9/23": "FALSE",
-      "9/24": "FALSE",
-      "9/25": "FALSE",
-      "9/26": "FALSE",
-      "9/27": "FALSE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "45",
-    "position": "Merc",
-    "rank": "Conscrit",
-    "name": "coolboy1234_COOL",
-    "discordId": "",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -651,7 +651,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -683,7 +683,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -715,7 +715,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -747,7 +747,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -779,7 +779,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -811,7 +811,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -843,7 +843,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -875,7 +875,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -907,7 +907,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -939,12 +939,44 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
+      "9/23": "FALSE",
+      "9/24": "FALSE",
+      "9/25": "FALSE",
+      "9/26": "FALSE",
+      "9/27": "FALSE",
+      "9/28": "",
+      "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "FALSE",
+      "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "28",
+    "position": "Merc",
+    "rank": "Conscrit",
+    "name": "Businessmaen",
+    "discordId": "<@1450143142539038734>",
+    "kills": "48",
+    "kpe": "48.0",
+    "kdr": "1.55",
+    "activity": "1",
+    "activityPct": "100%",
+    "loa": "FALSE",
+    "grade": "C",
+    "attendance": {
+      "9/21": "",
+      "9/22": "TRUE",
       "9/23": "FALSE",
       "9/24": "FALSE",
       "9/25": "FALSE",
@@ -971,39 +1003,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
-    "loa": "FALSE",
-    "grade": "F",
-    "attendance": {
-      "9/21": "",
-      "9/22": "FALSE",
-      "9/23": "FALSE",
-      "9/24": "FALSE",
-      "9/25": "FALSE",
-      "9/26": "FALSE",
-      "9/27": "FALSE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "27",
-    "position": "Merc",
-    "rank": "Conscrit",
-    "name": "Businessmaen",
-    "discordId": "<@1450143142539038734>",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1035,7 +1035,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1067,12 +1067,44 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
+      "9/23": "FALSE",
+      "9/24": "FALSE",
+      "9/25": "FALSE",
+      "9/26": "FALSE",
+      "9/27": "FALSE",
+      "9/28": "",
+      "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "FALSE",
+      "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "23",
+    "position": "Merc",
+    "rank": "Conscrit",
+    "name": "fyrveil",
+    "discordId": "<@1111190406231756894>",
+    "kills": "87",
+    "kpe": "87.0",
+    "kdr": "1.67",
+    "activity": "1",
+    "activityPct": "100%",
+    "loa": "FALSE",
+    "grade": "A+",
+    "attendance": {
+      "9/21": "",
+      "9/22": "TRUE",
       "9/23": "FALSE",
       "9/24": "FALSE",
       "9/25": "FALSE",
@@ -1099,7 +1131,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1131,39 +1163,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
-    "loa": "FALSE",
-    "grade": "F",
-    "attendance": {
-      "9/21": "",
-      "9/22": "FALSE",
-      "9/23": "FALSE",
-      "9/24": "FALSE",
-      "9/25": "FALSE",
-      "9/26": "FALSE",
-      "9/27": "FALSE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "22",
-    "position": "Merc",
-    "rank": "Conscrit",
-    "name": "fyrveil",
-    "discordId": "<@1111190406231756894>",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1195,7 +1195,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1227,7 +1227,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1259,7 +1259,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1291,7 +1291,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1323,7 +1323,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1355,7 +1355,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1387,7 +1387,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1419,7 +1419,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1451,7 +1451,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1483,7 +1483,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1515,7 +1515,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1547,7 +1547,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1579,12 +1579,44 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
+      "9/23": "FALSE",
+      "9/24": "FALSE",
+      "9/25": "FALSE",
+      "9/26": "FALSE",
+      "9/27": "FALSE",
+      "9/28": "",
+      "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "FALSE",
+      "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "11",
+    "position": "Merc",
+    "rank": "Conscrit",
+    "name": "Tach1bana_Hikari",
+    "discordId": "<@787341489893801984>",
+    "kills": "56",
+    "kpe": "56.0",
+    "kdr": "1.60",
+    "activity": "1",
+    "activityPct": "100%",
+    "loa": "FALSE",
+    "grade": "B-",
+    "attendance": {
+      "9/21": "",
+      "9/22": "TRUE",
       "9/23": "FALSE",
       "9/24": "FALSE",
       "9/25": "FALSE",
@@ -1611,7 +1643,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1643,7 +1675,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1675,7 +1707,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1707,39 +1739,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
-    "loa": "FALSE",
-    "grade": "F",
-    "attendance": {
-      "9/21": "",
-      "9/22": "FALSE",
-      "9/23": "FALSE",
-      "9/24": "FALSE",
-      "9/25": "FALSE",
-      "9/26": "FALSE",
-      "9/27": "FALSE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "10",
-    "position": "Merc",
-    "rank": "Conscrit",
-    "name": "Tach1bana_Hikari",
-    "discordId": "<@787341489893801984>",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1771,7 +1771,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1803,7 +1803,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1835,7 +1835,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1867,7 +1867,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1899,7 +1899,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1931,7 +1931,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1963,7 +1963,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -1995,7 +1995,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2027,7 +2027,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2059,7 +2059,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2091,7 +2091,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2123,7 +2123,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2155,7 +2155,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2187,7 +2187,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2219,7 +2219,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2251,7 +2251,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2283,7 +2283,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2315,7 +2315,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2347,7 +2347,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2379,7 +2379,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2411,7 +2411,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2443,7 +2443,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2475,7 +2475,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2507,7 +2507,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2539,7 +2539,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2571,7 +2571,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2603,7 +2603,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2635,7 +2635,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2667,7 +2667,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2699,7 +2699,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2731,7 +2731,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2763,7 +2763,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2795,7 +2795,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2827,7 +2827,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2859,7 +2859,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2891,7 +2891,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2923,7 +2923,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2955,7 +2955,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -2987,7 +2987,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3019,7 +3019,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3051,7 +3051,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3083,7 +3083,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3115,7 +3115,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3147,7 +3147,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3179,7 +3179,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3211,7 +3211,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3243,7 +3243,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3275,7 +3275,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3307,7 +3307,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3339,7 +3339,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3371,7 +3371,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3403,7 +3403,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3435,7 +3435,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3467,7 +3467,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3499,7 +3499,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3531,7 +3531,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3563,7 +3563,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3595,7 +3595,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3627,7 +3627,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3659,7 +3659,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3691,7 +3691,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3723,7 +3723,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3755,7 +3755,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3787,7 +3787,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3819,7 +3819,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3851,7 +3851,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3883,7 +3883,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3915,7 +3915,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3947,7 +3947,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -3979,7 +3979,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4011,7 +4011,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4043,7 +4043,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4075,7 +4075,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4107,7 +4107,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4139,7 +4139,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4171,7 +4171,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4203,7 +4203,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4235,7 +4235,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4267,7 +4267,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4299,7 +4299,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4331,7 +4331,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4363,7 +4363,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4395,7 +4395,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4427,7 +4427,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4459,7 +4459,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4491,7 +4491,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4523,7 +4523,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4555,7 +4555,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4587,7 +4587,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4619,7 +4619,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4651,7 +4651,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4683,7 +4683,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4715,7 +4715,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4747,7 +4747,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4779,7 +4779,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4811,7 +4811,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4843,7 +4843,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4875,7 +4875,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4907,7 +4907,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4939,7 +4939,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4971,7 +4971,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5003,7 +5003,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5035,7 +5035,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5067,7 +5067,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5099,7 +5099,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5131,7 +5131,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5163,7 +5163,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5195,7 +5195,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5227,7 +5227,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5259,7 +5259,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5291,7 +5291,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5323,7 +5323,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5355,7 +5355,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5387,7 +5387,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5419,7 +5419,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5451,7 +5451,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5483,7 +5483,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5515,7 +5515,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5547,7 +5547,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5579,7 +5579,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5611,7 +5611,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5643,7 +5643,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5675,7 +5675,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5707,7 +5707,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5739,7 +5739,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5771,7 +5771,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5803,7 +5803,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5835,7 +5835,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5867,7 +5867,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5899,7 +5899,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5931,7 +5931,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5963,7 +5963,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -5995,7 +5995,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6027,7 +6027,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6059,7 +6059,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6091,7 +6091,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6123,7 +6123,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6155,7 +6155,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6187,7 +6187,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6219,7 +6219,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6251,7 +6251,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6283,7 +6283,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6315,7 +6315,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6347,7 +6347,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6379,7 +6379,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6411,7 +6411,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6443,7 +6443,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6475,7 +6475,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6507,7 +6507,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6539,7 +6539,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6571,7 +6571,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6603,7 +6603,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6635,7 +6635,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6667,7 +6667,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6699,7 +6699,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6731,7 +6731,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6763,7 +6763,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6795,7 +6795,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6827,7 +6827,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6859,7 +6859,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6891,7 +6891,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6923,7 +6923,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6955,7 +6955,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -6987,7 +6987,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7019,7 +7019,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7051,7 +7051,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7083,7 +7083,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7115,7 +7115,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7147,7 +7147,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7179,7 +7179,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7211,7 +7211,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7243,7 +7243,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7275,7 +7275,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7307,7 +7307,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7339,7 +7339,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7371,7 +7371,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7403,7 +7403,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7435,7 +7435,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7467,7 +7467,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7499,7 +7499,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7531,7 +7531,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7563,7 +7563,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7595,7 +7595,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7627,7 +7627,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7659,7 +7659,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7691,7 +7691,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7723,7 +7723,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7755,7 +7755,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7787,7 +7787,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7819,7 +7819,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7851,7 +7851,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7883,7 +7883,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7915,7 +7915,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7947,7 +7947,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -7979,7 +7979,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8011,7 +8011,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8043,7 +8043,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8075,7 +8075,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8107,7 +8107,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8139,7 +8139,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8171,7 +8171,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8203,7 +8203,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8235,7 +8235,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8267,7 +8267,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8299,7 +8299,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8331,7 +8331,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8363,7 +8363,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8395,7 +8395,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8427,7 +8427,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8459,7 +8459,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8491,7 +8491,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8523,7 +8523,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8555,7 +8555,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8587,7 +8587,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8619,7 +8619,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8651,7 +8651,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8683,7 +8683,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8715,7 +8715,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8747,7 +8747,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8779,7 +8779,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8811,7 +8811,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8843,7 +8843,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8875,7 +8875,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8907,7 +8907,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8939,7 +8939,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -8971,7 +8971,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9003,7 +9003,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9035,7 +9035,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9067,7 +9067,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9099,7 +9099,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9131,7 +9131,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9163,7 +9163,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9195,7 +9195,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9227,7 +9227,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9259,7 +9259,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9291,7 +9291,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9323,7 +9323,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9355,7 +9355,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9387,7 +9387,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9419,7 +9419,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9451,7 +9451,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9483,7 +9483,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9515,7 +9515,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9547,7 +9547,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9579,7 +9579,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9611,7 +9611,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9643,7 +9643,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9675,7 +9675,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9707,7 +9707,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9739,7 +9739,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9771,7 +9771,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9803,7 +9803,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9835,7 +9835,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9867,7 +9867,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9899,7 +9899,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9931,7 +9931,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9963,7 +9963,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -9995,7 +9995,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -10027,7 +10027,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -10059,7 +10059,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -10091,7 +10091,7 @@
     "kpe": "0.0",
     "kdr": "0.00",
     "activity": "0",
-    "activityPct": "#DIV/0!",
+    "activityPct": "0%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
