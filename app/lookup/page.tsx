@@ -10,6 +10,8 @@ import type { SpreadsheetRow } from '@/lib/csv-parser'
 import { findActivityByName } from '@/lib/roster-data'
 import { findMedalsByUsername } from '@/lib/medals-data'
 import { findHonoursByUsername } from '@/lib/honours-data'
+import { findBattlesByUsername } from '@/lib/battles-data'
+import { BattleRecord } from '@/components/battle-record'
 import rosterData from '@/data/roster.json'
 
 const roster = rosterData as SpreadsheetRow[]
@@ -85,6 +87,8 @@ export default function LookupPage() {
                   const activity = findActivityByName(r.name)
                   const medals = findMedalsByUsername(r.name || r.returningUsername)
                   const honours = findHonoursByUsername(r.name || r.returningUsername)
+                  const battles = findBattlesByUsername(r.name || r.returningUsername)
+                  const expandable = Boolean(activity) || battles.length > 0
                   return (
                     <li
                       key={key}
@@ -99,7 +103,7 @@ export default function LookupPage() {
                         </div>
                         <div className="flex items-center gap-2 text-right">
                           <RankBadge rank={r.rank} className="text-sm text-gold" />
-                          {activity && (
+                          {expandable && (
                             <ChevronDown
                               className={`size-4 text-muted-foreground transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
                             />
@@ -131,9 +135,10 @@ export default function LookupPage() {
                         )}
                       </div>
 
-                      {isOpen && activity && (
+                      {isOpen && expandable && (
                         <div onClick={(e) => e.stopPropagation()}>
-                          <RankerTracker activity={activity} />
+                          {activity && <RankerTracker activity={activity} />}
+                          {battles.length > 0 && <BattleRecord entries={battles} />}
                         </div>
                       )}
                     </li>

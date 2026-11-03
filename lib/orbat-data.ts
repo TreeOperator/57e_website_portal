@@ -20,17 +20,29 @@ export interface OrbatBattalion {
 
 const entries = orbatRaw as OrbatEntry[]
 
-const REGIMENT_GROUP = "Etat Major du Régiment d'Infanterie Ligne"
+const REGIMENT_GROUP = "Quartier Général du 57e Régiment d'Infanterie de Ligne"
 
-// Only these groups have reliable, uniquely-named labels in the sheet.
-// Lower-level per-company blocks don't consistently carry their group name
-// (some collapse to blank or a shared generic label like "Etat-Major"), so
-// we don't attempt to render those here to avoid showing merged/wrong data.
+// The Quartier Général sheet holds one Position/Rank/Name block per
+// battalion/department, each under its own "Quartier Général ..." label.
 const KNOWN_BATTALION_GROUPS = [
-  'Etat Major du 1er Bataillon de Spécialistes',
-  'Etat Major du 2eme Bataillon de Fusiliers',
-  'Etat Major du 3eme Bataillon de Fusiliers',
-  'Etat Major du Bataillon Auxiliaire',
+  'Quartier Général des 1er Grenadiers',
+  'Quartier Général des 2eme Grenadiers',
+  'Quartier Général des 1er Voltigeurs',
+  'Quartier Général des 2eme Voltigeurs',
+  'Quartier Général des 1er Fusiliers',
+  'Quartier Général des 2eme Fusiliers',
+  'Quartier Général des 3eme Fusiliers',
+  'Quartier Général des 4eme Fusiliers',
+  'Quartier Général des Depot',
+]
+
+// Department-level Quartier Général blocks (not battalions, but shown on
+// the Chain of Command page as their own staff cards).
+const KNOWN_DEPARTMENT_GROUPS = [
+  'Quartier Général de Recrutement',
+  'Quartier Général du Propaganda',
+  'Quartier Général du Administration',
+  'Quartier Général des Défense du Drapeau',
 ]
 
 function toStaff(group: string): OrbatStaffMember[] {
@@ -42,6 +54,11 @@ function toStaff(group: string): OrbatStaffMember[] {
 export const regimentStaffFromSheet: OrbatStaffMember[] = toStaff(REGIMENT_GROUP)
 
 export const battalionCommandFromSheet: OrbatBattalion[] = KNOWN_BATTALION_GROUPS.map((group) => ({
-  name: group.replace('Etat Major du ', ''),
+  name: group.replace('Quartier Général des ', '').replace('Quartier Général du ', ''),
+  staff: toStaff(group),
+}))
+
+export const departmentCommandFromSheet: OrbatBattalion[] = KNOWN_DEPARTMENT_GROUPS.map((group) => ({
+  name: group.replace('Quartier Général des ', '').replace('Quartier Général du ', '').replace('Quartier Général de ', ''),
   staff: toStaff(group),
 }))

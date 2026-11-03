@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 
-SPREADSHEET_ID = "1jDCXIWrkTjDgxRX-2zddojWoUnD3TKYTFWdQz2DD6zc"
+SPREADSHEET_ID = "1HJXX_UW5XncWWQ3O6oo662d5-BXg9nVKz--ZA6Bhp1s"
 
 # A second spreadsheet (medals/awards), separate from the main roster sheet above.
 MEDALS_SPREADSHEET_ID = "1bwlwOFWKjZXIaXx5u53wPzUyUdWz0T10EJ7aPxWdmCk"
@@ -23,29 +23,31 @@ MEDALS_SPREADSHEET_ID = "1bwlwOFWKjZXIaXx5u53wPzUyUdWz0T10EJ7aPxWdmCk"
 # covers every regiment, so results are filtered down to our own roster below.
 HONOURS_SPREADSHEET_ID = "1eagZsy-IcPyHwDddsWQRzqnZQPry4L_5ZpOEVBsx1XM"
 
-# Sheets we actually parse into structured JSON.
+# Sheets we actually parse into structured JSON. `gids` merges several tabs
+# (one company per tab in the new sheet) into a single JSON output.
 SHEETS = [
-    {"name": "roster", "gid": "1946443746", "kind": "roster"},
-    {"name": "grens", "gid": "725308317", "kind": "activity"},
-    {"name": "volts", "gid": "1207657529", "kind": "activity"},
-    {"name": "depot", "gid": "1247444176", "kind": "activity"},
-    {"name": "fusiliers", "gid": "1586669991", "kind": "activity"},
-    {"name": "flag_guard", "gid": "367345434", "kind": "flag_guard"},
-    {"name": "orbat", "gid": "2141834013", "kind": "orbat"},
-    {"name": "player_stats", "gid": "931290841", "kind": "player_stats"},
-    {"name": "recruitment", "gid": "2031020815", "kind": "raw"},
-    {"name": "medals", "gid": "1868836415", "kind": "medals", "spreadsheet_id": MEDALS_SPREADSHEET_ID, "endpoint": "gviz"},
-    {"name": "legion_honneur", "gid": "0", "kind": "legion_honneur", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
-    {"name": "nobility", "gid": "477285371", "kind": "nobility", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
-    {"name": "grandbattles", "gid": "423540682", "kind": "grandbattle", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
-    {"name": "venerations", "gid": "236760628", "kind": "veneration", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "roster", "gids": ["1946443746"], "kind": "roster"},
+    {"name": "grens", "gids": ["985019926"], "kind": "activity"},
+    {"name": "volts", "gids": ["566353298", "1218211340"], "kind": "activity"},
+    {"name": "depot", "gids": ["1515836200"], "kind": "activity"},
+    {"name": "fusiliers", "gids": ["2105528580", "1014078763", "1353414292"], "kind": "activity"},
+    {"name": "mercs", "gids": ["1769582000"], "kind": "activity"},
+    {"name": "flag_guard", "gids": ["998697877"], "kind": "flag_guard"},
+    {"name": "orbat", "gids": ["593271524"], "kind": "orbat"},
+    # player_stats has no counterpart tab in the new spreadsheet — kept as stale JSON.
+    {"name": "recruitment", "gids": ["786117151"], "kind": "recruitment"},
+    {"name": "medals", "gids": ["1868836415"], "kind": "medals", "spreadsheet_id": MEDALS_SPREADSHEET_ID, "endpoint": "gviz"},
+    {"name": "legion_honneur", "gids": ["0"], "kind": "legion_honneur", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "nobility", "gids": ["477285371"], "kind": "nobility", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "grandbattles", "gids": ["423540682"], "kind": "grandbattle", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "venerations", "gids": ["236760628"], "kind": "veneration", "spreadsheet_id": HONOURS_SPREADSHEET_ID},
+    {"name": "kill_log", "gids": ["1095406146"], "kind": "kill_log"},
 ]
 
 # Reference/working sheets, downloaded as raw CSV only (not parsed for the site).
 RAW_ONLY_SHEETS = [
-    {"name": "kill_log", "gid": "1095406146"},
     {"name": "grading_curve", "gid": "567217808"},
-    {"name": "daily_input", "gid": "1662116744"},
+    # daily_input has no counterpart tab in the new spreadsheet — kept as stale JSON.
     {"name": "rally_summary", "gid": "429239458"},
 ]
 
@@ -83,17 +85,26 @@ def parse_roster_csv(content: str) -> list[dict]:
     for fields in reader:
         if not header_found:
             if "Rank" in fields:
+                # New roster: main block uses "Username"/"Discord ID"; the
+                # RETURNING RANKERS block re-uses "Name"/"Discord ID", so the
+                # returning discord column is the Discord ID *after* "Name".
+                name_idx = fields.index("Name") if "Name" in fields else -1
+                returning_disc_idx = -1
+                if name_idx != -1:
+                    returning_disc_idx = next(
+                        (i for i in range(name_idx, len(fields)) if fields[i] in ("Disc ID", "Discord ID")), -1
+                    )
                 column_map = {
                     "rank": fields.index("Rank"),
                     "company": fields.index("Company") if "Company" in fields else -1,
                     "position": fields.index("Position") if "Position" in fields else -1,
-                    "name": fields.index("Name") if "Name" in fields else -1,
+                    "name": fields.index("Username") if "Username" in fields else name_idx,
                     "discordId": fields.index("Discord ID") if "Discord ID" in fields else -1,
                     "robloxLink": fields.index("Roblox Profile Link") if "Roblox Profile Link" in fields else -1,
                     "points": fields.index("Points") if "Points" in fields else -1,
                     "missing": fields.index("Missing?") if "Missing?" in fields else -1,
-                    "returningUsername": fields.index("Username") if "Username" in fields else -1,
-                    "returningDiscId": fields.index("Disc ID") if "Disc ID" in fields else -1,
+                    "returningUsername": name_idx,
+                    "returningDiscId": returning_disc_idx,
                 }
                 header_found = True
             continue
@@ -148,83 +159,89 @@ def _find_header_row(rows: list[list[str]], required: list[str]) -> int:
 
 def parse_activity_csv(content: str, battalion: str) -> list[dict]:
     """
-    Parse a battalion activity sheet (GRENS/VOLTS/DEPOT/FUSILIERS).
-    These sheets repeat the same block of columns (Points, Position, Rank,
-    Name, Disc ID, K, KPE, KDR, Activity, Activity %, LOA, Grade, then daily
-    attendance columns) once per company, side by side.
+    Parse a company activity sheet (new spreadsheet format: one company per
+    tab — GRENS/VOLTS/DEPOT/FUSILIERS/MERCS). The header row carries
+    Position, Rank, Username, Discord ID, Points, Grade; the row directly
+    below it carries the stat sub-headers (Kills, KPE, KDR, Act., Act. %,
+    LOA) followed by the daily attendance date columns.
     """
     rows = list(csv.reader(content.splitlines()))
-    header_idx = _find_header_row(rows, ["Points", "Position", "Rank", "Name"])
+    header_idx = _find_header_row(rows, ["Position", "Rank", "Username"])
     if header_idx == -1:
         return []
 
     header = [c.strip() for c in rows[header_idx]]
-    block_starts = [i for i, v in enumerate(header) if v == "Points"]
+    sub_header = [c.strip() for c in rows[header_idx + 1]] if header_idx + 1 < len(rows) else []
 
-    # Leaderboard columns ("#", Rank, Name, Discord ID, -) sit after all the
-    # company blocks and reuse the "Rank"/"Name" labels, so the last block
-    # must stop before them.
-    leaderboard_col = next((i for i, v in enumerate(header) if v == "#"), len(header))
+    col_map = {}
+    for label in ("Position", "Rank", "Username", "Discord ID", "Points", "Grade"):
+        if label in header:
+            col_map[label] = header.index(label)
+
+    stat_labels = {
+        "Kills": "kills", "KPE": "kpe", "KDR": "kdr",
+        "Act.": "activity", "Act. %": "activityPct", "LOA": "loa",
+    }
+    stat_map = {}
+    date_cols = []
+    for i, label in enumerate(sub_header):
+        if label in stat_labels:
+            stat_map[stat_labels[label]] = i
+        elif "/" in label and label.replace("/", "").isdigit():
+            date_cols.append((label, i))
+
+    # Company name lives directly above the "Position" cell, a few rows up.
+    pos_col = col_map.get("Position", 0)
+    company_name = ""
+    for r in range(header_idx - 1, -1, -1):
+        if pos_col < len(rows[r]) and rows[r][pos_col].strip():
+            company_name = rows[r][pos_col].strip()
+            break
 
     results = []
-    for b, start_col in enumerate(block_starts):
-        end_col = block_starts[b + 1] if b + 1 < len(block_starts) else min(len(header), leaderboard_col)
-        sub_header = header[start_col:end_col]
+    for r in range(header_idx + 2, len(rows)):
+        row = rows[r]
 
-        col_map = {}
-        date_cols = []
-        for offset, label in enumerate(sub_header):
-            if label in ACTIVITY_FIELDS:
-                col_map.setdefault(label, start_col + offset)
-            elif "/" in label and label.replace("/", "").isdigit():
-                date_cols.append((label, start_col + offset))
+        def get(label: str) -> str:
+            idx = col_map.get(label)
+            if idx is None or idx >= len(row):
+                return ""
+            return row[idx].strip()
 
-        # Company name lives directly above the "Points" cell, a couple rows up.
-        company_name = ""
-        for r in range(header_idx - 1, -1, -1):
-            if start_col < len(rows[r]) and rows[r][start_col].strip():
-                company_name = rows[r][start_col].strip()
-                break
+        name = get("Username")
+        rank = get("Rank")
 
-        for r in range(header_idx + 1, len(rows)):
-            row = rows[r]
-            if start_col >= len(row):
-                continue
+        # Skip section-label rows ("OFFICIERS DE COMPAGNIE", "SOLDAT DU
+        # RANG", member counts) and vacant slots — nothing useful there.
+        if not name and not rank:
+            continue
 
-            def get(label: str) -> str:
-                idx = col_map.get(label)
-                if idx is None or idx >= len(row):
-                    return ""
-                return row[idx].strip()
+        def stat(key: str) -> str:
+            idx = stat_map.get(key)
+            return row[idx].strip() if idx is not None and idx < len(row) else ""
 
-            points = get("Points")
-            name = get("Name")
-            rank = get("Rank")
+        attendance = {
+            label: (row[idx].strip() if idx < len(row) else "")
+            for label, idx in date_cols
+        }
 
-            # Skip section-label rows like "Quartier General" / "Soldats du Rang"
-            # and empty/vacant slots (no name, no rank assigned).
-            if not name and not rank:
-                continue
-
-            attendance = {label: (row[idx].strip() if idx < len(row) else "") for label, idx in date_cols}
-
-            results.append({
-                "battalion": battalion,
-                "company": company_name,
-                "points": points,
-                "position": get("Position"),
-                "rank": rank,
-                "name": name,
-                "discordId": get("Disc ID"),
-                "kills": get("K"),
-                "kpe": get("KPE"),
-                "kdr": get("KDR"),
-                "activity": get("Activity"),
-                "activityPct": get("Activity %"),
-                "loa": get("LOA"),
-                "grade": get("Grade"),
-                "attendance": attendance,
-            })
+        results.append({
+            "battalion": battalion,
+            "company": company_name,
+            "points": get("Points"),
+            "position": get("Position"),
+            "rank": rank,
+            "name": name,
+            "discordId": get("Discord ID"),
+            "kills": stat("kills"),
+            "kpe": stat("kpe"),
+            "kdr": stat("kdr"),
+            "activity": stat("activity"),
+            "activityPct": stat("activityPct"),
+            "loa": stat("loa"),
+            "grade": get("Grade"),
+            "attendance": attendance,
+        })
 
     return results
 
@@ -253,10 +270,18 @@ def parse_orbat_csv(content: str) -> list[dict]:
                 if label in ("Position", "Rank", "Name"):
                     col_map.setdefault(label, start_col + offset)
 
+            # Group label sits one column left of the block's "Position"
+            # column, on the row directly above the header (e.g. "Quartier
+            # Général des 1er Fusiliers" at col 3, block starting col 4).
+            # Scanning at start_col itself would hit the previous block's
+            # data rows, so check start_col - 1 first.
             group_name = ""
             for r in range(header_idx - 1, -1, -1):
-                if start_col < len(rows[r]) and rows[r][start_col].strip():
-                    group_name = rows[r][start_col].strip()
+                for c in (start_col - 1, start_col):
+                    if 0 <= c < len(rows[r]) and rows[r][c].strip():
+                        group_name = rows[r][c].strip()
+                        break
+                if group_name:
                     break
 
             for r in range(header_idx + 1, next_header_idx):
@@ -402,6 +427,113 @@ def parse_flag_guard_csv(content: str) -> list[dict]:
     return results
 
 
+def parse_recruitment_csv(content: str) -> list[dict]:
+    """
+    Parse the Département de Recrutement sheet (same department-roster style
+    as Drapeu). Two blocks sit on one header row:
+      - Left (Etat Major): Position / Rank / Username — the department staff.
+      - Right (Les Recruteurs): # / Medal / LOA / Username / Company /
+        Discord ID / weekly recruit counts / Activity — every recruiter's
+        home company is in the "Company" column.
+    Military rank is left blank for recruiters and backfilled in main() from
+    the combat rosters (like flag_guard).
+    """
+    rows = list(csv.reader(content.splitlines()))
+
+    header_idx = _find_header_row(rows, ["Username", "Company", "Discord ID"])
+    if header_idx == -1:
+        return []
+
+    header = [c.strip() for c in rows[header_idx]]
+    idx_company = header.index("Company")
+    # The recruiter block's Username sits immediately left of Company — the
+    # staff block also has a "Username" column further left, so anchor on
+    # Company rather than a bare Username search.
+    idx_username = idx_company - 1
+    idx_discord = header.index("Discord ID", idx_username)
+    idx_medal = header.index("Medal") if "Medal" in header else -1
+    idx_loa = header.index("LOA") if "LOA" in header else -1
+    idx_activity = header.index("Activity", idx_username) if "Activity" in header[idx_username:] else -1
+
+    # Recruit-count stat columns between Discord ID and Activity
+    # (AS / EU / MO / AS / EU / LT — the second AS/EU pair and LT are
+    # longer-window totals). Duplicated labels get a _2 suffix.
+    stat_cols = []
+    stat_end = idx_activity if idx_activity != -1 else len(header)
+    for i in range(idx_discord + 1, stat_end):
+        if i < len(header) and header[i]:
+            label = header[i]
+            dupes = sum(1 for _, l in stat_cols if l == label)
+            stat_cols.append((f"{label}_{dupes + 1}" if dupes else label, i))
+
+    results = []
+
+    # Left block: department staff (Position / Rank / Username columns to the
+    # left of the recruiter block).
+    idx_pos = header.index("Position") if "Position" in header else -1
+    idx_rank = header.index("Rank") if "Rank" in header else -1
+    idx_staff_name = header.index("Username", idx_rank) if idx_rank != -1 else -1
+    if idx_pos != -1 and idx_staff_name != -1:
+        for row in rows[header_idx + 1:]:
+            def get(i: int) -> str:
+                return row[i].strip() if 0 <= i < len(row) else ""
+
+            name = get(idx_staff_name)
+            position = get(idx_pos)
+            # Skip stat-label rows leaking into the staff columns
+            # ("Current BW Recruits" / weekly counts put numbers and
+            # dates like "3" / "11/2" into the Username column).
+            if not name or name in ("-", "#N/A") or not position:
+                continue
+            if all(ch.isdigit() or ch in "./-" for ch in name):
+                continue
+            results.append({
+                "battalion": "recruitment",
+                "company": "Etat Major du Recrutement",
+                "points": "",
+                "position": position,
+                "rank": get(idx_rank),
+                "name": name,
+                "discordId": "",
+                "kills": "", "kpe": "", "kdr": "", "activity": "",
+                "activityPct": "", "loa": "", "grade": "",
+                "attendance": {},
+                "medal": "",
+            })
+
+    # Right block: every recruiter, with their home company + medal tier.
+    for row in rows[header_idx + 1:]:
+        def get(i: int) -> str:
+            return row[i].strip() if 0 <= i < len(row) else ""
+
+        name = get(idx_username)
+        if not name or name in ("-", "#N/A"):
+            continue
+
+        company = get(idx_company)
+        if company in ("not found", "#N/A", "-"):
+            company = ""
+
+        results.append({
+            "battalion": "recruitment",
+            "company": company,
+            "points": "",
+            "position": "Recruteur",
+            "rank": "",
+            "name": name,
+            "discordId": get(idx_discord),
+            "kills": "", "kpe": "", "kdr": "", "activity": "",
+            "activityPct": get(idx_activity) if idx_activity != -1 else "",
+            "loa": get(idx_loa) if idx_loa != -1 else "",
+            "grade": "",
+            "attendance": {},
+            "medal": get(idx_medal) if idx_medal != -1 else "",
+            "stats": {label: get(i) for label, i in stat_cols},
+        })
+
+    return results
+
+
 def parse_medals_csv(content: str) -> list[dict]:
     """
     Parse the medals/awards sheet: one row per medal awarded, columns
@@ -460,6 +592,7 @@ def parse_legion_honneur_csv(content: str) -> list[dict]:
     idx_medal = header.index("Medal")
     idx_class = header.index("Medal Class")
     idx_reason = header.index("Recommended Reason") if "Recommended Reason" in header else -1
+    idx_awarded = header.index("Awarded Date") if "Awarded Date" in header else -1
 
     results = []
     for row in rows[header_idx + 1:]:
@@ -477,6 +610,7 @@ def parse_legion_honneur_csv(content: str) -> list[dict]:
             "medal": medal,
             "class": get(idx_class),
             "reason": get(idx_reason) if idx_reason != -1 else "",
+            "awardedDate": get(idx_awarded) if idx_awarded != -1 else "",
         })
 
     return results
@@ -564,6 +698,74 @@ def parse_honour_csv(content: str, honour_type: str, date_label: str) -> list[di
     return results
 
 
+def parse_kill_log_csv(content: str) -> dict:
+    """
+    Parse the kill log sheet (DATE / USERNAME / KILLS / DEATHS / ASSISTS /
+    COMPANY / POINTS) into a per-player battle history:
+    {username: [{date, kills, deaths, assists, company, points}]}.
+
+    Rows that carry actual stats (any of KILLS/DEATHS/ASSISTS filled) are
+    kept as individual battle records — a player can have several battles
+    on the same date. Rows with no stats at all are point-award ticks
+    (POINTS is nearly always "1"; the 22/12/2025 block is a bulk backfill
+    of thousands of these), so they are merged into one entry per
+    (username, date, company) with `points` summed and `battles` set to
+    the merged row count.
+    """
+    rows = list(csv.reader(content.splitlines()))
+    header_idx = _find_header_row(rows, ["DATE", "USERNAME", "KILLS"])
+    if header_idx == -1:
+        return {}
+
+    header = [c.strip() for c in rows[header_idx]]
+    idx = {label: header.index(label) for label in ("DATE", "USERNAME", "KILLS", "DEATHS", "ASSISTS", "COMPANY", "POINTS") if label in header}
+
+    history: dict[str, list[dict]] = {}
+    point_buckets: dict[tuple, dict] = {}
+    seen_stats: set[tuple] = set()
+
+    for row in rows[header_idx + 1:]:
+        def get(label: str) -> str:
+            i = idx.get(label, -1)
+            return row[i].strip() if 0 <= i < len(row) else ""
+
+        username = get("USERNAME")
+        if not username:
+            continue
+
+        kills, deaths, assists = get("KILLS"), get("DEATHS"), get("ASSISTS")
+        date, company, points = get("DATE"), get("COMPANY"), get("POINTS")
+
+        if kills or deaths or assists:
+            # The sheet frequently double-logs a battle (identical stats on
+            # identical date) — skip exact repeats so kills aren't inflated.
+            stat_key = (username, date, kills, deaths, assists, company)
+            if stat_key in seen_stats:
+                continue
+            seen_stats.add(stat_key)
+            history.setdefault(username, []).append({
+                "date": date, "kills": kills, "deaths": deaths,
+                "assists": assists, "company": company, "points": points,
+            })
+            continue
+
+        bucket_key = (username, date, company)
+        bucket = point_buckets.get(bucket_key)
+        if bucket is None:
+            bucket = {"date": date, "kills": "", "deaths": "", "assists": "",
+                      "company": company, "points": 0, "battles": 0}
+            point_buckets[bucket_key] = bucket
+            history.setdefault(username, []).append(bucket)
+        bucket["battles"] += 1
+        if points.isdigit():
+            bucket["points"] += int(points)
+
+    for bucket in point_buckets.values():
+        bucket["points"] = str(bucket["points"])
+
+    return history
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
 
@@ -574,15 +776,15 @@ def main():
 
     for sheet in SHEETS:
         name = sheet["name"]
-        gid = sheet["gid"]
+        gids = sheet["gids"]
         kind = sheet["kind"]
         spreadsheet_id = sheet.get("spreadsheet_id", SPREADSHEET_ID)
         endpoint = sheet.get("endpoint", "export")
 
-        csv_content = download_csv(name, gid, spreadsheet_id, endpoint)
+        csv_contents = [download_csv(name, gid, spreadsheet_id, endpoint) for gid in gids]
 
         if kind == "roster":
-            data = parse_roster_csv(csv_content)
+            data = [r for c in csv_contents for r in parse_roster_csv(c)]
             # Every username our players are known by, for filtering the
             # Empire-wide Nobility/Grand Battles/Venerations sheets down to
             # just our own roster below.
@@ -591,35 +793,49 @@ def main():
                     if r.get(key):
                         roster_usernames.add(r[key].strip().lower())
         elif kind == "activity":
-            data = parse_activity_csv(csv_content, battalion=name)
+            data = [r for c in csv_contents for r in parse_activity_csv(c, battalion=name)]
             activity_all.extend(data)
         elif kind == "orbat":
-            data = parse_orbat_csv(csv_content)
+            data = [r for c in csv_contents for r in parse_orbat_csv(c)]
         elif kind == "player_stats":
-            data = parse_player_stats_csv(csv_content)
+            data = parse_player_stats_csv(csv_contents[0])
         elif kind == "medals":
-            data = parse_medals_csv(csv_content)
+            data = [r for c in csv_contents for r in parse_medals_csv(c)]
             medals_data = data
         elif kind == "legion_honneur":
-            data = parse_legion_honneur_csv(csv_content)
+            data = [r for c in csv_contents for r in parse_legion_honneur_csv(c)]
             data = [r for r in data if r["username"].strip().lower() in roster_usernames]
             legion_honneur_data = data
         elif kind == "nobility":
-            data = parse_nobility_csv(csv_content)
+            data = [r for c in csv_contents for r in parse_nobility_csv(c)]
             data = [r for r in data if r["username"].strip().lower() in roster_usernames]
+        elif kind == "kill_log":
+            data = {}
+            for c in csv_contents:
+                for username, entries in parse_kill_log_csv(c).items():
+                    if username.strip().lower() in roster_usernames:
+                        data.setdefault(username, []).extend(entries)
         elif kind in ("grandbattle", "veneration"):
             date_label = "Date Awarded" if kind == "grandbattle" else "Date Changed"
-            data = parse_honour_csv(csv_content, kind, date_label)
+            data = [r for c in csv_contents for r in parse_honour_csv(c, kind, date_label)]
             data = [r for r in data if r["username"].strip().lower() in roster_usernames]
         elif kind == "flag_guard":
-            data = parse_flag_guard_csv(csv_content)
+            data = [r for c in csv_contents for r in parse_flag_guard_csv(c)]
             # Backfill real military rank from the combat rosters (this sheet's
             # own "Rank" column is actually the Flag Guard role, not a rank).
             rank_by_name = {r["name"].lower(): r["rank"] for r in activity_all if r.get("name")}
             for row in data:
                 row["rank"] = rank_by_name.get(row["name"].lower(), "")
+        elif kind == "recruitment":
+            data = [r for c in csv_contents for r in parse_recruitment_csv(c)]
+            # Backfill military rank from the combat rosters for recruiters
+            # (staff rows already carry their own rank).
+            rank_by_name = {r["name"].lower(): r["rank"] for r in activity_all if r.get("name")}
+            for row in data:
+                if not row["rank"]:
+                    row["rank"] = rank_by_name.get(row["name"].lower(), "")
         else:
-            data = parse_raw_csv(csv_content)
+            data = [row for c in csv_contents for row in parse_raw_csv(c)]
 
         out_path = DATA_DIR / f"{name}.json"
         with open(out_path, "w", encoding="utf-8") as f:
@@ -642,6 +858,27 @@ def main():
             continue
         existing_keys.add(key)
         merged_medals.append(m)
+
+    # Backfill "Recommended Reason" + "Awarded Date" from the France-wide
+    # medal list onto awards that came from the primary medals sheet (which
+    # has neither column). Match on username + medal + class, same as the
+    # merge key.
+    extra_by_key = {
+        (m["username"].strip().lower(), m["medal"].strip().lower(), m["class"].strip().lower()): m
+        for m in legion_honneur_data
+    }
+    backfilled = 0
+    for m in merged_medals:
+        key = (m["username"].strip().lower(), m["medal"].strip().lower(), m["class"].strip().lower())
+        extra = extra_by_key.get(key)
+        if not extra:
+            continue
+        if not m.get("reason") and extra.get("reason"):
+            m["reason"] = extra["reason"]
+            backfilled += 1
+        if not m.get("awardedDate") and extra.get("awardedDate"):
+            m["awardedDate"] = extra["awardedDate"]
+    print(f"Backfilled reasons onto {backfilled} medals from the France-wide list")
 
     medals_path = DATA_DIR / "medals.json"
     with open(medals_path, "w", encoding="utf-8") as f:

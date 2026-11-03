@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const ROOT = join(__dirname, '..')
 
-const SPREADSHEET_ID = '1jDCXIWrkTjDgxRX-2zddojWoUnD3TKYTFWdQz2DD6zc'
+const SPREADSHEET_ID = '1HJXX_UW5XncWWQ3O6oo662d5-BXg9nVKz--ZA6Bhp1s'
 const OUT_DIR = join(ROOT, 'public', 'data')
 
 // Add more sheets here as we get their gid tab IDs.

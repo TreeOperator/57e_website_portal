@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Bicorne } from '@/components/insignia'
-import { regimentStaffFromSheet, type OrbatStaffMember } from '@/lib/orbat-data'
+import { regimentStaffFromSheet, departmentCommandFromSheet, type OrbatStaffMember } from '@/lib/orbat-data'
 import { battalionRosters, getCommandStaff, type ActivityRow, type BattalionRoster } from '@/lib/roster-data'
 import { RankBadge } from '@/components/rank-badge'
 
@@ -63,18 +63,44 @@ function CompanyCard({
   /** When true (e.g. Flag Guard), list every member instead of only command billets. */
   showAll?: boolean
 }) {
+  // Full-member lists (Drapeu) start collapsed — they're long, so each
+  // company card is toggled open with the chevron instead.
+  const [open, setOpen] = useState(!showAll)
   const displayed = showAll ? members : getCommandStaff(members)
   return (
     <div className="rounded-md border border-border/70 bg-background/40 px-3.5 py-3 transition-colors duration-300 hover:border-gold/40">
-      <p className="border-b border-border/60 pb-2 text-center font-serif text-[13px] leading-snug text-ivory text-pretty">
-        {name}
-      </p>
-      <div className="mt-1 divide-y divide-border/40">
-        {displayed.length > 0 ? (
-          displayed.map((m, i) => <CompanyMemberRow key={`${m.position}-${i}`} member={m} />)
-        ) : (
-          <p className="py-2 text-center text-[11px] italic text-muted-foreground/60">No command data</p>
+      {showAll ? (
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          className="flex w-full items-center justify-center gap-2 border-b border-border/60 pb-2 text-center"
+        >
+          <span className="font-serif text-[13px] leading-snug text-ivory text-pretty">{name}</span>
+          <ChevronDown
+            className={cn('size-3.5 shrink-0 text-gold-muted transition-transform duration-300', open ? 'rotate-180' : '')}
+          />
+        </button>
+      ) : (
+        <p className="border-b border-border/60 pb-2 text-center font-serif text-[13px] leading-snug text-ivory text-pretty">
+          {name}
+        </p>
+      )}
+      <div
+        className={cn(
+          'grid transition-[grid-template-rows] duration-300 ease-in-out',
+          open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]',
         )}
+      >
+        <div className="overflow-hidden">
+          <div className="mt-1 divide-y divide-border/40">
+            {displayed.length > 0 ? (
+              displayed.map((m, i) => <CompanyMemberRow key={`${m.position}-${i}`} member={m} />)
+            ) : (
+              <p className="py-2 text-center text-[11px] italic text-muted-foreground/60">No command data</p>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -156,13 +182,41 @@ export function OrgChart() {
 
       {/* Battalion row — symmetrical grid, wide enough to fit every battalion (incl. Flag Guard) on one row */}
       <div className="mt-0 grid w-full max-w-[100rem] items-start gap-4 px-4 pt-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-        {battalionRosters.map((b) => (
-          <div key={b.key} className="flex flex-col items-center">
-            <Stem className="-mt-6 h-6" />
-            <BattalionColumn battalion={b} showAll={b.key === 'flag_guard'} />
-          </div>
-        ))}
+        {battalionRosters
+          .filter((b) => b.key !== 'mercs')
+          .map((b) => (
+            <div key={b.key} className="flex flex-col items-center">
+              <Stem className="-mt-6 h-6" />
+              <BattalionColumn battalion={b} showAll={b.key === 'flag_guard'} />
+            </div>
+          ))}
       </div>
+
+      {/* Department Quartier Général staff (Recrutement, Propaganda, etc.) */}
+      {departmentCommandFromSheet.some((d) => d.staff.length > 0) && (
+        <div className="mt-14 w-full max-w-[100rem] px-4">
+          <p className="text-center text-[10px] font-semibold uppercase tracking-wider-2 text-gold">
+            Quartier Général — Départements
+          </p>
+          <div className="mt-4 grid items-start gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {departmentCommandFromSheet.map((d) => (
+              <div
+                key={d.name}
+                className="rounded-md border border-border/70 bg-background/40 px-4 py-3 transition-colors duration-300 hover:border-gold/40"
+              >
+                <p className="border-b border-border/60 pb-2 text-center font-serif text-[13px] text-ivory text-pretty">
+                  {d.name}
+                </p>
+                <div className="mt-1 divide-y divide-border/40">
+                  {d.staff.map((m, i) => (
+                    <StaffRow key={`${m.position}-${i}`} member={m} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 }

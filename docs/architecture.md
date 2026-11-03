@@ -33,19 +33,22 @@ scripts/
   sync-sheets.mjs      # older/alternate Node CSV downloader (curl-based)
 
 data/                  # generated JSON snapshots (see §3 for what's parsed vs raw)
-  roster.json, grens.json, volts.json, depot.json, fusiliers.json, flag_guard.json,
-  orbat.json, player_stats.json, activity.json (combined all battalions incl. flag_guard),
-  medals.json, nobility.json, grandbattles.json, venerations.json,
-  recruitment.json, kill_log.json, grading_curve.json,
-  daily_input.json, rally_summary.json
+  roster.json, grens.json, volts.json, depot.json, fusiliers.json, mercs.json,
+  flag_guard.json, orbat.json, player_stats.json,
+  activity.json (combined combat battalions: grens/volts/depot/fusiliers/mercs),
+  medals.json (primary medals sheet + merged Legion d'Honneur rows),
+  legion_honneur.json, nobility.json, grandbattles.json, venerations.json,
+  recruitment.json, kill_log.json (per-player battle history dict),
+  grading_curve.json, daily_input.json, rally_summary.json
 
 lib/
   csv-parser.ts        # SpreadsheetRow type + generic CSV parse helpers (client-side, legacy)
-  roster-data.ts        # shapes grens/volts/depot/fusiliers/flag_guard JSON into BattalionRoster[];
+  roster-data.ts        # shapes grens/volts/depot/fusiliers/mercs/flag_guard JSON into BattalionRoster[];
                           # getCommandStaff() returns CO+XO (single) + ALL Etat Major members (some companies have 2+)
   orbat-data.ts          # shapes orbat.json into regimental/battalion staff lists
   medals-data.ts          # medals.json -> findMedalsByUsername()
   honours-data.ts          # nobility/grandbattles/venerations.json -> findHonoursByUsername(), badge color styles
+  battles-data.ts          # kill_log.json -> findBattlesByUsername() (sorted newest-first) + battleTotals()
   leaderboard-data.ts       # cross-company/battalion ranking metrics, Flag Guard ranked separately (different stat shape)
   regiment-data.ts        # hand-maintained regiment facts, battle honours, major victories, wiki article stubs
   regimental-info.ts        # verbatim transcription of the Fandom wiki page
@@ -55,6 +58,7 @@ components/
   app-shell.tsx        # sidebar nav + page frame; footer includes Deuxieme_eagle_flags.png banner on every page
   page-header.tsx       # shared page title/eyebrow/description block
   company-roster.tsx     # ACTIVE: roster page UI ("Company Rosters"), tabs by battalion -> company tables
+  battle-record.tsx       # per-player battle history panel (kill log) used in Player Lookup
   org-chart.tsx            # ACTIVE: Chain of Command page UI; Flag Guard uses showAll mode (lists every member, no CO/XO/Etat-Major split)
   ranker-tracker.tsx        # player activity/attendance detail panel (used in Player Lookup)
   rank-badge.tsx             # maps rank text codes (e.g. "A0.") to image-based insignia icons
@@ -66,7 +70,7 @@ app/
   page.tsx                          # Overview — hero, stats, history, battle honours, Major Victories log
   roster/page.tsx                    # -> CompanyRosterView (company-roster.tsx), "Company Rosters" nav label
   order-of-battle/page.tsx             # -> OrgChart (org-chart.tsx), "Chain of Command" nav label
-  lookup/page.tsx                        # Player Lookup: search roster.json, enrich with activity + medals + honours, infinite scroll
+  lookup/page.tsx                        # Player Lookup: search roster.json, enrich with activity + medals + honours + battle record, infinite scroll
   leaderboards/page.tsx                    # Tabs: combat rankings, player comparison, company averages, Flag Guard
   regimental-information/page.tsx          # Full wiki transcription, sourced from lib/regimental-info.ts
   archive/page.tsx + archive/[slug]/           # OLD "Archive" pages, built on regiment-data.ts wikiArticles;
@@ -86,10 +90,17 @@ once confirmed unnecessary, but left in place for now.
 ## 3. The data pipeline (Sheets -> JSON -> UI)
 
 ### Source spreadsheets (three, all in `scripts/build_data.py`)
-1. **Main roster spreadsheet** — `SPREADSHEET_ID = "1jDCXIWrkTjDgxRX-2zddojWoUnD3TKYTFWdQz2DD6zc"`.
-   Roster, per-battalion activity (grens/volts/depot/fusiliers), Flag Guard,
-   ORBAT, player stats, recruitment, and the `RAW_ONLY_SHEETS` (kill log,
-   grading curve, daily input, rally summary).
+1. **Main roster spreadsheet** — `SPREADSHEET_ID = "1HJXX_UW5XncWWQ3O6oo662d5-BXg9nVKz--ZA6Bhp1s"`
+   (new spreadsheet after the regiment's migration; the old
+   `1jDCXIWrkTjDgxRX-2zddojWoUnD3TKYTFWdQz2DD6zc` is retired).
+   Roster, per-company activity tabs (grens, 1er/2eme volts, depot,
+   1er/2eme/3eme fusiliers, mercs — one company per tab, merged back into
+   one `volts.json`/`fusiliers.json` etc. via the `gids` list per SHEETS
+   entry), Flag Guard (tab "Drapeu"), Quartier Général (ORBAT),
+   recruitment, kill log, and the `RAW_ONLY_SHEETS` (grading curve,
+   rally summary). `player_stats`/`daily_input` have no counterpart tabs in
+   the new sheet — their last JSON snapshots remain in `data/` but no
+   longer refresh.
 2. **Medals spreadsheet** — `MEDALS_SPREADSHEET_ID = "1bwlwOFWKjZXIaXx5u53wPzUyUdWz0T10EJ7aPxWdmCk"`.
    One tab (`medals`), downloaded via the `gviz` endpoint because `export`
    401s on it (Workspace-restricted export, gviz still works).
@@ -97,14 +108,14 @@ once confirmed unnecessary, but left in place for now.
    Covers every regiment in the Empire, not just 57e, so every sheet parsed
    from it is filtered down to `roster_usernames` (built from `roster.json`'s
    `name`/`returningUsername` fields) inside `main()` before being saved.
-   Tabs currently wired: `nobility` (gid 477285371), `grandbattles` (gid
-   423540682), `venerations` (gid 236760628). **Pending/next**: `gid=0` is a
-   France-nationwide **Légion d'Honneur medal list** (same shape as the
-   `medals` sheet: Username/Medal/Medal Class) that has recipients the other
-   `medals` spreadsheet is missing — needs its own parser, roster-filtering,
-   and a de-duplicated merge into `medals.json` (don't double-add a
-   medal+class a player already has from the other sheet). Not implemented
-   yet as of this writing.
+   Tabs wired: `nobility` (gid 477285371), `grandbattles` (gid 423540682),
+   `venerations` (gid 236760628), and `legion_honneur` (gid 0 — the
+   France-nationwide Légion d'Honneur list). After the per-sheet loop,
+   `main()` merges `legion_honneur.json` into `medals.json`, skipping
+   awards a player already has from the primary medals sheet (same
+   username+medal+class, case-insensitive) and backfilling `reason` /
+   `awardedDate` onto primary-sheet awards that the France-wide list
+   annotates.
 
 Each tab has a `gid` (visible in the sheet URL as `#gid=...`).
 
@@ -113,7 +124,8 @@ Run manually: `python scripts/build_data.py`.
 
 - `SHEETS` (parsed into structured JSON) and `RAW_ONLY_SHEETS` (dumped as raw
   row arrays, not yet structured) are declared at the top of the file as
-  `{name, gid, kind}` entries.
+  `{name, gids, kind}` entries — `gids` is a list so multi-tab battalions
+  (volts = 2 tabs, fusiliers = 3 tabs) merge into one output file.
 - `download_csv()` hits
   `https://docs.google.com/spreadsheets/d/{ID}/export?format=csv&gid={gid}`
   — no auth needed since the sheet is link-shared.
@@ -126,17 +138,21 @@ Each parser is written to that specific layout:
 | kind | function | shape produced |
 |---|---|---|
 | `roster` | `parse_roster_csv` | flat list of officer rows (rank, company, position, name, discord, roblox link, points) |
-| `activity` | `parse_activity_csv` | per-battalion list; finds every `"Points"` column as a company-block start, slices that block's own header, and reads `attendance` as a nested dict of date-column -> value. Run once per battalion (grens/volts/depot/fusiliers) |
+| `activity` | `parse_activity_csv` | per-battalion list; new-sheet format has one company per tab: header row `Position/Rank/Username/Discord ID/Points/Grade`, stat sub-headers (`Kills/KPE/KDR/Act./Act. %/LOA`) on the row below, then date columns — `attendance` is a nested dict of date-column -> value |
 | `orbat` | `parse_orbat_csv` | flat list of `{group, position, rank, name}` — `group` = the label sitting above a `Position/Rank/Name` column block (regimental staff, battalion staff blocks, etc.) |
 | `player_stats` | `parse_player_stats_csv` | single dict `{username, entries:[{date,kills,deaths}]}` |
-| `raw` | `parse_raw_csv` | just `list(csv.reader(...))` — no structure, used for sheets not yet wired into the UI (recruitment, kill_log, grading_curve, daily_input, rally_summary) |
+| `kill_log` | `parse_kill_log_csv` | dict `{username: [{date, kills, deaths, assists, company, points}]}` — rows carrying any K/D/A stat are kept as individual battle records (multiple per date allowed); stat-less rows are point-award ticks (POINTS≈1, incl. a ~20k-row 22/12/2025 backfill) merged into one entry per (username, date, company) with `points` summed and `battles` = merged count. Filtered to `roster_usernames` |
+| `recruitment` | `parse_recruitment_csv` | flat list, same shape as activity rows plus `medal`/`stats`; two side-by-side blocks parsed separately (Etat Major staff left block, recruiter roster right block), recruiter military rank backfilled from combat rosters like flag_guard |
+| `legion_honneur` | `parse_legion_honneur_csv` | flat list `{username, profileLink, medal, class, reason, awardedDate}` — France-nationwide, roster-filtered, then merged into `medals.json` with dedup (see §3 source 3) |
+| `raw` | `parse_raw_csv` | just `list(csv.reader(...))` — no structure, used for sheets not yet wired into the UI (grading_curve, daily_input, rally_summary) |
 | `flag_guard` | `parse_flag_guard_csv` | flat list, one continuous roster across all companies; sheet's own "Rank" column is actually the FG role (e.g. "Porte Drapeau"), not military rank — military rank is backfilled in `main()` by matching name against the already-parsed `activity_all` combat rosters |
 | `medals` | `parse_medals_csv` | flat list `{username, profileLink, medal, class}`, one row per award |
 | `nobility` | `parse_nobility_csv` | flat list `{username, profileLink, order, label, status, date}` — `label` is the actual title (Baron/Comte/Duc/Chevalier), found one column after the "Nobility Class" header since that column itself just holds the constant order name |
 | `grandbattle` / `veneration` | `parse_honour_csv` | flat list `{username, profileLink, type, label: "Rank {n}", status, date}` — both sheets share the same Username/Profile Link/Type/Rank/Status/.../Date layout, only the date column's label differs |
 
 `main()` writes each sheet to `data/{name}.json`, and additionally
-concatenates all 4 battalion activity lists into `data/activity.json`.
+concatenates all 5 battalion activity lists into `data/activity.json`
+(flag_guard/recruitment are separate kinds and are not included).
 
 ### Step 3 — Structure for the frontend: `lib/*-data.ts`
 Next.js imports `.json` files as plain JS objects (no `fetch`/`JSON.parse`
@@ -163,11 +179,18 @@ components actually render:
   honours = purple/nobility, blue/grandbattle, red/veneration via
   `HONOUR_BADGE_STYLES`).
 
+- **`lib/battles-data.ts`**: imports `kill_log.json` (per-player battle
+  history dict), exposes `findBattlesByUsername()` (case-insensitive,
+  returns entries sorted newest-first by parsing the DD/MM/YYYY dates) and
+  `battleTotals()` (career engagements/kills/deaths/assists/points/KDR).
+  Consumed by `app/lookup/page.tsx` via `components/battle-record.tsx`,
+  which renders inside the expanded player card alongside `RankerTracker`.
+
 ### What's NOT wired into the UI yet
-`recruitment.json`, `kill_log.json`, `grading_curve.json`,
-`daily_input.json`, `rally_summary.json` are downloaded as raw row arrays
-but have no `lib/*.ts` structuring layer or component consuming them yet.
-They exist for future use.
+`grading_curve.json`, `daily_input.json`, `rally_summary.json` are
+downloaded as raw row arrays but have no `lib/*.ts` structuring layer or
+component consuming them yet. `recruitment.json` is parsed but has no UI
+consumer yet either. They exist for future use.
 
 ---
 
@@ -267,16 +290,6 @@ blocked on the spreadsheet, not the code.
 
 ## 10. Pending work / next session
 
-- **France-nationwide Légion d'Honneur medals** (Empire-wide honours
-  spreadsheet, `gid=0`) — same `Username`/`Medal`/`Medal Class` shape as the
-  existing `medals` sheet, but catches recipients the other sheet is
-  missing. Need to: write a parser (reuse `parse_medals_csv`'s column
-  lookup pattern, `Medal` idx +1 like nobility's title column, or check
-  actual header names via `_find_header_row`), filter to
-  `roster_usernames` like the other honours tabs, then **merge into
-  `medals.json` with de-duplication** (skip if the exact same
-  `username`+`medal`+`class` already exists from the primary medals sheet).
-  Not yet implemented as of this doc's last update.
 - ORBAT/depot inconsistency above — deferred, no action needed unless the
   sheet maintainers don't fix it.
 - Make the process more efficient
