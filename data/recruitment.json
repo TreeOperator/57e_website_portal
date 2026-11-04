@@ -287,10 +287,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "18",
+      "AS": "19",
       "EU": "4",
       "MO": "0",
-      "LT": "77"
+      "LT": "78"
     }
   },
   {
@@ -456,9 +456,9 @@
     "medal": "Bronze",
     "stats": {
       "AS": "25",
-      "EU": "21",
+      "EU": "22",
       "MO": "0",
-      "LT": "48"
+      "LT": "49"
     }
   },
   {
@@ -511,30 +511,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "GunthertheAwsome1",
-    "discordId": "<@1274329867932143806>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Bronze",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "23"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "Grenadiers de Amiens \"Leipzig\"",
     "points": "",
     "position": "Recruteur",
@@ -552,7 +528,31 @@
     "medal": "None",
     "stats": {
       "AS": "10",
-      "EU": "9",
+      "EU": "10",
+      "MO": "0",
+      "LT": "25"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "GunthertheAwsome1",
+    "discordId": "<@1274329867932143806>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
       "LT": "23"
     }
@@ -1807,6 +1807,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "GhostKillerAtSide",
+    "discordId": "<@1520770493320400948>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "1",
+      "EU": "1",
+      "MO": "2",
+      "LT": "2"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -2455,7 +2479,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
+    "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Caporal de Premier",
@@ -2791,30 +2815,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "GhostKillerFront",
-    "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "1",
-      "EU": "0",
-      "MO": "0",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "Depot de Montbéliard",
     "points": "",
     "position": "Recruteur",
@@ -2833,7 +2833,7 @@
     "stats": {
       "AS": "1",
       "EU": "0",
-      "MO": "0",
+      "MO": "1",
       "LT": "1"
     }
   }
