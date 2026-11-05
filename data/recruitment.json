@@ -192,9 +192,9 @@
     "medal": "Gold",
     "stats": {
       "AS": "64",
-      "EU": "40",
+      "EU": "41",
       "MO": "1",
-      "LT": "135"
+      "LT": "137"
     }
   },
   {
@@ -290,7 +290,7 @@
       "AS": "19",
       "EU": "4",
       "MO": "0",
-      "LT": "78"
+      "LT": "79"
     }
   },
   {
@@ -410,7 +410,7 @@
       "AS": "30",
       "EU": "16",
       "MO": "0",
-      "LT": "51"
+      "LT": "52"
     }
   },
   {
@@ -1279,6 +1279,54 @@
   },
   {
     "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "fireBastiii",
+    "discordId": "<@989110834426945567>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "2",
+      "EU": "0",
+      "MO": "0",
+      "LT": "4"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "GhostKillerAtSide",
+    "discordId": "<@1520770493320400948>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "3",
+      "EU": "1",
+      "MO": "2",
+      "LT": "4"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1369,6 +1417,30 @@
     "stats": {
       "AS": "3",
       "EU": "0",
+      "MO": "0",
+      "LT": "3"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "Jikil2002",
+    "discordId": "<@1203973871125143594>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "2",
+      "EU": "1",
       "MO": "0",
       "LT": "3"
     }
@@ -1687,30 +1759,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "Jikil2002",
-    "discordId": "<@1203973871125143594>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "2",
-      "EU": "0",
-      "MO": "0",
-      "LT": "2"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "3eme Fusiliers \"Rivoli\"",
     "points": "",
     "position": "Recruteur",
@@ -1778,54 +1826,6 @@
       "AS": "0",
       "EU": "2",
       "MO": "0",
-      "LT": "2"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "fireBastiii",
-    "discordId": "<@989110834426945567>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "1",
-      "EU": "0",
-      "MO": "0",
-      "LT": "2"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat",
-    "name": "GhostKillerAtSide",
-    "discordId": "<@1520770493320400948>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "1",
-      "EU": "1",
-      "MO": "2",
       "LT": "2"
     }
   },
@@ -2834,6 +2834,30 @@
       "AS": "1",
       "EU": "0",
       "MO": "1",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "Alep_906",
+    "discordId": "<@1379876922917650564>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "None",
+    "stats": {
+      "AS": "0",
+      "EU": "0",
+      "MO": "0",
       "LT": "1"
     }
   }
