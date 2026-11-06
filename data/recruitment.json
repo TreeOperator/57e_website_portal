@@ -145,7 +145,7 @@
     "stats": {
       "AS": "12",
       "EU": "2",
-      "MO": "0",
+      "MO": "1",
       "LT": "189"
     }
   },
@@ -185,7 +185,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
@@ -193,7 +193,7 @@
     "stats": {
       "AS": "64",
       "EU": "41",
-      "MO": "1",
+      "MO": "3",
       "LT": "137"
     }
   },
@@ -281,16 +281,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "19",
+      "AS": "20",
       "EU": "4",
-      "MO": "0",
-      "LT": "79"
+      "MO": "2",
+      "LT": "80"
     }
   },
   {
@@ -309,7 +309,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Silver",
     "stats": {
       "AS": "10",
       "EU": "0",
@@ -333,7 +333,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Silver",
     "stats": {
       "AS": "2",
       "EU": "1",
@@ -357,7 +357,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Silver",
     "stats": {
       "AS": "10",
       "EU": "0",
@@ -415,30 +415,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Adjudant",
-    "name": "MnoanBoyo",
-    "discordId": "<@1457903108301520910>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "TRUE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "0",
-      "EU": "1",
-      "MO": "0",
-      "LT": "50"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
@@ -457,8 +433,32 @@
     "stats": {
       "AS": "25",
       "EU": "22",
+      "MO": "1",
+      "LT": "51"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Adjudant",
+    "name": "MnoanBoyo",
+    "discordId": "<@1457903108301520910>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "TRUE",
+    "grade": "",
+    "attendance": {},
+    "medal": "Silver",
+    "stats": {
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
-      "LT": "49"
+      "LT": "50"
     }
   },
   {
@@ -477,7 +477,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -501,7 +501,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "11",
       "EU": "4",
@@ -521,40 +521,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
-      "AS": "10",
+      "AS": "12",
       "EU": "10",
-      "MO": "0",
-      "LT": "25"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "GunthertheAwsome1",
-    "discordId": "<@1274329867932143806>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "23"
+      "MO": "4",
+      "LT": "27"
     }
   },
   {
@@ -573,10 +549,34 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
-      "AS": "14",
+      "AS": "15",
       "EU": "8",
+      "MO": "1",
+      "LT": "24"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "GunthertheAwsome1",
+    "discordId": "<@1274329867932143806>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "Bronze",
+    "stats": {
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
       "LT": "23"
     }
@@ -621,7 +621,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "7",
       "EU": "0",
@@ -645,7 +645,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "6",
       "EU": "2",
@@ -669,7 +669,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "13",
       "EU": "3",
@@ -693,7 +693,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "5",
       "EU": "0",
@@ -717,7 +717,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "14",
       "EU": "0",
@@ -741,7 +741,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "5",
       "EU": "0",
@@ -765,7 +765,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "10",
       "EU": "0",
@@ -789,7 +789,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "9",
       "EU": "1",
@@ -813,7 +813,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "11",
       "EU": "0",
@@ -837,7 +837,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "1",
@@ -861,7 +861,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Gold",
     "stats": {
       "AS": "9",
       "EU": "0",
@@ -885,34 +885,10 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "9",
       "EU": "0",
-      "MO": "0",
-      "LT": "9"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal de Premier",
-    "name": "Timurka8383",
-    "discordId": "<@1097428726041546804>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "5",
-      "EU": "4",
       "MO": "0",
       "LT": "9"
     }
@@ -933,12 +909,36 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
-      "AS": "8",
+      "AS": "9",
       "EU": "0",
+      "MO": "1",
+      "LT": "9"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal de Premier",
+    "name": "Timurka8383",
+    "discordId": "<@1097428726041546804>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "5",
+      "EU": "4",
       "MO": "0",
-      "LT": "8"
+      "LT": "9"
     }
   },
   {
@@ -957,7 +957,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "7",
       "EU": "0",
@@ -981,7 +981,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "6",
       "EU": "0",
@@ -1005,7 +1005,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1029,7 +1029,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "Bronze",
     "stats": {
       "AS": "2",
       "EU": "1",
@@ -1053,11 +1053,11 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "7",
       "EU": "0",
-      "MO": "3",
+      "MO": "4",
       "LT": "7"
     }
   },
@@ -1077,7 +1077,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "6",
       "EU": "0",
@@ -1101,7 +1101,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "4",
       "EU": "1",
@@ -1125,7 +1125,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "1",
@@ -1149,7 +1149,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "5",
       "EU": "0",
@@ -1173,11 +1173,35 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "4",
       "EU": "1",
       "MO": "0",
+      "LT": "5"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "GhostKillerAtSide",
+    "discordId": "<@1520770493320400948>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "4",
+      "EU": "1",
+      "MO": "5",
       "LT": "5"
     }
   },
@@ -1197,7 +1221,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "4",
       "EU": "0",
@@ -1221,7 +1245,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "4",
       "EU": "0",
@@ -1245,7 +1269,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "0",
@@ -1269,7 +1293,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "1",
@@ -1293,35 +1317,11 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
-      "MO": "0",
-      "LT": "4"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat",
-    "name": "GhostKillerAtSide",
-    "discordId": "<@1520770493320400948>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "3",
-      "EU": "1",
-      "MO": "2",
+      "MO": "1",
       "LT": "4"
     }
   },
@@ -1341,7 +1341,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "0",
@@ -1365,7 +1365,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "0",
@@ -1389,7 +1389,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "0",
@@ -1413,7 +1413,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "3",
       "EU": "0",
@@ -1437,11 +1437,11 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "1",
-      "MO": "0",
+      "MO": "1",
       "LT": "3"
     }
   },
@@ -1461,7 +1461,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "1",
@@ -1485,7 +1485,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "1",
@@ -1509,7 +1509,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "1",
@@ -1533,11 +1533,11 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
-      "MO": "0",
+      "MO": "1",
       "LT": "3"
     }
   },
@@ -1557,7 +1557,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1581,7 +1581,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1605,7 +1605,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1629,7 +1629,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1653,7 +1653,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1677,7 +1677,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1701,7 +1701,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1725,7 +1725,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1749,7 +1749,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "1",
@@ -1773,7 +1773,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "2",
@@ -1797,7 +1797,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "2",
       "EU": "0",
@@ -1821,11 +1821,35 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "2",
       "MO": "0",
+      "LT": "2"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "joufuljohs",
+    "discordId": "<@759219390154932274>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "2",
+      "EU": "0",
+      "MO": "2",
       "LT": "2"
     }
   },
@@ -1845,7 +1869,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -1869,7 +1893,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -1893,7 +1917,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -1917,7 +1941,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -1941,7 +1965,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -1965,7 +1989,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -1989,7 +2013,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2013,7 +2037,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2037,7 +2061,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2061,7 +2085,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2085,7 +2109,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2109,7 +2133,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2133,7 +2157,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2157,7 +2181,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2181,7 +2205,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2205,7 +2229,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2229,7 +2253,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2253,7 +2277,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2277,7 +2301,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2301,7 +2325,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2325,7 +2349,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2349,7 +2373,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2373,7 +2397,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2397,7 +2421,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2421,7 +2445,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2445,7 +2469,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2469,7 +2493,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2493,7 +2517,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2517,7 +2541,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2541,7 +2565,7 @@
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2565,7 +2589,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2589,7 +2613,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2613,7 +2637,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2637,7 +2661,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "1",
@@ -2661,7 +2685,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "1",
@@ -2685,7 +2709,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2709,7 +2733,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2733,7 +2757,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2757,7 +2781,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2781,35 +2805,11 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
       "MO": "0",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "joufuljohs",
-    "discordId": "<@759219390154932274>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "None",
-    "stats": {
-      "AS": "1",
-      "EU": "0",
-      "MO": "1",
       "LT": "1"
     }
   },
@@ -2829,7 +2829,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "1",
       "EU": "0",
@@ -2853,7 +2853,7 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "None",
+    "medal": "",
     "stats": {
       "AS": "0",
       "EU": "0",
