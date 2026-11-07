@@ -1579,9 +1579,9 @@
     "username": "GOS_MORI",
     "profileLink": "https://www.roblox.com/users/7171230123/profile",
     "type": "veneration",
-    "label": "Rank 3",
-    "status": "Expired",
-    "date": "7/8/2025"
+    "label": "Rank 8",
+    "status": "Active",
+    "date": "11/7/2026"
   },
   {
     "username": "RamisplaysrobloxYT",
@@ -2640,6 +2640,14 @@
     "date": "3/21/2026"
   },
   {
+    "username": "Dosho550",
+    "profileLink": "https://www.roblox.com/users/9296021122/profile",
+    "type": "veneration",
+    "label": "Rank 4",
+    "status": "Active",
+    "date": "10/20/2026"
+  },
+  {
     "username": "Pennywise_8383",
     "profileLink": "https://www.roblox.com/users/1795292953/profile",
     "type": "veneration",
@@ -3038,6 +3046,14 @@
     "label": "Rank 2",
     "status": "Active",
     "date": "6/15/2026"
+  },
+  {
+    "username": "PicardoPistachio",
+    "profileLink": "https://www.roblox.com/users/8098211586/profile",
+    "type": "veneration",
+    "label": "Rank 2",
+    "status": "Active",
+    "date": "6/17/2026"
   },
   {
     "username": "hectorfis",
@@ -3518,5 +3534,21 @@
     "label": "Rank 1",
     "status": "Active",
     "date": "11/2/2026"
+  },
+  {
+    "username": "k_xtrine",
+    "profileLink": "https://www.roblox.com/users/871413576/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "11/6/2026"
+  },
+  {
+    "username": "dommepanenkoek910",
+    "profileLink": "https://www.roblox.com/users/1574997939/profile",
+    "type": "veneration",
+    "label": "Rank 12",
+    "status": "Active",
+    "date": "11/7/2026"
   }
 ]

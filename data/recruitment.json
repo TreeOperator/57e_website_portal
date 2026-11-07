@@ -143,10 +143,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "12",
-      "EU": "2",
-      "MO": "1",
-      "LT": "189"
+      "AS": "",
+      "EU": "12",
+      "MO": "0",
+      "LT": "2"
     }
   },
   {
@@ -167,10 +167,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "25",
-      "EU": "0",
+      "AS": "",
+      "EU": "25",
       "MO": "0",
-      "LT": "179"
+      "LT": "0"
     }
   },
   {
@@ -191,10 +191,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "64",
-      "EU": "41",
-      "MO": "3",
-      "LT": "137"
+      "AS": "",
+      "EU": "64",
+      "MO": "2",
+      "LT": "41"
     }
   },
   {
@@ -215,10 +215,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "9",
-      "EU": "1",
-      "MO": "1",
-      "LT": "102"
+      "AS": "",
+      "EU": "9",
+      "MO": "0",
+      "LT": "1"
     }
   },
   {
@@ -239,10 +239,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "16",
-      "EU": "5",
+      "AS": "",
+      "EU": "16",
       "MO": "0",
-      "LT": "90"
+      "LT": "5"
     }
   },
   {
@@ -263,10 +263,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "25",
-      "EU": "0",
+      "AS": "",
+      "EU": "25",
       "MO": "0",
-      "LT": "86"
+      "LT": "0"
     }
   },
   {
@@ -287,18 +287,18 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "20",
-      "EU": "4",
+      "AS": "",
+      "EU": "21",
       "MO": "2",
-      "LT": "80"
+      "LT": "6"
     }
   },
   {
     "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "company": "",
     "points": "",
     "position": "Recruteur",
-    "rank": "Caporal Fourrier",
+    "rank": "",
     "name": "Lovelyrules12",
     "discordId": "<@1129718162468905021>",
     "kills": "",
@@ -311,10 +311,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "10",
-      "EU": "0",
+      "AS": "",
+      "EU": "10",
       "MO": "0",
-      "LT": "72"
+      "LT": "0"
     }
   },
   {
@@ -335,10 +335,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "2",
-      "EU": "1",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "67"
+      "LT": "1"
     }
   },
   {
@@ -359,10 +359,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "10",
-      "EU": "0",
+      "AS": "",
+      "EU": "10",
       "MO": "0",
-      "LT": "64"
+      "LT": "0"
     }
   },
   {
@@ -383,10 +383,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "18",
-      "EU": "2",
+      "AS": "",
+      "EU": "18",
       "MO": "0",
-      "LT": "58"
+      "LT": "2"
     }
   },
   {
@@ -407,10 +407,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "30",
-      "EU": "16",
-      "MO": "0",
-      "LT": "52"
+      "AS": "",
+      "EU": "30",
+      "MO": "1",
+      "LT": "17"
     }
   },
   {
@@ -431,10 +431,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "25",
-      "EU": "22",
+      "AS": "",
+      "EU": "25",
       "MO": "1",
-      "LT": "51"
+      "LT": "22"
     }
   },
   {
@@ -455,10 +455,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "0",
-      "EU": "1",
+      "AS": "",
+      "EU": "0",
       "MO": "0",
-      "LT": "50"
+      "LT": "1"
     }
   },
   {
@@ -479,10 +479,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "41"
+      "LT": "0"
     }
   },
   {
@@ -503,10 +503,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "11",
-      "EU": "4",
+      "AS": "",
+      "EU": "11",
       "MO": "0",
-      "LT": "32"
+      "LT": "4"
     }
   },
   {
@@ -527,10 +527,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "12",
-      "EU": "10",
-      "MO": "4",
-      "LT": "27"
+      "AS": "",
+      "EU": "13",
+      "MO": "2",
+      "LT": "10"
     }
   },
   {
@@ -551,10 +551,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "15",
-      "EU": "8",
-      "MO": "1",
-      "LT": "24"
+      "AS": "",
+      "EU": "15",
+      "MO": "0",
+      "LT": "8"
     }
   },
   {
@@ -575,10 +575,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "3",
-      "EU": "0",
+      "AS": "",
+      "EU": "3",
       "MO": "0",
-      "LT": "23"
+      "LT": "0"
     }
   },
   {
@@ -599,10 +599,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "13",
-      "EU": "10",
+      "AS": "",
+      "EU": "13",
       "MO": "0",
-      "LT": "22"
+      "LT": "10"
     }
   },
   {
@@ -623,10 +623,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "7",
-      "EU": "0",
+      "AS": "",
+      "EU": "7",
       "MO": "0",
-      "LT": "21"
+      "LT": "0"
     }
   },
   {
@@ -647,10 +647,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "6",
-      "EU": "2",
+      "AS": "",
+      "EU": "6",
       "MO": "0",
-      "LT": "17"
+      "LT": "2"
     }
   },
   {
@@ -671,10 +671,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "13",
-      "EU": "3",
+      "AS": "",
+      "EU": "13",
       "MO": "0",
-      "LT": "16"
+      "LT": "3"
     }
   },
   {
@@ -695,10 +695,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "5",
-      "EU": "0",
+      "AS": "",
+      "EU": "5",
       "MO": "0",
-      "LT": "15"
+      "LT": "0"
     }
   },
   {
@@ -719,10 +719,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "14",
-      "EU": "0",
+      "AS": "",
+      "EU": "14",
       "MO": "0",
-      "LT": "14"
+      "LT": "0"
     }
   },
   {
@@ -743,10 +743,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "5",
-      "EU": "0",
+      "AS": "",
+      "EU": "5",
       "MO": "0",
-      "LT": "14"
+      "LT": "0"
     }
   },
   {
@@ -767,10 +767,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "10",
-      "EU": "0",
+      "AS": "",
+      "EU": "10",
       "MO": "0",
-      "LT": "14"
+      "LT": "0"
     }
   },
   {
@@ -791,10 +791,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "9",
-      "EU": "1",
+      "AS": "",
+      "EU": "9",
       "MO": "0",
-      "LT": "14"
+      "LT": "1"
     }
   },
   {
@@ -815,10 +815,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "11",
-      "EU": "0",
+      "AS": "",
+      "EU": "11",
       "MO": "0",
-      "LT": "11"
+      "LT": "0"
     }
   },
   {
@@ -839,10 +839,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "0",
-      "EU": "1",
+      "AS": "",
+      "EU": "0",
       "MO": "0",
-      "LT": "11"
+      "LT": "1"
     }
   },
   {
@@ -863,10 +863,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "9",
-      "EU": "0",
+      "AS": "",
+      "EU": "9",
       "MO": "0",
-      "LT": "9"
+      "LT": "0"
     }
   },
   {
@@ -887,10 +887,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "9",
-      "EU": "0",
+      "AS": "",
+      "EU": "9",
       "MO": "0",
-      "LT": "9"
+      "LT": "0"
     }
   },
   {
@@ -911,10 +911,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "9",
-      "EU": "0",
-      "MO": "1",
-      "LT": "9"
+      "AS": "",
+      "EU": "9",
+      "MO": "0",
+      "LT": "0"
     }
   },
   {
@@ -935,10 +935,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "5",
-      "EU": "4",
+      "AS": "",
+      "EU": "5",
       "MO": "0",
-      "LT": "9"
+      "LT": "4"
     }
   },
   {
@@ -959,10 +959,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "7",
-      "EU": "0",
+      "AS": "",
+      "EU": "7",
       "MO": "0",
-      "LT": "7"
+      "LT": "0"
     }
   },
   {
@@ -983,10 +983,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "6",
-      "EU": "0",
+      "AS": "",
+      "EU": "6",
       "MO": "0",
-      "LT": "7"
+      "LT": "0"
     }
   },
   {
@@ -1007,10 +1007,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "7"
+      "LT": "0"
     }
   },
   {
@@ -1031,10 +1031,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "2",
-      "EU": "1",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "7"
+      "LT": "1"
     }
   },
   {
@@ -1049,16 +1049,40 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Inactive",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "7",
-      "EU": "0",
-      "MO": "4",
-      "LT": "7"
+      "AS": "",
+      "EU": "7",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "GhostKillerAtSide",
+    "discordId": "<@1520770493320400948>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "5",
+      "MO": "1",
+      "LT": "1"
     }
   },
   {
@@ -1079,10 +1103,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "6",
-      "EU": "0",
+      "AS": "",
+      "EU": "6",
       "MO": "0",
-      "LT": "6"
+      "LT": "0"
     }
   },
   {
@@ -1103,10 +1127,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "4",
-      "EU": "1",
+      "AS": "",
+      "EU": "4",
       "MO": "0",
-      "LT": "6"
+      "LT": "1"
     }
   },
   {
@@ -1127,10 +1151,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "3",
-      "EU": "1",
+      "AS": "",
+      "EU": "3",
       "MO": "0",
-      "LT": "5"
+      "LT": "1"
     }
   },
   {
@@ -1151,10 +1175,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "5",
-      "EU": "0",
+      "AS": "",
+      "EU": "5",
       "MO": "0",
-      "LT": "5"
+      "LT": "0"
     }
   },
   {
@@ -1175,346 +1199,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "4",
-      "EU": "1",
+      "AS": "",
+      "EU": "4",
       "MO": "0",
-      "LT": "5"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat",
-    "name": "GhostKillerAtSide",
-    "discordId": "<@1520770493320400948>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "4",
-      "EU": "1",
-      "MO": "5",
-      "LT": "5"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "arkanaovreal123",
-    "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "4",
-      "EU": "0",
-      "MO": "0",
-      "LT": "4"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "Ryo09suke21",
-    "discordId": "<@1383337565263888395>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "4",
-      "EU": "0",
-      "MO": "0",
-      "LT": "4"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "zerriinnioz",
-    "discordId": "<@1490916078904410172>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "4"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "Mercs",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Conscrit",
-    "name": "hieue53",
-    "discordId": "<@1083054148490113035>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "3",
-      "EU": "1",
-      "MO": "0",
-      "LT": "4"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "fireBastiii",
-    "discordId": "<@989110834426945567>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "2",
-      "EU": "0",
-      "MO": "1",
-      "LT": "4"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "Thaiand9197",
-    "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "ayyo13240",
-    "discordId": "<@1335109694762516550>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "CrustyDusty_Cruz",
-    "discordId": "<@1207592754108964905>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "cj71980",
-    "discordId": "<@1437780060596736071>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "TRUE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "3",
-      "EU": "0",
-      "MO": "0",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "Jikil2002",
-    "discordId": "<@1203973871125143594>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "2",
-      "EU": "1",
-      "MO": "1",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Honorary Sergent",
-    "name": "VannBoyo",
-    "discordId": "<@651782235157954582>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "0",
-      "EU": "1",
-      "MO": "0",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Adjudant",
-    "name": "ArcoBoyo",
-    "discordId": "<@1068740271786963055>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "2",
-      "EU": "1",
-      "MO": "0",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "doctor_RUSSIAMAN312",
-    "discordId": "<@1324927571699171498>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "0",
-      "EU": "1",
-      "MO": "0",
-      "LT": "3"
+      "LT": "1"
     }
   },
   {
@@ -1535,10 +1223,346 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "fireBastiii",
+    "discordId": "<@989110834426945567>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "2",
       "MO": "1",
-      "LT": "3"
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "arkanaovreal123",
+    "discordId": "#N/A",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "4",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Voltigeurs \"Austerlitz\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "Ryo09suke21",
+    "discordId": "<@1383337565263888395>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "4",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "zerriinnioz",
+    "discordId": "<@1490916078904410172>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "Mercs",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Conscrit",
+    "name": "hieue53",
+    "discordId": "<@1083054148490113035>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "Thaiand9197",
+    "discordId": "#N/A",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "ayyo13240",
+    "discordId": "<@1335109694762516550>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "CrustyDusty_Cruz",
+    "discordId": "<@1207592754108964905>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "cj71980",
+    "discordId": "<@1437780060596736071>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "TRUE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "Jikil2002",
+    "discordId": "<@1203973871125143594>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "2",
+      "MO": "1",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Voltigeurs \"Austerlitz\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Honorary Sergent",
+    "name": "VannBoyo",
+    "discordId": "<@651782235157954582>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "0",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Adjudant",
+    "name": "ArcoBoyo",
+    "discordId": "<@1068740271786963055>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "2",
+      "MO": "0",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "doctor_RUSSIAMAN312",
+    "discordId": "<@1324927571699171498>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "0",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "Alep_906",
+    "discordId": "<@1379876922917650564>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "0",
+      "LT": "0"
     }
   },
   {
@@ -1559,10 +1583,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1583,10 +1607,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1607,10 +1631,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1631,10 +1655,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1655,10 +1679,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1679,10 +1703,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1703,10 +1727,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1727,10 +1751,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1751,10 +1775,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
+      "AS": "",
       "EU": "1",
       "MO": "0",
-      "LT": "2"
+      "LT": "1"
     }
   },
   {
@@ -1775,8 +1799,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "0",
-      "EU": "2",
+      "AS": "",
+      "EU": "0",
       "MO": "0",
       "LT": "2"
     }
@@ -1799,10 +1823,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
+      "AS": "",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "0"
     }
   },
   {
@@ -1823,8 +1847,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "0",
-      "EU": "2",
+      "AS": "",
+      "EU": "0",
       "MO": "0",
       "LT": "2"
     }
@@ -1841,16 +1865,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Inactive",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "2",
-      "EU": "0",
-      "MO": "2",
-      "LT": "2"
+      "AS": "",
+      "EU": "2",
+      "MO": "0",
+      "LT": "0"
     }
   },
   {
@@ -1871,10 +1895,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -1895,10 +1919,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -1919,10 +1943,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -1943,10 +1967,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -1967,10 +1991,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -1991,10 +2015,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2015,10 +2039,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2039,10 +2063,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2063,10 +2087,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2087,10 +2111,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2111,10 +2135,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2135,10 +2159,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2159,10 +2183,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2183,10 +2207,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2207,10 +2231,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2231,10 +2255,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2255,10 +2279,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2279,10 +2303,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2303,10 +2327,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2327,10 +2351,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2351,10 +2375,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2375,10 +2399,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2399,10 +2423,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2423,10 +2447,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2447,10 +2471,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2471,10 +2495,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2495,10 +2519,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2519,10 +2543,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2543,10 +2567,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2567,10 +2591,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2591,10 +2615,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2615,10 +2639,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2639,10 +2663,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2663,8 +2687,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "0",
-      "EU": "1",
+      "AS": "",
+      "EU": "0",
       "MO": "0",
       "LT": "1"
     }
@@ -2687,8 +2711,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "0",
-      "EU": "1",
+      "AS": "",
+      "EU": "0",
       "MO": "0",
       "LT": "1"
     }
@@ -2711,10 +2735,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2735,10 +2759,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2759,10 +2783,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2783,10 +2807,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
@@ -2807,18 +2831,18 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   },
   {
     "battalion": "recruitment",
-    "company": "Depot de Montbéliard",
+    "company": "3eme Fusiliers \"Rivoli\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "Conscrit",
+    "rank": "Soldat",
     "name": "ABzSHOPx31284",
     "discordId": "<@1550841998955643021>",
     "kills": "",
@@ -2831,34 +2855,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "1",
-      "EU": "0",
-      "MO": "1",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat",
-    "name": "Alep_906",
-    "discordId": "<@1379876922917650564>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "0",
-      "EU": "0",
+      "AS": "",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "0"
     }
   }
 ]
