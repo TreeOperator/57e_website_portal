@@ -1150,37 +1150,5 @@
       "11/14": "FALSE",
       "11/15": "FALSE"
     }
-  },
-  {
-    "battalion": "grens",
-    "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "12",
-    "position": "Merc",
-    "rank": "Caporal Fourrier",
-    "name": "Dosho550",
-    "discordId": "<@1096066475640508609>",
-    "kills": "42",
-    "kpe": "42.0",
-    "kdr": "0.89",
-    "activity": "1",
-    "activityPct": "20%",
-    "loa": "FALSE",
-    "grade": "C",
-    "attendance": {
-      "11/2": "",
-      "11/3": "FALSE",
-      "11/4": "FALSE",
-      "11/5": "FALSE",
-      "11/6": "FALSE",
-      "11/7": "TRUE",
-      "11/8": "FALSE",
-      "11/9": "",
-      "11/10": "FALSE",
-      "11/11": "FALSE",
-      "11/12": "FALSE",
-      "11/13": "FALSE",
-      "11/14": "FALSE",
-      "11/15": "FALSE"
-    }
   }
 ]

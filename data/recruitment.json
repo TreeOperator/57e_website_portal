@@ -289,8 +289,8 @@
     "stats": {
       "AS": "",
       "EU": "21",
-      "MO": "2",
-      "LT": "6"
+      "MO": "4",
+      "LT": "8"
     }
   },
   {
@@ -418,7 +418,7 @@
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "Caporal de Premier",
+    "rank": "Caporal",
     "name": "jango_gaming",
     "discordId": "<@1458207657558016196>",
     "kills": "",
@@ -648,7 +648,7 @@
     "medal": "",
     "stats": {
       "AS": "",
-      "EU": "6",
+      "EU": "8",
       "MO": "0",
       "LT": "2"
     }
@@ -1063,7 +1063,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
+    "company": "2eme Fusiliers \"La Martinique\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Soldat",
@@ -1471,7 +1471,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
+    "company": "Mercs",
     "points": "",
     "position": "Recruteur",
     "rank": "Honorary Sergent",
@@ -1810,7 +1810,7 @@
     "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "Honorary Sergent",
+    "rank": "Sergent Major",
     "name": "2Sajeedur",
     "discordId": "<@1178996125794041876>",
     "kills": "",
