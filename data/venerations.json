@@ -787,9 +787,9 @@
     "username": "Elitedumm",
     "profileLink": "https://www.roblox.com/users/1738636460/profile",
     "type": "veneration",
-    "label": "Rank 10",
-    "status": "Expired",
-    "date": "4/14/2026"
+    "label": "Rank 11",
+    "status": "Active",
+    "date": "11/9/2026"
   },
   {
     "username": "giabao571",
@@ -2580,7 +2580,7 @@
     "profileLink": "https://www.roblox.com/users/2034142686/profile",
     "type": "veneration",
     "label": "Rank 2",
-    "status": "Active",
+    "status": "Expired",
     "date": "5/12/2026"
   },
   {
@@ -2606,6 +2606,14 @@
     "label": "Rank 2",
     "status": "Active",
     "date": "6/13/2026"
+  },
+  {
+    "username": "lubieorzechybotak",
+    "profileLink": "https://www.roblox.com/users/3414235010/profile",
+    "type": "veneration",
+    "label": "Rank 2",
+    "status": "Expired",
+    "date": "5/12/2026"
   },
   {
     "username": "olly998877",
@@ -2659,9 +2667,9 @@
     "username": "goldflsh0",
     "profileLink": "https://www.roblox.com/users/836147796/profile",
     "type": "veneration",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Active",
-    "date": "7/13/2026"
+    "date": "11/9/2026"
   },
   {
     "username": "Har0ldx",
@@ -2740,7 +2748,7 @@
     "profileLink": "https://www.roblox.com/users/1320156463/profile",
     "type": "veneration",
     "label": "Rank 12",
-    "status": "Active",
+    "status": "Expired",
     "date": "5/12/2026"
   },
   {
@@ -2827,9 +2835,9 @@
     "username": "WrednySlodziak21",
     "profileLink": "https://www.roblox.com/users/3013588513/profile",
     "type": "veneration",
-    "label": "Rank 2",
-    "status": "Expired",
-    "date": "4/25/2026"
+    "label": "Rank 4",
+    "status": "Active",
+    "date": "11/9/2026"
   },
   {
     "username": "SamFleurye",
@@ -2843,7 +2851,7 @@
     "username": "cegla_guy903",
     "profileLink": "https://www.roblox.com/users/3878127933/profile",
     "type": "veneration",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Active",
     "date": "7/27/2026"
   },
@@ -2899,16 +2907,16 @@
     "username": "pablopok1212",
     "profileLink": "https://www.roblox.com/users/3093358783/profile",
     "type": "veneration",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Active",
-    "date": "8/15/2026"
+    "date": "11/9/2026"
   },
   {
     "username": "aceofspades_057",
     "profileLink": "https://www.roblox.com/users/8728649895/profile",
     "type": "veneration",
     "label": "Rank 1",
-    "status": "Active",
+    "status": "Expired",
     "date": "5/12/2026"
   },
   {
@@ -3131,9 +3139,9 @@
     "username": "M4rkAltair",
     "profileLink": "https://www.roblox.com/users/2750391476/profile",
     "type": "veneration",
-    "label": "Rank 1",
+    "label": "Rank 2",
     "status": "Active",
-    "date": "7/27/2026"
+    "date": "11/9/2026"
   },
   {
     "username": "paphawin9084",
@@ -3542,5 +3550,21 @@
     "label": "Rank 12",
     "status": "Active",
     "date": "11/7/2026"
+  },
+  {
+    "username": "Lord_Liami",
+    "profileLink": "https://www.roblox.com/users/4825977216/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "11/9/2026"
+  },
+  {
+    "username": "AgamemnonAG",
+    "profileLink": "https://www.roblox.com/users/11444454261/profile",
+    "type": "veneration",
+    "label": "Rank 2",
+    "status": "Active",
+    "date": "11/9/2026"
   }
 ]
