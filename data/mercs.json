@@ -13,7 +13,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -45,7 +45,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -77,7 +77,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -109,7 +109,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -141,7 +141,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -173,7 +173,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -205,7 +205,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -237,7 +237,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -269,7 +269,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -301,7 +301,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -333,7 +333,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -365,7 +365,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -397,7 +397,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -429,7 +429,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -461,7 +461,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -493,7 +493,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -525,7 +525,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -555,7 +555,7 @@
     "kpe": "63.0",
     "kdr": "1.83",
     "activity": "2",
-    "activityPct": "40%",
+    "activityPct": "33%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -589,7 +589,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -621,7 +621,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -653,39 +653,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
-    "attendance": {
-      "9/21": "",
-      "9/22": "FALSE",
-      "9/23": "FALSE",
-      "9/24": "FALSE",
-      "9/25": "FALSE",
-      "9/26": "FALSE",
-      "9/27": "FALSE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "44",
-    "position": "Merc",
-    "rank": "Conscrit",
-    "name": "qwerty100255",
-    "discordId": "",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "0%",
-    "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -717,7 +685,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -747,7 +715,7 @@
     "kpe": "41.0",
     "kdr": "1.05",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -781,7 +749,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -813,7 +781,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -834,18 +802,18 @@
   {
     "battalion": "mercs",
     "company": "MERCS",
-    "points": "36",
+    "points": "37",
     "position": "Merc",
     "rank": "Conscrit",
     "name": "Bast2k",
     "discordId": "",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "0%",
+    "kills": "34",
+    "kpe": "34.0",
+    "kdr": "1.00",
+    "activity": "1",
+    "activityPct": "17%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "D+",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -855,7 +823,7 @@
       "9/26": "FALSE",
       "9/27": "FALSE",
       "9/28": "",
-      "9/29": "FALSE",
+      "9/29": "TRUE",
       "9/30": "FALSE",
       "10/1": "FALSE",
       "10/2": "FALSE",
@@ -877,7 +845,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -909,7 +877,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -920,6 +888,38 @@
       "9/27": "FALSE",
       "9/28": "",
       "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "FALSE",
+      "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "33",
+    "position": "Merc",
+    "rank": "Conscrit",
+    "name": "Businessmaen",
+    "discordId": "<@1450143142539038734>",
+    "kills": "258",
+    "kpe": "43.0",
+    "kdr": "1.24",
+    "activity": "6",
+    "activityPct": "100%",
+    "loa": "FALSE",
+    "grade": "C",
+    "attendance": {
+      "9/21": "",
+      "9/22": "TRUE",
+      "9/23": "TRUE",
+      "9/24": "TRUE",
+      "9/25": "TRUE",
+      "9/26": "TRUE",
+      "9/27": "FALSE",
+      "9/28": "",
+      "9/29": "TRUE",
       "9/30": "FALSE",
       "10/1": "FALSE",
       "10/2": "FALSE",
@@ -941,7 +941,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -949,38 +949,6 @@
       "9/24": "FALSE",
       "9/25": "FALSE",
       "9/26": "FALSE",
-      "9/27": "FALSE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "32",
-    "position": "Merc",
-    "rank": "Conscrit",
-    "name": "Businessmaen",
-    "discordId": "<@1450143142539038734>",
-    "kills": "245",
-    "kpe": "49.0",
-    "kdr": "1.27",
-    "activity": "5",
-    "activityPct": "100%",
-    "loa": "FALSE",
-    "grade": "C+",
-    "attendance": {
-      "9/21": "",
-      "9/22": "TRUE",
-      "9/23": "TRUE",
-      "9/24": "TRUE",
-      "9/25": "TRUE",
-      "9/26": "TRUE",
       "9/27": "FALSE",
       "9/28": "",
       "9/29": "FALSE",
@@ -1005,7 +973,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1037,7 +1005,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1058,18 +1026,18 @@
   {
     "battalion": "mercs",
     "company": "MERCS",
-    "points": "25",
+    "points": "26",
     "position": "Merc",
     "rank": "Conscrit",
     "name": "fyrveil",
     "discordId": "<@1111190406231756894>",
-    "kills": "282",
-    "kpe": "94.0",
-    "kdr": "1.82",
-    "activity": "3",
-    "activityPct": "60%",
+    "kills": "341",
+    "kpe": "85.3",
+    "kdr": "1.75",
+    "activity": "4",
+    "activityPct": "67%",
     "loa": "FALSE",
-    "grade": "S",
+    "grade": "A+",
     "attendance": {
       "9/21": "",
       "9/22": "TRUE",
@@ -1079,7 +1047,7 @@
       "9/26": "TRUE",
       "9/27": "FALSE",
       "9/28": "",
-      "9/29": "FALSE",
+      "9/29": "TRUE",
       "9/30": "FALSE",
       "10/1": "FALSE",
       "10/2": "FALSE",
@@ -1101,7 +1069,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1133,7 +1101,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1165,7 +1133,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1197,7 +1165,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1227,7 +1195,7 @@
     "kpe": "56.0",
     "kdr": "1.51",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1261,7 +1229,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1293,7 +1261,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1325,7 +1293,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1357,7 +1325,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1389,7 +1357,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1421,7 +1389,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1453,7 +1421,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1485,7 +1453,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1517,7 +1485,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1549,7 +1517,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1581,7 +1549,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1613,7 +1581,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1643,7 +1611,7 @@
     "kpe": "56.0",
     "kdr": "1.60",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1677,7 +1645,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1709,7 +1677,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1741,7 +1709,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1773,7 +1741,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1805,7 +1773,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1837,7 +1805,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1869,7 +1837,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1901,7 +1869,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1933,7 +1901,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1965,7 +1933,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -1997,7 +1965,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2029,7 +1997,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2061,7 +2029,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2093,7 +2061,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2125,7 +2093,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2157,7 +2125,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2189,7 +2157,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2221,7 +2189,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2253,7 +2221,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2285,7 +2253,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2317,7 +2285,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2349,7 +2317,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2381,7 +2349,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2413,7 +2381,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2445,7 +2413,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2477,7 +2445,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2509,7 +2477,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2541,7 +2509,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2573,7 +2541,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2603,7 +2571,7 @@
     "kpe": "66.0",
     "kdr": "1.43",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -2637,7 +2605,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2669,7 +2637,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2701,7 +2669,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2733,7 +2701,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2765,7 +2733,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2797,7 +2765,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2829,7 +2797,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2861,7 +2829,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2893,7 +2861,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2925,7 +2893,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2957,7 +2925,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -2989,7 +2957,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3021,7 +2989,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3053,7 +3021,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3085,7 +3053,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3117,7 +3085,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3149,7 +3117,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3181,7 +3149,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3213,7 +3181,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3245,7 +3213,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3277,7 +3245,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3309,7 +3277,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3341,7 +3309,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3373,7 +3341,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3405,7 +3373,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3437,7 +3405,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3469,7 +3437,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3501,7 +3469,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3533,7 +3501,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3565,7 +3533,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3597,7 +3565,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3629,7 +3597,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3661,7 +3629,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3693,7 +3661,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3725,7 +3693,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3757,7 +3725,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3789,7 +3757,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3821,7 +3789,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3853,7 +3821,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3885,7 +3853,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3917,7 +3885,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3949,7 +3917,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -3981,7 +3949,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4013,7 +3981,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4045,7 +4013,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4077,7 +4045,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4109,7 +4077,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4141,7 +4109,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4173,7 +4141,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4205,7 +4173,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4237,7 +4205,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4269,7 +4237,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4301,7 +4269,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4333,7 +4301,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4365,7 +4333,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4397,7 +4365,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4429,7 +4397,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4461,7 +4429,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4493,7 +4461,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4525,7 +4493,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4557,7 +4525,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4589,7 +4557,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4621,7 +4589,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4653,7 +4621,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4685,7 +4653,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4717,7 +4685,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4749,7 +4717,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4781,7 +4749,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4813,7 +4781,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4845,7 +4813,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4877,7 +4845,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4909,7 +4877,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4941,7 +4909,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -4973,7 +4941,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5005,7 +4973,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5037,7 +5005,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5069,7 +5037,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5101,7 +5069,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5133,7 +5101,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5165,7 +5133,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5197,7 +5165,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5229,7 +5197,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5261,7 +5229,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5293,7 +5261,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5325,7 +5293,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5357,7 +5325,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5389,7 +5357,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5421,7 +5389,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5453,7 +5421,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5485,7 +5453,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5517,7 +5485,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5549,7 +5517,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5581,7 +5549,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5613,7 +5581,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5645,7 +5613,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5677,7 +5645,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5709,7 +5677,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5741,7 +5709,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5773,7 +5741,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5805,7 +5773,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5837,7 +5805,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5869,7 +5837,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5901,7 +5869,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5933,7 +5901,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5965,7 +5933,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -5997,7 +5965,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6029,7 +5997,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6061,7 +6029,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6093,7 +6061,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6125,7 +6093,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6157,7 +6125,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6189,7 +6157,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6221,7 +6189,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6253,7 +6221,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6285,7 +6253,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6317,7 +6285,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6349,7 +6317,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6381,7 +6349,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6413,7 +6381,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6445,7 +6413,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6477,7 +6445,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6509,7 +6477,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6541,7 +6509,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6573,7 +6541,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6605,7 +6573,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6637,7 +6605,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6669,7 +6637,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6701,7 +6669,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6733,7 +6701,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6765,7 +6733,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6797,7 +6765,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6829,7 +6797,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6861,7 +6829,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6893,7 +6861,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6925,7 +6893,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6957,7 +6925,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -6989,7 +6957,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7021,7 +6989,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7053,7 +7021,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7085,7 +7053,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7117,7 +7085,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7149,7 +7117,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7181,7 +7149,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7213,7 +7181,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7245,7 +7213,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7277,7 +7245,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7309,7 +7277,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7341,7 +7309,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7373,7 +7341,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7405,7 +7373,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7437,7 +7405,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7469,7 +7437,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7501,7 +7469,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7533,7 +7501,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7565,7 +7533,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7597,7 +7565,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7627,7 +7595,7 @@
     "kpe": "29.0",
     "kdr": "0.50",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -7661,7 +7629,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7693,7 +7661,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7725,7 +7693,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7757,7 +7725,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7789,7 +7757,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7821,7 +7789,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7853,7 +7821,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7885,7 +7853,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7917,7 +7885,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7949,7 +7917,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -7981,7 +7949,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8013,7 +7981,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8045,7 +8013,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8077,7 +8045,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8109,7 +8077,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8141,7 +8109,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8173,7 +8141,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8205,7 +8173,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8237,7 +8205,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8269,7 +8237,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8301,7 +8269,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8333,7 +8301,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8365,7 +8333,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8397,7 +8365,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8429,7 +8397,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8461,7 +8429,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8493,7 +8461,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8525,7 +8493,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8557,7 +8525,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8589,7 +8557,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8621,7 +8589,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8653,7 +8621,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8685,7 +8653,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8717,7 +8685,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8749,7 +8717,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8781,7 +8749,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8813,7 +8781,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8845,7 +8813,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8877,7 +8845,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8909,7 +8877,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8941,7 +8909,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -8973,7 +8941,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9005,7 +8973,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9037,7 +9005,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9069,7 +9037,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9101,7 +9069,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9133,7 +9101,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9165,7 +9133,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9197,7 +9165,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9229,7 +9197,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9261,7 +9229,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9293,7 +9261,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9325,7 +9293,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9357,7 +9325,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9389,7 +9357,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9421,7 +9389,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9453,7 +9421,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9485,7 +9453,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9517,7 +9485,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9549,7 +9517,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9581,7 +9549,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9613,7 +9581,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9645,7 +9613,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9677,7 +9645,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9709,7 +9677,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9741,7 +9709,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9773,7 +9741,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9805,7 +9773,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9837,7 +9805,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9869,7 +9837,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9901,7 +9869,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9933,7 +9901,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9965,7 +9933,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -9997,7 +9965,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -10029,7 +9997,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -10061,7 +10029,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -10093,7 +10061,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -10125,7 +10093,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -10157,7 +10125,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -10189,7 +10157,7 @@
     "activity": "0",
     "activityPct": "0%",
     "loa": "FALSE",
-    "grade": "F",
+    "grade": "N/A",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",

@@ -583,7 +583,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
+    "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Caporal de Premier",
@@ -1543,7 +1543,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "3eme Fusiliers \"Rivoli\"",
+    "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Soldat de Premier",
@@ -1683,6 +1683,30 @@
       "EU": "2",
       "MO": "0",
       "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Adjudant Sous-Officier",
+    "name": "1Tanyaaaaa",
+    "discordId": "<@720559732175142932>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "1",
+      "MO": "1",
+      "LT": "1"
     }
   },
   {
@@ -1875,6 +1899,30 @@
       "EU": "2",
       "MO": "0",
       "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "toto132aa",
+    "discordId": "<@977967620970139658>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "2",
+      "LT": "2"
     }
   },
   {
@@ -2245,30 +2293,6 @@
     "rank": "",
     "name": "Darkex74",
     "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "1",
-      "MO": "0",
-      "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Adjudant Sous-Officier",
-    "name": "1Tanyaaaaa",
-    "discordId": "<@720559732175142932>",
     "kills": "",
     "kpe": "",
     "kdr": "",

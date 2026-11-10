@@ -1838,6 +1838,14 @@
       "assists": "11",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "60",
+      "deaths": "44",
+      "assists": "15",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "powerwizardy": [
@@ -7191,6 +7199,14 @@
       "assists": "9",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "32",
+      "deaths": "30",
+      "assists": "15",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "AkariMirage": [
@@ -10853,6 +10869,14 @@
       "assists": "23",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "53",
+      "deaths": "40",
+      "assists": "6",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "uhfsae": [
@@ -13043,6 +13067,14 @@
       "date": "06/11/2026",
       "kills": "11",
       "deaths": "51",
+      "assists": "0",
+      "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "4",
+      "deaths": "38",
       "assists": "0",
       "company": "2EME VOLTS",
       "points": "1"
@@ -21494,6 +21526,14 @@
       "assists": "16",
       "company": "1ER VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "30",
+      "deaths": "29",
+      "assists": "14",
+      "company": "1ER VOLTS",
+      "points": "1"
     }
   ],
   "TheColonelMajesty": [
@@ -26169,6 +26209,14 @@
       "assists": "0",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "40",
+      "deaths": "38",
+      "assists": "17",
+      "company": "1ER VOLTS",
+      "points": "1"
     }
   ],
   "Imabadplayer_123": [
@@ -28724,6 +28772,14 @@
       "kills": "10",
       "deaths": "18",
       "assists": "1",
+      "company": "1ER VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "34",
+      "deaths": "33",
+      "assists": "9",
       "company": "1ER VOLTS",
       "points": "1"
     }
@@ -34767,6 +34823,14 @@
       "assists": "14",
       "company": "1ER VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "34",
+      "deaths": "35",
+      "assists": "19",
+      "company": "1ER VOLTS",
+      "points": "1"
     }
   ],
   "DREAMHOLY1it": [
@@ -39083,6 +39147,14 @@
       "assists": "3",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "28",
+      "deaths": "30",
+      "assists": "15",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "MonkeyName_9": [
@@ -40077,6 +40149,14 @@
       "deaths": "36",
       "assists": "7",
       "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "37",
+      "deaths": "37",
+      "assists": "7",
+      "company": "2EME FUS",
       "points": "1"
     }
   ],
@@ -47608,6 +47688,14 @@
       "assists": "24",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "43",
+      "deaths": "39",
+      "assists": "6",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "TheLegendaryalucard": [
@@ -48569,6 +48657,14 @@
       "assists": "0",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "42",
+      "deaths": "44",
+      "assists": "15",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "grandmaster_02": [
@@ -48980,6 +49076,14 @@
       "deaths": "31",
       "assists": "21",
       "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "83",
+      "deaths": "35",
+      "assists": "22",
+      "company": "2EME FUS",
       "points": "1"
     }
   ],
@@ -52354,6 +52458,14 @@
       "kills": "60",
       "deaths": "37",
       "assists": "15",
+      "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "56",
+      "deaths": "45",
+      "assists": "24",
       "company": "1ER FUS",
       "points": "1"
     }
@@ -56071,6 +56183,14 @@
       "assists": "3",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "38",
+      "deaths": "37",
+      "assists": "5",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "General_LanceOC7": [
@@ -56512,6 +56632,14 @@
       "kills": "32",
       "deaths": "49",
       "assists": "17",
+      "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "55",
+      "deaths": "45",
+      "assists": "13",
       "company": "1ER FUS",
       "points": "1"
     }
@@ -63575,6 +63703,14 @@
       "assists": "12",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "33",
+      "deaths": "38",
+      "assists": "3",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "StuSpectular": [
@@ -68152,6 +68288,14 @@
       "assists": "9",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "47",
+      "deaths": "35",
+      "assists": "11",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "JBangerPants": [
@@ -69283,6 +69427,14 @@
       "kills": "37",
       "deaths": "34",
       "assists": "18",
+      "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "36",
+      "deaths": "32",
+      "assists": "21",
       "company": "1ER FUS",
       "points": "1"
     }
@@ -70816,6 +70968,14 @@
       "kills": "44",
       "deaths": "58",
       "assists": "17",
+      "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "35",
+      "deaths": "35",
+      "assists": "6",
       "company": "2EME VOLTS",
       "points": "1"
     }
@@ -72491,6 +72651,14 @@
       "assists": "11",
       "company": "1ER VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "33",
+      "deaths": "36",
+      "assists": "5",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "CoolBananaGuyRocks": [
@@ -73740,6 +73908,14 @@
       "kills": "57",
       "deaths": "42",
       "assists": "10",
+      "company": "GRENS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "34",
+      "deaths": "45",
+      "assists": "5",
       "company": "GRENS",
       "points": "1"
     }
@@ -77940,6 +78116,14 @@
       "kills": "37",
       "deaths": "42",
       "assists": "9",
+      "company": "1ER VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "44",
+      "deaths": "29",
+      "assists": "15",
       "company": "1ER VOLTS",
       "points": "1"
     }
@@ -86466,6 +86650,14 @@
       "assists": "5",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "19",
+      "deaths": "39",
+      "assists": "6",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "RedsLitterary": [
@@ -88293,6 +88485,14 @@
       "assists": "13",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "38",
+      "deaths": "39",
+      "assists": "7",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "10bddd": [
@@ -88795,6 +88995,14 @@
       "deaths": "37",
       "assists": "18",
       "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "37",
+      "deaths": "21",
+      "assists": "11",
+      "company": "1ER VOLTS",
       "points": "1"
     }
   ],
@@ -89758,6 +89966,14 @@
       "deaths": "62",
       "assists": "16",
       "company": "1ER VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "13",
+      "deaths": "11",
+      "assists": "2",
+      "company": "GRENS",
       "points": "1"
     }
   ],
@@ -92919,6 +93135,14 @@
       "kills": "38",
       "deaths": "46",
       "assists": "2",
+      "company": "1ER VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "40",
+      "deaths": "31",
+      "assists": "22",
       "company": "1ER VOLTS",
       "points": "1"
     }
@@ -99879,6 +100103,14 @@
       "assists": "0",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "43",
+      "deaths": "63",
+      "assists": "2",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "BVDNAT": [
@@ -101116,6 +101348,14 @@
       "date": "07/11/2026",
       "kills": "33",
       "deaths": "60",
+      "assists": "5",
+      "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "26",
+      "deaths": "35",
       "assists": "5",
       "company": "2EME VOLTS",
       "points": "1"
@@ -108199,6 +108439,14 @@
       "assists": "1",
       "company": "2EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "46",
+      "deaths": "50",
+      "assists": "4",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "CaptGeneral_Greg": [
@@ -111095,6 +111343,14 @@
       "deaths": "22",
       "assists": "16",
       "company": "",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "34",
+      "deaths": "34",
+      "assists": "5",
+      "company": "2EME VOLTS",
       "points": "1"
     }
   ],
@@ -115760,6 +116016,14 @@
       "assists": "7",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "61",
+      "deaths": "31",
+      "assists": "18",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "ATOMPRIME76451": [
@@ -120169,6 +120433,14 @@
       "assists": "9",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "32",
+      "deaths": "36",
+      "assists": "11",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "UniversalGabe": [
@@ -122274,6 +122546,14 @@
       "assists": "9",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "24",
+      "deaths": "46",
+      "assists": "6",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "theboyzeze": [
@@ -124038,6 +124318,14 @@
       "assists": "16",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "41",
+      "deaths": "50",
+      "assists": "13",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "mentallyinclined": [
@@ -125598,6 +125886,14 @@
       "kills": "44",
       "deaths": "59",
       "assists": "20",
+      "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "44",
+      "deaths": "42",
+      "assists": "8",
       "company": "2EME VOLTS",
       "points": "1"
     }
@@ -129740,6 +130036,14 @@
       "assists": "14",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "41",
+      "deaths": "55",
+      "assists": "27",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "NINJAGAMENG122": [
@@ -131392,6 +131696,14 @@
       "assists": "5",
       "company": "1ER VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "55",
+      "deaths": "30",
+      "assists": "12",
+      "company": "1ER VOLTS",
+      "points": "1"
     }
   ],
   "WittleDaniel": [
@@ -132979,6 +133291,14 @@
       "deaths": "40",
       "assists": "17",
       "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "28",
+      "deaths": "28",
+      "assists": "7",
+      "company": "1ER VOLTS",
       "points": "1"
     }
   ],
@@ -136062,6 +136382,14 @@
       "kills": "10",
       "deaths": "31",
       "assists": "7",
+      "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "16",
+      "deaths": "40",
+      "assists": "5",
       "company": "3EME FUS",
       "points": "1"
     }
@@ -144273,6 +144601,14 @@
       "assists": "2",
       "company": "2EME FUS",
       "points": "2"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "31",
+      "deaths": "43",
+      "assists": "3",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "roblox_gglol3": [
@@ -146361,6 +146697,14 @@
       "kills": "30",
       "deaths": "58",
       "assists": "1",
+      "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "25",
+      "deaths": "38",
+      "assists": "4",
       "company": "2EME VOLTS",
       "points": "1"
     }
@@ -156153,6 +156497,14 @@
       "assists": "14",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "44",
+      "deaths": "33",
+      "assists": "8",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "FIFAFootbaIl": [
@@ -164819,6 +165171,14 @@
       "assists": "26",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "41",
+      "deaths": "48",
+      "assists": "7",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "jmgamer089": [
@@ -166365,6 +166725,14 @@
       "assists": "17",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "59",
+      "deaths": "40",
+      "assists": "16",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "pickup123pro": [
@@ -166576,6 +166944,14 @@
       "deaths": "46",
       "assists": "28",
       "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "60",
+      "deaths": "48",
+      "assists": "32",
+      "company": "2EME FUS",
       "points": "1"
     }
   ],
@@ -168426,6 +168802,14 @@
       "deaths": "43",
       "assists": "16",
       "company": "1ER VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "45",
+      "deaths": "35",
+      "assists": "13",
+      "company": "GRENS",
       "points": "1"
     }
   ],
@@ -171591,6 +171975,14 @@
       "assists": "7",
       "company": "1ER VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "13",
+      "deaths": "15",
+      "assists": "5",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "bruhhshshshshs": [
@@ -172811,6 +173203,14 @@
       "assists": "4",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "53",
+      "deaths": "40",
+      "assists": "19",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "chichiwen001": [
@@ -173703,6 +174103,14 @@
       "kills": "25",
       "deaths": "49",
       "assists": "4",
+      "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "13",
+      "deaths": "41",
+      "assists": "5",
       "company": "3EME FUS",
       "points": "1"
     }
@@ -175189,6 +175597,14 @@
       "assists": "32",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "58",
+      "deaths": "34",
+      "assists": "20",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "vieriii12": [
@@ -175985,6 +176401,14 @@
       "kills": "61",
       "deaths": "63",
       "assists": "20",
+      "company": "2EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "36",
+      "deaths": "44",
+      "assists": "5",
       "company": "2EME FUS",
       "points": "1"
     }
@@ -181217,6 +181641,14 @@
       "assists": "15",
       "company": "2EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "76",
+      "deaths": "46",
+      "assists": "23",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "replxka": [
@@ -182327,6 +182759,14 @@
       "kills": "51",
       "deaths": "39",
       "assists": "16",
+      "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "51",
+      "deaths": "50",
+      "assists": "19",
       "company": "1ER FUS",
       "points": "1"
     }
@@ -192019,6 +192459,14 @@
       "assists": "18",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "26",
+      "deaths": "42",
+      "assists": "7",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "StockholmFidger": [
@@ -192495,6 +192943,14 @@
       "assists": "7",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "31",
+      "deaths": "35",
+      "assists": "7",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "Cupric_oxlde": [
@@ -192779,6 +193235,14 @@
       "kills": "11",
       "deaths": "21",
       "assists": "0",
+      "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "37",
+      "deaths": "31",
+      "assists": "16",
       "company": "3EME FUS",
       "points": "1"
     }
@@ -193284,6 +193748,14 @@
       "deaths": "35",
       "assists": "18",
       "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "37",
+      "deaths": "29",
+      "assists": "15",
+      "company": "1ER FUS",
       "points": "1"
     }
   ],
@@ -194543,6 +195015,14 @@
       "assists": "0",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "61",
+      "deaths": "25",
+      "assists": "3",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "sanekwerto": [
@@ -194863,6 +195343,14 @@
       "kills": "42",
       "deaths": "50",
       "assists": "15",
+      "company": "1ER VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "39",
+      "deaths": "27",
+      "assists": "22",
       "company": "1ER VOLTS",
       "points": "1"
     }
@@ -195701,6 +196189,14 @@
       "assists": "6",
       "company": "2EME VOLTS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "12",
+      "deaths": "39",
+      "assists": "6",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "ansleyng5555": [
@@ -196116,6 +196612,14 @@
       "deaths": "50",
       "assists": "19",
       "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "51",
+      "deaths": "51",
+      "assists": "14",
+      "company": "2EME VOLTS",
       "points": "1"
     }
   ],
@@ -197739,6 +198243,14 @@
       "assists": "12",
       "company": "2EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "57",
+      "deaths": "56",
+      "assists": "13",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "VolunderrOrigin": [
@@ -198553,6 +199065,14 @@
       "assists": "31",
       "company": "2EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "63",
+      "deaths": "28",
+      "assists": "23",
+      "company": "1ER VOLTS",
+      "points": "1"
     }
   ],
   "scr_erros": [
@@ -198707,6 +199227,14 @@
       "kills": "73",
       "deaths": "38",
       "assists": "31",
+      "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "100",
+      "deaths": "36",
+      "assists": "19",
       "company": "1ER FUS",
       "points": "1"
     }
@@ -199097,6 +199625,14 @@
       "assists": "15",
       "company": "GRENS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "9",
+      "deaths": "37",
+      "assists": "0",
+      "company": "GRENS",
+      "points": "1"
     }
   ],
   "marips022": [
@@ -199328,6 +199864,14 @@
       "deaths": "47",
       "assists": "21",
       "company": "2EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "47",
+      "deaths": "33",
+      "assists": "19",
+      "company": "3EME FUS",
       "points": "1"
     }
   ],
@@ -199575,6 +200119,14 @@
       "assists": "34",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "103",
+      "deaths": "52",
+      "assists": "32",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "Dev_korea0meter": [
@@ -199742,6 +200294,14 @@
       "deaths": "59",
       "assists": "21",
       "company": "2EME VOLTS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "50",
+      "deaths": "42",
+      "assists": "11",
+      "company": "GRENS",
       "points": "1"
     }
   ],
@@ -200103,6 +200663,14 @@
       "assists": "30",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "74",
+      "deaths": "50",
+      "assists": "21",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "Ilikemilk4k": [
@@ -200256,6 +200824,14 @@
       "deaths": "28",
       "assists": "17",
       "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "59",
+      "deaths": "34",
+      "assists": "26",
+      "company": "1ER FUS",
       "points": "1"
     }
   ],
@@ -200495,6 +201071,14 @@
       "assists": "10",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "51",
+      "deaths": "41",
+      "assists": "8",
+      "company": "2EME VOLTS",
+      "points": "1"
     }
   ],
   "blekgen1": [
@@ -200600,6 +201184,14 @@
       "deaths": "31",
       "assists": "4",
       "company": "1ER FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "55",
+      "deaths": "50",
+      "assists": "14",
+      "company": "2EME FUS",
       "points": "1"
     }
   ],
@@ -200959,6 +201551,14 @@
       "assists": "20",
       "company": "1ER FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "55",
+      "deaths": "35",
+      "assists": "5",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "savagebhoy231": [
@@ -201107,6 +201707,14 @@
       "kills": "42",
       "deaths": "44",
       "assists": "14",
+      "company": "2EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "59",
+      "deaths": "53",
+      "assists": "10",
       "company": "2EME FUS",
       "points": "1"
     }
@@ -201729,6 +202337,14 @@
       "assists": "1",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "39",
+      "deaths": "27",
+      "assists": "7",
+      "company": "1ER FUS",
+      "points": "1"
     }
   ],
   "sdafw1r": [
@@ -201897,6 +202513,14 @@
       "assists": "7",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "19",
+      "deaths": "29",
+      "assists": "9",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "Matchlocks_t1gn200": [
@@ -201966,6 +202590,14 @@
       "deaths": "25",
       "assists": "20",
       "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "47",
+      "deaths": "41",
+      "assists": "16",
+      "company": "1ER FUS",
       "points": "1"
     }
   ],
@@ -202061,6 +202693,14 @@
       "assists": "17",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "22",
+      "deaths": "41",
+      "assists": "18",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "justin_uchiha123": [
@@ -202143,6 +202783,14 @@
       "assists": "12",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "36",
+      "deaths": "54",
+      "assists": "11",
+      "company": "3EME FUS",
+      "points": "1"
     }
   ],
   "fshkmizqweqweqw": [
@@ -202159,6 +202807,14 @@
       "kills": "33",
       "deaths": "26",
       "assists": "24",
+      "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "35",
+      "deaths": "42",
+      "assists": "12",
       "company": "3EME FUS",
       "points": "1"
     }
@@ -202213,6 +202869,14 @@
       "assists": "28",
       "company": "3EME FUS",
       "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "57",
+      "deaths": "32",
+      "assists": "32",
+      "company": "2EME FUS",
+      "points": "1"
     }
   ],
   "GhostKillerAtSide": [
@@ -202238,6 +202902,14 @@
       "deaths": "42",
       "assists": "14",
       "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "57",
+      "deaths": "45",
+      "assists": "14",
+      "company": "2EME FUS",
       "points": "1"
     }
   ],
@@ -202284,6 +202956,14 @@
       "deaths": "44",
       "assists": "13",
       "company": "3EME FUS",
+      "points": "1"
+    },
+    {
+      "date": "10/11/2026",
+      "kills": "34",
+      "deaths": "32",
+      "assists": "13",
+      "company": "1ER FUS",
       "points": "1"
     }
   ],
@@ -202431,6 +203111,26 @@
       "kills": "20",
       "deaths": "27",
       "assists": "10",
+      "company": "3EME FUS",
+      "points": "1"
+    }
+  ],
+  "Legolucian1": [
+    {
+      "date": "10/11/2026",
+      "kills": "41",
+      "deaths": "39",
+      "assists": "22",
+      "company": "3EME FUS",
+      "points": "1"
+    }
+  ],
+  "pig_juan09": [
+    {
+      "date": "10/11/2026",
+      "kills": "68",
+      "deaths": "59",
+      "assists": "20",
       "company": "3EME FUS",
       "points": "1"
     }
