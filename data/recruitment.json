@@ -145,8 +145,8 @@
     "stats": {
       "AS": "",
       "EU": "12",
-      "MO": "0",
-      "LT": "2"
+      "MO": "1",
+      "LT": "3"
     }
   },
   {
@@ -418,7 +418,7 @@
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "Caporal",
+    "rank": "Caporal de Premier",
     "name": "jango_gaming",
     "discordId": "<@1458207657558016196>",
     "kills": "",
@@ -847,6 +847,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat de Premier",
+    "name": "GhostKillerAtSide",
+    "discordId": "<@1520770493320400948>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "7",
+      "MO": "2",
+      "LT": "2"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "Grenadiers de Amiens \"Leipzig\"",
     "points": "",
     "position": "Recruteur",
@@ -991,6 +1015,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "quaZavr0",
+    "discordId": "<@1188860940066758749>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "5",
+      "MO": "0",
+      "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1063,30 +1111,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat de Premier",
-    "name": "GhostKillerAtSide",
-    "discordId": "<@1520770493320400948>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "5",
-      "MO": "1",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1107,30 +1131,6 @@
       "EU": "6",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "quaZavr0",
-    "discordId": "<@1188860940066758749>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "4",
-      "MO": "0",
-      "LT": "1"
     }
   },
   {
@@ -1251,6 +1251,30 @@
       "EU": "2",
       "MO": "1",
       "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat de Premier",
+    "name": "Alep_906",
+    "discordId": "<@1379876922917650564>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "0",
+      "LT": "0"
     }
   },
   {
@@ -1539,30 +1563,6 @@
       "EU": "0",
       "MO": "0",
       "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat de Premier",
-    "name": "Alep_906",
-    "discordId": "<@1379876922917650564>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "0",
-      "MO": "0",
-      "LT": "0"
     }
   },
   {
