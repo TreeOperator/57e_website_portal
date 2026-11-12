@@ -127,7 +127,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Adjudant",
@@ -193,8 +193,8 @@
     "stats": {
       "AS": "",
       "EU": "64",
-      "MO": "2",
-      "LT": "41"
+      "MO": "3",
+      "LT": "42"
     }
   },
   {
@@ -799,6 +799,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat de Premier",
+    "name": "GhostKillerAtSide",
+    "discordId": "<@1520770493320400948>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "8",
+      "MO": "2",
+      "LT": "2"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -843,30 +867,6 @@
       "EU": "0",
       "MO": "0",
       "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat de Premier",
-    "name": "GhostKillerAtSide",
-    "discordId": "<@1520770493320400948>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "7",
-      "MO": "2",
-      "LT": "2"
     }
   },
   {
@@ -1212,7 +1212,7 @@
     "position": "Recruteur",
     "rank": "Caporal",
     "name": "bruhguy6278",
-    "discordId": "<@1207604402450337813>",
+    "discordId": "<@1569004315987681437>",
     "kills": "",
     "kpe": "",
     "kdr": "",
