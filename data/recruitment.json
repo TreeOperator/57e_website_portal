@@ -185,7 +185,7 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Active",
     "loa": "TRUE",
     "grade": "",
     "attendance": {},
@@ -193,8 +193,8 @@
     "stats": {
       "AS": "",
       "EU": "64",
-      "MO": "3",
-      "LT": "42"
+      "MO": "7",
+      "LT": "46"
     }
   },
   {
@@ -408,7 +408,7 @@
     "medal": "Bronze",
     "stats": {
       "AS": "",
-      "EU": "30",
+      "EU": "31",
       "MO": "1",
       "LT": "17"
     }
@@ -487,6 +487,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "MoneyOrBan",
+    "discordId": "<@323359894659006466>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "Bronze",
+    "stats": {
+      "AS": "",
+      "EU": "14",
+      "MO": "3",
+      "LT": "11"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "2eme Voltigeurs \"Arcole\"",
     "points": "",
     "position": "Recruteur",
@@ -511,30 +535,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "MoneyOrBan",
-    "discordId": "<@323359894659006466>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Bronze",
-    "stats": {
-      "AS": "",
-      "EU": "13",
-      "MO": "2",
-      "LT": "10"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "2eme Voltigeurs \"Arcole\"",
     "points": "",
     "position": "Recruteur",
@@ -555,6 +555,30 @@
       "EU": "15",
       "MO": "0",
       "LT": "8"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal de Premier",
+    "name": "Ilikemilk4k",
+    "discordId": "<@821660670843682857>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "9",
+      "MO": "2",
+      "LT": "4"
     }
   },
   {
@@ -627,30 +651,6 @@
       "EU": "7",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal de Premier",
-    "name": "Ilikemilk4k",
-    "discordId": "<@821660670843682857>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "8",
-      "MO": "0",
-      "LT": "2"
     }
   },
   {
@@ -1375,6 +1375,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "toto132aa",
+    "discordId": "<@977967620970139658>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "1",
+      "MO": "3",
+      "LT": "3"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1899,30 +1923,6 @@
       "EU": "2",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "toto132aa",
-    "discordId": "<@977967620970139658>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "0",
-      "MO": "2",
-      "LT": "2"
     }
   },
   {
@@ -2623,10 +2623,10 @@
   },
   {
     "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
+    "company": "",
     "points": "",
     "position": "Recruteur",
-    "rank": "Adjudant",
+    "rank": "",
     "name": "Iplazroblox291",
     "discordId": "<@705665886975033404>",
     "kills": "",
@@ -2883,6 +2883,30 @@
       "EU": "1",
       "MO": "0",
       "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "<@1490930405325541496>",
+    "discordId": "#N/A",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "3",
+      "LT": "3"
     }
   }
 ]
