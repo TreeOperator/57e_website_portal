@@ -192,9 +192,9 @@
     "medal": "Gold",
     "stats": {
       "AS": "",
-      "EU": "64",
-      "MO": "7",
-      "LT": "46"
+      "EU": "65",
+      "MO": "9",
+      "LT": "48"
     }
   },
   {
@@ -217,8 +217,8 @@
     "stats": {
       "AS": "",
       "EU": "9",
-      "MO": "0",
-      "LT": "1"
+      "MO": "1",
+      "LT": "2"
     }
   },
   {
@@ -504,7 +504,7 @@
     "medal": "Bronze",
     "stats": {
       "AS": "",
-      "EU": "14",
+      "EU": "15",
       "MO": "3",
       "LT": "11"
     }
@@ -535,30 +535,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "sharkco013",
-    "discordId": "<@1495619723868766410>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "15",
-      "MO": "0",
-      "LT": "8"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
@@ -579,6 +555,30 @@
       "EU": "9",
       "MO": "2",
       "LT": "4"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "sharkco013",
+    "discordId": "<@1495619723868766410>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "15",
+      "MO": "0",
+      "LT": "8"
     }
   },
   {
@@ -1399,6 +1399,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Sergent",
+    "name": "PresentMentor",
+    "discordId": "<@1490930405325541496>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "4",
+      "LT": "4"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1591,6 +1615,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "2eme Fusiliers \"La Martinique\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "joufuljohs",
+    "discordId": "<@759219390154932274>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "2",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1707,30 +1755,6 @@
       "EU": "2",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Adjudant Sous-Officier",
-    "name": "1Tanyaaaaa",
-    "discordId": "<@720559732175142932>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "1",
-      "MO": "1",
-      "LT": "1"
     }
   },
   {
@@ -1899,30 +1923,6 @@
       "EU": "0",
       "MO": "0",
       "LT": "2"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "joufuljohs",
-    "discordId": "<@759219390154932274>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "0",
-      "LT": "0"
     }
   },
   {
@@ -2293,6 +2293,30 @@
     "rank": "",
     "name": "Darkex74",
     "discordId": "#N/A",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "1",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "2eme Voltigeurs \"Arcole\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Adjudant Sous-Officier",
+    "name": "1Tanyaaaaa",
+    "discordId": "<@720559732175142932>",
     "kills": "",
     "kpe": "",
     "kdr": "",
@@ -2883,30 +2907,6 @@
       "EU": "1",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "<@1490930405325541496>",
-    "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "0",
-      "MO": "3",
-      "LT": "3"
     }
   }
 ]
