@@ -2,16 +2,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "163",
+    "points": "164",
     "position": "CO de Compagnie",
     "rank": "General de Brigade",
     "name": "dullqd",
     "discordId": "<@509535779471491092>",
-    "kills": "171",
-    "kpe": "57.0",
-    "kdr": "0.91",
-    "activity": "3",
-    "activityPct": "33%",
+    "kills": "222",
+    "kpe": "55.5",
+    "kdr": "0.94",
+    "activity": "4",
+    "activityPct": "40%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -28,21 +28,21 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "30",
+    "points": "31",
     "position": "XO de Compagnie",
     "rank": "Lieutenant",
     "name": "dwellAltair",
     "discordId": "<@984246988990210170>",
-    "kills": "421",
-    "kpe": "46.8",
-    "kdr": "1.03",
-    "activity": "9",
+    "kills": "456",
+    "kpe": "45.6",
+    "kdr": "0.98",
+    "activity": "10",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "C",
@@ -60,22 +60,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "154",
+    "points": "155",
     "position": "Etat Major",
     "rank": "Adjudant Sous-Officier",
     "name": "SHADOW_FAX",
     "discordId": "<@522714733342752779>",
-    "kills": "164",
-    "kpe": "32.8",
+    "kills": "173",
+    "kpe": "28.8",
     "kdr": "0.73",
-    "activity": "5",
-    "activityPct": "56%",
+    "activity": "6",
+    "activityPct": "60%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -92,22 +92,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "384",
+    "points": "386",
     "position": "Etat Major",
     "rank": "Sergent Major",
     "name": "johnnybarrett",
     "discordId": "<@691923335633960992>",
-    "kills": "266",
-    "kpe": "38.0",
-    "kdr": "0.85",
-    "activity": "7",
-    "activityPct": "78%",
+    "kills": "302",
+    "kpe": "37.8",
+    "kdr": "0.84",
+    "activity": "8",
+    "activityPct": "80%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -124,21 +124,21 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "121",
+    "points": "122",
     "position": "Etat Major",
     "rank": "Sergent Major",
     "name": "auellqd",
     "discordId": "<@932177626188087357>",
-    "kills": "552",
-    "kpe": "61.3",
-    "kdr": "1.44",
-    "activity": "9",
+    "kills": "616",
+    "kpe": "61.6",
+    "kdr": "1.41",
+    "activity": "10",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B",
@@ -156,7 +156,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -171,7 +171,7 @@
     "kpe": "36.0",
     "kdr": "0.83",
     "activity": "2",
-    "activityPct": "22%",
+    "activityPct": "20%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -194,16 +194,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "389",
+    "points": "390",
     "position": "Pendantif d'Elite",
     "rank": "Adjudant",
     "name": "Alynum",
     "discordId": "<@478475197708632065>",
-    "kills": "181",
+    "kills": "241",
     "kpe": "60.3",
-    "kdr": "1.18",
-    "activity": "3",
-    "activityPct": "33%",
+    "kdr": "1.25",
+    "activity": "4",
+    "activityPct": "40%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -220,7 +220,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -258,16 +258,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "296",
+    "points": "297",
     "position": "Pendantif d'Elite",
     "rank": "Sergent Major",
     "name": "AwesomeRights",
     "discordId": "<@480523976104345603>",
-    "kills": "89",
-    "kpe": "44.5",
-    "kdr": "0.73",
-    "activity": "2",
-    "activityPct": "22%",
+    "kills": "138",
+    "kpe": "46.0",
+    "kdr": "0.84",
+    "activity": "3",
+    "activityPct": "30%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -284,7 +284,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -354,16 +354,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "316",
+    "points": "317",
     "position": "Pendantif d'Elite",
     "rank": "Sergent",
     "name": "KSK207777",
     "discordId": "<@708539169722335283>",
-    "kills": "336",
-    "kpe": "67.2",
-    "kdr": "1.71",
-    "activity": "5",
-    "activityPct": "56%",
+    "kills": "406",
+    "kpe": "67.7",
+    "kdr": "1.77",
+    "activity": "6",
+    "activityPct": "60%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -380,22 +380,22 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "318",
+    "points": "319",
     "position": "Pendantif d'Elite",
     "rank": "Honorary Sergent",
     "name": "Partholonn",
     "discordId": "<@681489011281362974>",
-    "kills": "115",
-    "kpe": "57.5",
-    "kdr": "1.60",
-    "activity": "2",
-    "activityPct": "22%",
+    "kills": "164",
+    "kpe": "54.7",
+    "kdr": "1.59",
+    "activity": "3",
+    "activityPct": "30%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -412,7 +412,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -427,7 +427,7 @@
     "kpe": "54.3",
     "kdr": "1.37",
     "activity": "4",
-    "activityPct": "44%",
+    "activityPct": "40%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -459,7 +459,7 @@
     "kpe": "53.1",
     "kdr": "1.30",
     "activity": "7",
-    "activityPct": "78%",
+    "activityPct": "70%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -482,16 +482,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "336",
+    "points": "337",
     "position": "FD",
     "rank": "Honorary Sergent",
     "name": "DREAMHOLY1it",
     "discordId": "<@1365734831635304548>",
-    "kills": "294",
-    "kpe": "42.0",
+    "kills": "338",
+    "kpe": "42.3",
     "kdr": "0.79",
-    "activity": "7",
-    "activityPct": "78%",
+    "activity": "8",
+    "activityPct": "80%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -508,22 +508,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "262",
+    "points": "263",
     "position": "FD",
     "rank": "Honorary Sergent",
     "name": "Ilikepotatoes067",
     "discordId": "<@1059419623285600336>",
-    "kills": "348",
-    "kpe": "49.7",
-    "kdr": "1.17",
-    "activity": "7",
-    "activityPct": "78%",
+    "kills": "402",
+    "kpe": "50.3",
+    "kdr": "1.16",
+    "activity": "8",
+    "activityPct": "80%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -540,22 +540,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "196",
+    "points": "197",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "geestadt",
     "discordId": "<@674252848858398750>",
-    "kills": "128",
-    "kpe": "42.7",
-    "kdr": "0.90",
-    "activity": "3",
-    "activityPct": "33%",
+    "kills": "179",
+    "kpe": "44.8",
+    "kdr": "0.99",
+    "activity": "4",
+    "activityPct": "40%",
     "loa": "TRUE",
     "grade": "C",
     "attendance": {
@@ -572,7 +572,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -587,7 +587,7 @@
     "kpe": "63.3",
     "kdr": "1.32",
     "activity": "4",
-    "activityPct": "44%",
+    "activityPct": "40%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -610,16 +610,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "194",
+    "points": "195",
     "position": "Pendantif d'Elite",
     "rank": "Caporal Fourrier",
     "name": "ikun666303",
     "discordId": "<@1444531035382743203>",
-    "kills": "440",
-    "kpe": "73.3",
-    "kdr": "1.74",
-    "activity": "6",
-    "activityPct": "67%",
+    "kills": "509",
+    "kpe": "72.7",
+    "kdr": "1.70",
+    "activity": "7",
+    "activityPct": "70%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -636,22 +636,22 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "264",
+    "points": "265",
     "position": "Sapeur",
     "rank": "Caporal Fourrier",
     "name": "InvisibleScott",
     "discordId": "<@803298065397186561>",
-    "kills": "385",
-    "kpe": "48.1",
-    "kdr": "1.27",
-    "activity": "8",
-    "activityPct": "89%",
+    "kills": "431",
+    "kpe": "47.9",
+    "kdr": "1.26",
+    "activity": "9",
+    "activityPct": "90%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -668,7 +668,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -683,7 +683,7 @@
     "kpe": "42.7",
     "kdr": "0.97",
     "activity": "6",
-    "activityPct": "67%",
+    "activityPct": "60%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -706,16 +706,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "80",
+    "points": "81",
     "position": "Pendantif d'Elite",
     "rank": "Caporal Fourrier",
     "name": "xZenStarlight",
     "discordId": "<@1343360547327971330>",
-    "kills": "236",
-    "kpe": "59.0",
-    "kdr": "1.19",
-    "activity": "4",
-    "activityPct": "44%",
+    "kills": "297",
+    "kpe": "59.4",
+    "kdr": "1.16",
+    "activity": "5",
+    "activityPct": "50%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -732,7 +732,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -747,7 +747,7 @@
     "kpe": "79.0",
     "kdr": "1.74",
     "activity": "6",
-    "activityPct": "67%",
+    "activityPct": "60%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -770,16 +770,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "179",
+    "points": "180",
     "position": "Pendantif d'Elite",
     "rank": "Caporal Fourrier",
     "name": "ice61111",
     "discordId": "<@875881708937936966>",
-    "kills": "384",
-    "kpe": "54.9",
-    "kdr": "0.99",
-    "activity": "7",
-    "activityPct": "78%",
+    "kills": "456",
+    "kpe": "57.0",
+    "kdr": "1.02",
+    "activity": "8",
+    "activityPct": "80%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -796,22 +796,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "194",
+    "points": "195",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "MasterMarco17",
     "discordId": "<@526357049991495728>",
-    "kills": "223",
-    "kpe": "44.6",
-    "kdr": "0.96",
-    "activity": "5",
-    "activityPct": "56%",
+    "kills": "284",
+    "kpe": "47.3",
+    "kdr": "1.01",
+    "activity": "6",
+    "activityPct": "60%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -828,7 +828,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -898,15 +898,15 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "106",
+    "points": "107",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "MoneyOrBan",
     "discordId": "<@323359894659006466>",
-    "kills": "533",
-    "kpe": "59.2",
-    "kdr": "1.38",
-    "activity": "9",
+    "kills": "593",
+    "kpe": "59.3",
+    "kdr": "1.40",
+    "activity": "10",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B",
@@ -924,7 +924,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -939,7 +939,7 @@
     "kpe": "56.0",
     "kdr": "1.08",
     "activity": "3",
-    "activityPct": "33%",
+    "activityPct": "30%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1003,7 +1003,7 @@
     "kpe": "63.0",
     "kdr": "1.37",
     "activity": "1",
-    "activityPct": "11%",
+    "activityPct": "10%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -1035,7 +1035,7 @@
     "kpe": "67.2",
     "kdr": "1.80",
     "activity": "5",
-    "activityPct": "56%",
+    "activityPct": "50%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -1058,16 +1058,16 @@
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "106",
+    "points": "107",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "QE95N",
     "discordId": "<@1434711602099257354>",
-    "kills": "388",
+    "kills": "443",
     "kpe": "55.4",
-    "kdr": "1.41",
-    "activity": "7",
-    "activityPct": "78%",
+    "kdr": "1.39",
+    "activity": "8",
+    "activityPct": "80%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1084,22 +1084,22 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "grens",
     "company": "GRENADIERS DE AMIENS \"LEIPZIG\"",
-    "points": "23",
+    "points": "24",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "vintage_aqua",
     "discordId": "<@1544318207425380407>",
-    "kills": "271",
-    "kpe": "67.8",
-    "kdr": "1.52",
-    "activity": "4",
-    "activityPct": "44%",
+    "kills": "338",
+    "kpe": "67.6",
+    "kdr": "1.53",
+    "activity": "5",
+    "activityPct": "50%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -1116,7 +1116,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1131,7 +1131,7 @@
     "kpe": "48.2",
     "kdr": "1.02",
     "activity": "5",
-    "activityPct": "56%",
+    "activityPct": "50%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {

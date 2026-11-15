@@ -2,18 +2,18 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "274",
+    "points": "275",
     "position": "CO de Compagnie",
     "rank": "Chef de Bataillon",
     "name": "kjvif",
     "discordId": "<@443259152375218177>",
-    "kills": "346",
-    "kpe": "34.6",
+    "kills": "389",
+    "kpe": "35.4",
     "kdr": "0.75",
-    "activity": "10",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
-    "grade": "C",
+    "grade": "C+",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -28,7 +28,7 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -43,7 +43,7 @@
     "kpe": "29.5",
     "kdr": "0.62",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -139,7 +139,7 @@
     "kpe": "41.5",
     "kdr": "0.86",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -171,7 +171,7 @@
     "kpe": "39.0",
     "kdr": "0.91",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -194,16 +194,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "267",
+    "points": "268",
     "position": "FD",
     "rank": "Honorary Sergent",
     "name": "KaptynaCrows",
     "discordId": "<@672759188916535296>",
-    "kills": "324",
-    "kpe": "54.0",
-    "kdr": "1.04",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "371",
+    "kpe": "53.0",
+    "kdr": "1.02",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -220,21 +220,21 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "124",
+    "points": "125",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "Francis_T11",
     "discordId": "<@770912564376240128>",
-    "kills": "480",
-    "kpe": "48.0",
-    "kdr": "1.01",
-    "activity": "10",
+    "kills": "532",
+    "kpe": "48.4",
+    "kdr": "1.02",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B",
@@ -252,7 +252,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -299,7 +299,7 @@
     "kpe": "45.5",
     "kdr": "0.88",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -331,7 +331,7 @@
     "kpe": "32.0",
     "kdr": "0.82",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -395,7 +395,7 @@
     "kpe": "56.8",
     "kdr": "1.25",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -427,7 +427,7 @@
     "kpe": "42.2",
     "kdr": "0.97",
     "activity": "10",
-    "activityPct": "100%",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -450,16 +450,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "78",
+    "points": "80",
     "position": "Tambour Major",
     "rank": "Caporal Fourrier",
     "name": "Kawin2485",
     "discordId": "<@711753973836677123>",
-    "kills": "212",
-    "kpe": "42.4",
-    "kdr": "1.07",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "250",
+    "kpe": "41.7",
+    "kdr": "1.00",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -476,7 +476,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -491,7 +491,7 @@
     "kpe": "75.0",
     "kdr": "1.67",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -514,16 +514,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "188",
+    "points": "189",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "cattrixx1105",
     "discordId": "<@865042750705106985>",
-    "kills": "138",
-    "kpe": "34.5",
-    "kdr": "1.01",
-    "activity": "4",
-    "activityPct": "40%",
+    "kills": "170",
+    "kpe": "34.0",
+    "kdr": "0.99",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -540,22 +540,22 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "77",
+    "points": "78",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "ballerop561logedoput",
     "discordId": "<@1337124740141285396>",
-    "kills": "110",
-    "kpe": "36.7",
-    "kdr": "0.85",
-    "activity": "3",
-    "activityPct": "30%",
+    "kills": "157",
+    "kpe": "39.3",
+    "kdr": "0.89",
+    "activity": "4",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -572,7 +572,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -587,7 +587,7 @@
     "kpe": "54.7",
     "kdr": "0.87",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -610,16 +610,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "71",
+    "points": "73",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "zombiepro1399",
     "discordId": "<@1051546762441146550>",
-    "kills": "335",
-    "kpe": "47.9",
-    "kdr": "1.03",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "397",
+    "kpe": "49.6",
+    "kdr": "1.06",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -636,7 +636,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -651,7 +651,7 @@
     "kpe": "19.8",
     "kdr": "0.46",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -674,18 +674,18 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "62",
+    "points": "63",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "SamFleurye",
     "discordId": "<@1486087303935037502>",
-    "kills": "63",
-    "kpe": "63.0",
-    "kdr": "1.17",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "110",
+    "kpe": "55.0",
+    "kdr": "1.03",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "TRUE",
-    "grade": "A",
+    "grade": "B+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -700,7 +700,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -715,7 +715,7 @@
     "kpe": "89.2",
     "kdr": "2.05",
     "activity": "6",
-    "activityPct": "60%",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "S",
     "attendance": {
@@ -779,7 +779,7 @@
     "kpe": "42.0",
     "kdr": "0.82",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -811,8 +811,8 @@
     "kpe": "41.0",
     "kdr": "0.77",
     "activity": "1",
-    "activityPct": "10%",
-    "loa": "FALSE",
+    "activityPct": "9%",
+    "loa": "TRUE",
     "grade": "B-",
     "attendance": {
       "11/2": "",
@@ -843,7 +843,7 @@
     "kpe": "47.4",
     "kdr": "1.12",
     "activity": "10",
-    "activityPct": "100%",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -866,16 +866,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "38",
+    "points": "39",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Mallet_man20",
     "discordId": "<@1297037844014956556>",
-    "kills": "207",
-    "kpe": "41.4",
-    "kdr": "0.88",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "258",
+    "kpe": "43.0",
+    "kdr": "0.91",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -892,7 +892,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -907,7 +907,7 @@
     "kpe": "47.3",
     "kdr": "0.89",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -930,16 +930,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "41",
+    "points": "42",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Banneret10",
     "discordId": "<@1534500613298196624>",
-    "kills": "342",
-    "kpe": "42.8",
+    "kills": "386",
+    "kpe": "42.9",
     "kdr": "1.20",
-    "activity": "8",
-    "activityPct": "80%",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -956,22 +956,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "24",
+    "points": "25",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Ilikemilk4k",
     "discordId": "<@821660670843682857>",
-    "kills": "360",
-    "kpe": "51.4",
-    "kdr": "1.42",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "410",
+    "kpe": "51.3",
+    "kdr": "1.41",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -988,7 +988,7 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1003,7 +1003,7 @@
     "kpe": "51.0",
     "kdr": "1.38",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -1090,16 +1090,16 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "5",
+    "points": "6",
     "position": "Full Ranker",
     "rank": "Soldat de Premier",
     "name": "siambye",
     "discordId": "<@1447496134267244595>",
-    "kills": "226",
-    "kpe": "37.7",
-    "kdr": "0.88",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "278",
+    "kpe": "39.7",
+    "kdr": "0.94",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1116,22 +1116,22 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "9",
+    "points": "10",
     "position": "Full Ranker",
     "rank": "Soldat de Premier",
     "name": "Arliynn",
     "discordId": "<@255972366373486592>",
-    "kills": "233",
-    "kpe": "33.3",
+    "kills": "276",
+    "kpe": "34.5",
     "kdr": "0.92",
-    "activity": "7",
-    "activityPct": "70%",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "TRUE",
     "grade": "C",
     "attendance": {
@@ -1148,22 +1148,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
-    "points": "12",
+    "points": "13",
     "position": "Full Ranker",
     "rank": "Soldat de Premier",
     "name": "Alep_906",
     "discordId": "<@1379876922917650564>",
-    "kills": "215",
-    "kpe": "30.7",
-    "kdr": "0.84",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "247",
+    "kpe": "30.9",
+    "kdr": "0.82",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -1180,7 +1180,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1195,7 +1195,7 @@
     "kpe": "28.9",
     "kdr": "1.06",
     "activity": "9",
-    "activityPct": "90%",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -1218,6 +1218,38 @@
   {
     "battalion": "fusiliers",
     "company": "1ER FUSILIERS \"LES TERRIBLES\"",
+    "points": "8",
+    "position": "Full Ranker",
+    "rank": "Soldat de Premier",
+    "name": "JulyDisaster",
+    "discordId": "<@1033227215359443034>",
+    "kills": "0",
+    "kpe": "0.0",
+    "kdr": "0.00",
+    "activity": "0",
+    "activityPct": "0%",
+    "loa": "FALSE",
+    "grade": "N/A",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "FALSE",
+      "11/14": "FALSE",
+      "11/15": "FALSE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "1ER FUSILIERS \"LES TERRIBLES\"",
     "points": "68",
     "position": "Missing",
     "rank": "Conscrit",
@@ -1227,7 +1259,7 @@
     "kpe": "52.5",
     "kdr": "1.43",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -1250,16 +1282,16 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "204",
+    "points": "205",
     "position": "CO de Compagnie",
     "rank": "Sous-Lieutenant",
     "name": "S_Cormac",
     "discordId": "<@1115537442603274273>",
-    "kills": "325",
-    "kpe": "40.6",
-    "kdr": "0.90",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "429",
+    "kpe": "42.9",
+    "kdr": "0.95",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1275,8 +1307,8 @@
       "11/11": "TRUE",
       "11/12": "TRUE",
       "11/13": "FALSE",
-      "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/14": "TRUE",
+      "11/15": "TRUE"
     }
   },
   {
@@ -1291,7 +1323,7 @@
     "kpe": "31.0",
     "kdr": "0.55",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -1323,7 +1355,7 @@
     "kpe": "18.0",
     "kdr": "0.45",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -1346,15 +1378,15 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "232",
+    "points": "233",
     "position": "Etat Major",
     "rank": "Adjudant",
     "name": "ArcoBoyo",
     "discordId": "<@1068740271786963055>",
-    "kills": "269",
-    "kpe": "26.9",
-    "kdr": "0.68",
-    "activity": "10",
+    "kills": "282",
+    "kpe": "25.6",
+    "kdr": "0.66",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "C-",
@@ -1372,21 +1404,21 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "128",
+    "points": "129",
     "position": "Etat Major",
     "rank": "Sergent",
     "name": "ChanHei2047secondacc",
     "discordId": "<@867707468305661982>",
-    "kills": "604",
+    "kills": "664",
     "kpe": "60.4",
-    "kdr": "1.14",
-    "activity": "10",
+    "kdr": "1.17",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "A-",
@@ -1404,24 +1436,24 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "116",
+    "points": "117",
     "position": "CO de Bataillon",
     "rank": "Sous-Lieutenant",
     "name": "ash4561g",
     "discordId": "<@750990926922645556>",
-    "kills": "368",
-    "kpe": "73.6",
-    "kdr": "1.67",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "468",
+    "kpe": "66.9",
+    "kdr": "1.71",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
-    "grade": "A+",
+    "grade": "A",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -1435,23 +1467,23 @@
       "11/11": "FALSE",
       "11/12": "FALSE",
       "11/13": "TRUE",
-      "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/14": "TRUE",
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "168",
+    "points": "169",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "MonkeyName_9",
     "discordId": "<@1179045145044320401>",
-    "kills": "135",
-    "kpe": "33.8",
-    "kdr": "0.78",
-    "activity": "4",
-    "activityPct": "40%",
+    "kills": "152",
+    "kpe": "30.4",
+    "kdr": "0.71",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "TRUE",
     "grade": "C",
     "attendance": {
@@ -1468,7 +1500,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1483,7 +1515,7 @@
     "kpe": "45.0",
     "kdr": "1.00",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "TRUE",
     "grade": "B",
     "attendance": {
@@ -1506,16 +1538,16 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "37",
+    "points": "39",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "lerenard0123",
     "discordId": "<@943573581860831263>",
-    "kills": "260",
-    "kpe": "65.0",
-    "kdr": "1.22",
-    "activity": "4",
-    "activityPct": "40%",
+    "kills": "322",
+    "kpe": "64.4",
+    "kdr": "1.24",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "TRUE",
     "grade": "A",
     "attendance": {
@@ -1532,7 +1564,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1541,45 +1573,13 @@
     "points": "26",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
-    "name": "yeththe",
-    "discordId": "<@766926782569644042>",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "0%",
-    "loa": "TRUE",
-    "grade": "N/A",
-    "attendance": {
-      "11/2": "",
-      "11/3": "FALSE",
-      "11/4": "FALSE",
-      "11/5": "FALSE",
-      "11/6": "FALSE",
-      "11/7": "FALSE",
-      "11/8": "FALSE",
-      "11/9": "",
-      "11/10": "FALSE",
-      "11/11": "FALSE",
-      "11/12": "FALSE",
-      "11/13": "FALSE",
-      "11/14": "FALSE",
-      "11/15": "FALSE"
-    }
-  },
-  {
-    "battalion": "fusiliers",
-    "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "25",
-    "position": "Full Ranker",
-    "rank": "Caporal Fourrier",
     "name": "redguyl0",
     "discordId": "<@890454005682171984>",
-    "kills": "321",
-    "kpe": "40.1",
-    "kdr": "1.02",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "362",
+    "kpe": "40.2",
+    "kdr": "1.07",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1596,7 +1596,7 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1611,7 +1611,7 @@
     "kpe": "63.0",
     "kdr": "1.16",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -1643,7 +1643,7 @@
     "kpe": "20.3",
     "kdr": "0.66",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "TRUE",
     "grade": "D+",
     "attendance": {
@@ -1675,7 +1675,7 @@
     "kpe": "42.0",
     "kdr": "1.45",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -1698,16 +1698,16 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "69",
+    "points": "70",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "RAP75GOD",
     "discordId": "<@1236145727172771922>",
-    "kills": "32",
-    "kpe": "32.0",
-    "kdr": "0.50",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "68",
+    "kpe": "34.0",
+    "kdr": "0.58",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "TRUE",
     "grade": "C",
     "attendance": {
@@ -1724,22 +1724,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "20",
+    "points": "21",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "palmyrenne",
     "discordId": "<@744277030677250179>",
-    "kills": "612",
-    "kpe": "76.5",
-    "kdr": "1.40",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "677",
+    "kpe": "75.2",
+    "kdr": "1.39",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "TRUE",
     "grade": "A+",
     "attendance": {
@@ -1756,7 +1756,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1771,7 +1771,7 @@
     "kpe": "42.5",
     "kdr": "0.94",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -1804,7 +1804,7 @@
     "kdr": "0.00",
     "activity": "0",
     "activityPct": "0%",
-    "loa": "FALSE",
+    "loa": "TRUE",
     "grade": "N/A",
     "attendance": {
       "11/2": "",
@@ -1826,15 +1826,15 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "37",
+    "points": "38",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Silvershard_124567",
     "discordId": "<@1400816497630380072>",
-    "kills": "447",
-    "kpe": "44.7",
-    "kdr": "0.93",
-    "activity": "10",
+    "kills": "487",
+    "kpe": "44.3",
+    "kdr": "0.94",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B-",
@@ -1852,24 +1852,24 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "14",
+    "points": "15",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Kertz1945",
     "discordId": "<@934044080822960148>",
-    "kills": "302",
-    "kpe": "60.4",
-    "kdr": "1.27",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "343",
+    "kpe": "57.2",
+    "kdr": "1.22",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
-    "grade": "A-",
+    "grade": "B+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -1884,7 +1884,7 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1899,7 +1899,7 @@
     "kpe": "58.0",
     "kdr": "1.10",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -1931,7 +1931,7 @@
     "kpe": "43.5",
     "kdr": "0.87",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -1954,15 +1954,15 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "19",
+    "points": "20",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "joufuljohs",
     "discordId": "<@759219390154932274>",
-    "kills": "503",
-    "kpe": "50.3",
-    "kdr": "1.06",
-    "activity": "10",
+    "kills": "552",
+    "kpe": "50.2",
+    "kdr": "1.07",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B",
@@ -1980,7 +1980,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1995,7 +1995,7 @@
     "kpe": "33.1",
     "kdr": "0.87",
     "activity": "9",
-    "activityPct": "90%",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -2027,7 +2027,7 @@
     "kpe": "52.0",
     "kdr": "0.88",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "TRUE",
     "grade": "B+",
     "attendance": {
@@ -2059,7 +2059,7 @@
     "kpe": "53.4",
     "kdr": "1.56",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -2082,16 +2082,16 @@
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "14",
+    "points": "15",
     "position": "Full Ranker",
     "rank": "Soldat de Premier",
     "name": "Melissanisu",
     "discordId": "<@1178647221646917712>",
-    "kills": "264",
-    "kpe": "33.0",
-    "kdr": "1.52",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "296",
+    "kpe": "32.9",
+    "kdr": "1.54",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -2108,22 +2108,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "2EME FUSILIERS \"LA MARTINIQUE\"",
-    "points": "19",
+    "points": "20",
     "position": "Full Ranker",
     "rank": "Soldat de Premier",
     "name": "blekgen1",
     "discordId": "<@1534342357158461580>",
-    "kills": "335",
-    "kpe": "37.2",
-    "kdr": "0.89",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "364",
+    "kpe": "36.4",
+    "kdr": "0.86",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -2140,7 +2140,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -2155,7 +2155,7 @@
     "kpe": "49.8",
     "kdr": "1.09",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -2187,7 +2187,7 @@
     "kpe": "31.7",
     "kdr": "0.55",
     "activity": "6",
-    "activityPct": "60%",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -2210,15 +2210,15 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "515",
+    "points": "516",
     "position": "XO de Compagnie",
     "rank": "Sous-Lieutenant",
     "name": "Puppywad2",
     "discordId": "<@989054717629976658>",
-    "kills": "435",
-    "kpe": "43.5",
-    "kdr": "0.93",
-    "activity": "10",
+    "kills": "456",
+    "kpe": "41.5",
+    "kdr": "0.91",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B-",
@@ -2236,7 +2236,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -2251,7 +2251,7 @@
     "kpe": "48.8",
     "kdr": "0.95",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -2283,7 +2283,7 @@
     "kpe": "33.0",
     "kdr": "0.60",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -2306,16 +2306,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "141",
+    "points": "142",
     "position": "Full Ranker",
     "rank": "Honorary Sergent",
     "name": "Cosmos9115",
     "discordId": "<@1028980614973624411>",
-    "kills": "8",
-    "kpe": "8.0",
-    "kdr": "0.17",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "20",
+    "kpe": "10.0",
+    "kdr": "0.26",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -2332,6 +2332,38 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
+      "11/15": "TRUE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "26",
+    "position": "Full Ranker",
+    "rank": "Caporal Fourrier",
+    "name": "yeththe",
+    "discordId": "<@766926782569644042>",
+    "kills": "0",
+    "kpe": "0.0",
+    "kdr": "0.00",
+    "activity": "0",
+    "activityPct": "0%",
+    "loa": "TRUE",
+    "grade": "N/A",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "FALSE",
+      "11/14": "FALSE",
       "11/15": "FALSE"
     }
   },
@@ -2347,7 +2379,7 @@
     "kpe": "21.4",
     "kdr": "0.53",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -2379,7 +2411,7 @@
     "kpe": "14.0",
     "kdr": "0.33",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "TRUE",
     "grade": "D",
     "attendance": {
@@ -2402,16 +2434,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "149",
+    "points": "151",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "BlackReaperJohn",
     "discordId": "<@689058817207435565>",
-    "kills": "164",
-    "kpe": "18.2",
-    "kdr": "0.45",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "173",
+    "kpe": "17.3",
+    "kdr": "0.44",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -2428,24 +2460,24 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "68",
+    "points": "69",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "Sinjank64",
     "discordId": "<@1191406388556075028>",
-    "kills": "68",
-    "kpe": "68.0",
-    "kdr": "1.10",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "77",
+    "kpe": "38.5",
+    "kdr": "1.15",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "A",
+    "grade": "C+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -2460,24 +2492,24 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "76",
+    "points": "77",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "EIectric_man",
     "discordId": "<@1516486367444734023>",
-    "kills": "83",
-    "kpe": "27.7",
-    "kdr": "0.65",
-    "activity": "3",
-    "activityPct": "30%",
+    "kills": "130",
+    "kpe": "32.5",
+    "kdr": "0.76",
+    "activity": "4",
+    "activityPct": "36%",
     "loa": "FALSE",
-    "grade": "C-",
+    "grade": "C",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -2492,7 +2524,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -2507,7 +2539,7 @@
     "kpe": "9.3",
     "kdr": "0.24",
     "activity": "6",
-    "activityPct": "60%",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -2539,7 +2571,7 @@
     "kpe": "36.0",
     "kdr": "0.72",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "TRUE",
     "grade": "C+",
     "attendance": {
@@ -2690,16 +2722,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "41",
+    "points": "42",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Pls_12609",
     "discordId": "<@1317093769157410819>",
-    "kills": "47",
-    "kpe": "9.4",
-    "kdr": "0.41",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "77",
+    "kpe": "12.8",
+    "kdr": "0.53",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -2716,7 +2748,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -2731,7 +2763,7 @@
     "kpe": "18.6",
     "kdr": "0.44",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -2763,7 +2795,7 @@
     "kpe": "67.0",
     "kdr": "1.06",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -2795,7 +2827,7 @@
     "kpe": "30.0",
     "kdr": "0.71",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "TRUE",
     "grade": "C",
     "attendance": {
@@ -2859,7 +2891,7 @@
     "kpe": "20.0",
     "kdr": "0.77",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -2882,18 +2914,18 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "2",
+    "points": "3",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "panzer_3AUSFl",
     "discordId": "<@1189936671807000626>",
-    "kills": "61",
-    "kpe": "61.0",
-    "kdr": "1.49",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "128",
+    "kpe": "64.0",
+    "kdr": "1.58",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "A-",
+    "grade": "A",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -2908,22 +2940,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "4",
+    "points": "5",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "joshboun",
     "discordId": "<@1441144972530155661>",
-    "kills": "49",
-    "kpe": "49.0",
-    "kdr": "0.88",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "90",
+    "kpe": "45.0",
+    "kdr": "0.89",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -2940,7 +2972,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -3051,7 +3083,7 @@
     "kpe": "24.0",
     "kdr": "0.92",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "TRUE",
     "grade": "D+",
     "attendance": {
@@ -3083,8 +3115,8 @@
     "kpe": "29.0",
     "kdr": "0.66",
     "activity": "1",
-    "activityPct": "10%",
-    "loa": "TRUE",
+    "activityPct": "9%",
+    "loa": "FALSE",
     "grade": "C",
     "attendance": {
       "11/2": "",
@@ -3115,7 +3147,7 @@
     "kpe": "29.5",
     "kdr": "0.87",
     "activity": "6",
-    "activityPct": "60%",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -3147,7 +3179,7 @@
     "kpe": "19.0",
     "kdr": "1.08",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -3179,7 +3211,7 @@
     "kpe": "25.0",
     "kdr": "1.32",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -3275,7 +3307,7 @@
     "kpe": "23.0",
     "kdr": "0.81",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -3339,7 +3371,7 @@
     "kpe": "12.7",
     "kdr": "0.30",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -3403,7 +3435,7 @@
     "kpe": "29.0",
     "kdr": "0.85",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -3435,7 +3467,7 @@
     "kpe": "12.7",
     "kdr": "0.31",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -3467,7 +3499,7 @@
     "kpe": "55.0",
     "kdr": "1.25",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -3499,7 +3531,7 @@
     "kpe": "23.0",
     "kdr": "0.59",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -3586,18 +3618,18 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "1",
+    "points": "2",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "cqk24236",
     "discordId": "<@1465543954345758811>",
-    "kills": "14",
-    "kpe": "14.0",
-    "kdr": "0.37",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "40",
+    "kpe": "20.0",
+    "kdr": "0.56",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "D",
+    "grade": "D+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -3612,7 +3644,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -3627,7 +3659,7 @@
     "kpe": "29.0",
     "kdr": "0.81",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -3755,7 +3787,7 @@
     "kpe": "11.0",
     "kdr": "0.41",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -3787,7 +3819,7 @@
     "kpe": "19.0",
     "kdr": "0.73",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -3883,7 +3915,7 @@
     "kpe": "14.0",
     "kdr": "0.35",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -3906,16 +3938,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "5",
+    "points": "6",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "fshkmizqweqweqw",
     "discordId": "<@1265875823798255711>",
-    "kills": "200",
-    "kpe": "40.0",
-    "kdr": "1.04",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "249",
+    "kpe": "41.5",
+    "kdr": "1.06",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -3932,22 +3964,22 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "8",
+    "points": "9",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "sentarcart",
     "discordId": "<@1103551608790450196>",
-    "kills": "276",
-    "kpe": "46.0",
-    "kdr": "0.97",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "324",
+    "kpe": "46.3",
+    "kdr": "0.93",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -3964,7 +3996,7 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -3979,7 +4011,7 @@
     "kpe": "22.0",
     "kdr": "0.81",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -4011,7 +4043,7 @@
     "kpe": "68.0",
     "kdr": "1.15",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -4043,7 +4075,7 @@
     "kpe": "23.5",
     "kdr": "0.61",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -4107,7 +4139,7 @@
     "kpe": "23.4",
     "kdr": "0.67",
     "activity": "5",
-    "activityPct": "50%",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -4130,16 +4162,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "5",
+    "points": "7",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "Legolucian1",
     "discordId": "<@533868536741756928>",
-    "kills": "213",
-    "kpe": "53.3",
-    "kdr": "1.21",
-    "activity": "4",
-    "activityPct": "40%",
+    "kills": "270",
+    "kpe": "54.0",
+    "kdr": "1.22",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -4156,7 +4188,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4194,18 +4226,18 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "3",
+    "points": "4",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "felixalty9",
     "discordId": "<@1566857850234347719>",
-    "kills": "94",
-    "kpe": "47.0",
-    "kdr": "0.87",
-    "activity": "2",
-    "activityPct": "20%",
+    "kills": "165",
+    "kpe": "55.0",
+    "kdr": "1.10",
+    "activity": "3",
+    "activityPct": "27%",
     "loa": "FALSE",
-    "grade": "B",
+    "grade": "B+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -4220,22 +4252,22 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "2",
+    "points": "3",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "ABzSHOPx31284",
     "discordId": "<@1550841998955643021>",
-    "kills": "78",
-    "kpe": "39.0",
-    "kdr": "0.98",
-    "activity": "2",
-    "activityPct": "20%",
+    "kills": "113",
+    "kpe": "37.7",
+    "kdr": "1.00",
+    "activity": "3",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -4252,24 +4284,24 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "3",
+    "points": "4",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "derpman898",
     "discordId": "<@535201517154730014>",
-    "kills": "78",
-    "kpe": "39.0",
-    "kdr": "0.76",
-    "activity": "2",
-    "activityPct": "20%",
+    "kills": "125",
+    "kpe": "41.7",
+    "kdr": "0.91",
+    "activity": "3",
+    "activityPct": "27%",
     "loa": "FALSE",
-    "grade": "C+",
+    "grade": "B-",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -4284,7 +4316,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4299,7 +4331,7 @@
     "kpe": "20.0",
     "kdr": "0.74",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -4322,16 +4354,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "3",
+    "points": "4",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "Bhthienna",
     "discordId": "<@840934130199822336>",
-    "kills": "71",
-    "kpe": "35.5",
-    "kdr": "0.96",
-    "activity": "2",
-    "activityPct": "20%",
+    "kills": "117",
+    "kpe": "39.0",
+    "kdr": "1.11",
+    "activity": "3",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -4348,7 +4380,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4418,6 +4450,38 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "5",
+    "position": "Full Ranker",
+    "rank": "Soldat",
+    "name": "rblian2233",
+    "discordId": "<@1104981267969220689>",
+    "kills": "175",
+    "kpe": "43.8",
+    "kdr": "0.74",
+    "activity": "4",
+    "activityPct": "36%",
+    "loa": "FALSE",
+    "grade": "B-",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "TRUE",
+      "11/11": "TRUE",
+      "11/12": "FALSE",
+      "11/13": "TRUE",
+      "11/14": "FALSE",
+      "11/15": "TRUE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
     "points": "1",
     "position": "Full Ranker",
     "rank": "Soldat",
@@ -4427,7 +4491,7 @@
     "kpe": "62.0",
     "kdr": "1.05",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -4450,18 +4514,18 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "1",
+    "points": "2",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "Djvjduvh",
     "discordId": "<@1157036778428051486>",
-    "kills": "117",
-    "kpe": "58.5",
-    "kdr": "1.10",
-    "activity": "2",
-    "activityPct": "20%",
+    "kills": "178",
+    "kpe": "59.3",
+    "kdr": "1.11",
+    "activity": "3",
+    "activityPct": "27%",
     "loa": "FALSE",
-    "grade": "B+",
+    "grade": "A-",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -4476,7 +4540,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4523,7 +4587,7 @@
     "kpe": "1.0",
     "kdr": "0.03",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "F",
     "attendance": {
@@ -4546,18 +4610,18 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "4",
+    "points": "5",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "IPhoneAaBb_AndMarco",
     "discordId": "<@1263641524126744721>",
-    "kills": "67",
-    "kpe": "67.0",
-    "kdr": "1.68",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "145",
+    "kpe": "72.5",
+    "kdr": "1.63",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "A",
+    "grade": "A+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -4572,7 +4636,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4605,6 +4669,38 @@
       "11/13": "FALSE",
       "11/14": "FALSE",
       "11/15": "FALSE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "8",
+    "position": "Full Ranker",
+    "rank": "Soldat",
+    "name": "johhan0804",
+    "discordId": "<@1381209008572203081>",
+    "kills": "88",
+    "kpe": "44.0",
+    "kdr": "1.16",
+    "activity": "2",
+    "activityPct": "18%",
+    "loa": "FALSE",
+    "grade": "B-",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "FALSE",
+      "11/14": "TRUE",
+      "11/15": "TRUE"
     }
   },
   {
@@ -4651,7 +4747,7 @@
     "kpe": "13.0",
     "kdr": "0.36",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D-",
     "attendance": {
@@ -4706,50 +4802,18 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "0",
-    "position": "Full Ranker",
-    "rank": "Soldat",
-    "name": "WodirePurse570",
-    "discordId": "<@849827260722184204>",
-    "kills": "47",
-    "kpe": "47.0",
-    "kdr": "0.70",
-    "activity": "1",
-    "activityPct": "10%",
-    "loa": "FALSE",
-    "grade": "B",
-    "attendance": {
-      "11/2": "",
-      "11/3": "FALSE",
-      "11/4": "FALSE",
-      "11/5": "FALSE",
-      "11/6": "FALSE",
-      "11/7": "FALSE",
-      "11/8": "FALSE",
-      "11/9": "",
-      "11/10": "FALSE",
-      "11/11": "FALSE",
-      "11/12": "FALSE",
-      "11/13": "FALSE",
-      "11/14": "TRUE",
-      "11/15": "FALSE"
-    }
-  },
-  {
-    "battalion": "fusiliers",
-    "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "0",
+    "points": "1",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "nekonightcorechan76",
     "discordId": "<@577525916444393484>",
-    "kills": "0",
-    "kpe": "0.0",
-    "kdr": "0.00",
-    "activity": "0",
-    "activityPct": "0%",
+    "kills": "14",
+    "kpe": "14.0",
+    "kdr": "0.29",
+    "activity": "1",
+    "activityPct": "9%",
     "loa": "FALSE",
-    "grade": "N/A",
+    "grade": "D",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -4764,24 +4828,24 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "0",
+    "points": "1",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "Baldegg001",
     "discordId": "<@1489402239834394684>",
-    "kills": "29",
-    "kpe": "29.0",
-    "kdr": "0.81",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "50",
+    "kpe": "25.0",
+    "kdr": "0.74",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "C",
+    "grade": "C-",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -4796,7 +4860,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4811,7 +4875,7 @@
     "kpe": "77.0",
     "kdr": "1.33",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -4834,16 +4898,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "1",
+    "points": "2",
     "position": "Full Ranker",
     "rank": "Soldat",
     "name": "seldcuth",
     "discordId": "<@788062147443032085>",
-    "kills": "44",
-    "kpe": "44.0",
-    "kdr": "0.98",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "80",
+    "kpe": "40.0",
+    "kdr": "1.14",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -4860,7 +4924,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -4898,6 +4962,38 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "2",
+    "position": "Full Ranker",
+    "rank": "Soldat",
+    "name": "Droolzers",
+    "discordId": "<@1366395555038888016>",
+    "kills": "91",
+    "kpe": "45.5",
+    "kdr": "1.40",
+    "activity": "2",
+    "activityPct": "18%",
+    "loa": "FALSE",
+    "grade": "B",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "FALSE",
+      "11/14": "TRUE",
+      "11/15": "TRUE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
     "points": "1",
     "position": "General",
     "rank": "Soldat",
@@ -4907,7 +5003,7 @@
     "kpe": "34.0",
     "kdr": "1.17",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -4939,7 +5035,7 @@
     "kpe": "23.0",
     "kdr": "0.74",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -4956,6 +5052,102 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
+      "11/15": "FALSE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "0",
+    "position": "Full Ranker",
+    "rank": "Soldat",
+    "name": "Moonloiy2",
+    "discordId": "<@1247857929156165743>",
+    "kills": "0",
+    "kpe": "0.0",
+    "kdr": "0.00",
+    "activity": "0",
+    "activityPct": "0%",
+    "loa": "FALSE",
+    "grade": "N/A",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "FALSE",
+      "11/14": "FALSE",
+      "11/15": "FALSE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "2",
+    "position": "Full Ranker",
+    "rank": "Soldat",
+    "name": "harkive",
+    "discordId": "<@957449945508642926>",
+    "kills": "54",
+    "kpe": "27.0",
+    "kdr": "0.77",
+    "activity": "2",
+    "activityPct": "18%",
+    "loa": "FALSE",
+    "grade": "C-",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "TRUE",
+      "11/14": "FALSE",
+      "11/15": "TRUE"
+    }
+  },
+  {
+    "battalion": "fusiliers",
+    "company": "3EME FUSILIERS \"RIVOLI\"",
+    "points": "0",
+    "position": "Full Ranker",
+    "rank": "Soldat",
+    "name": "amir123456i",
+    "discordId": "<@1067145233093115914>",
+    "kills": "0",
+    "kpe": "0.0",
+    "kdr": "0.00",
+    "activity": "0",
+    "activityPct": "0%",
+    "loa": "FALSE",
+    "grade": "N/A",
+    "attendance": {
+      "11/2": "",
+      "11/3": "FALSE",
+      "11/4": "FALSE",
+      "11/5": "FALSE",
+      "11/6": "FALSE",
+      "11/7": "FALSE",
+      "11/8": "FALSE",
+      "11/9": "",
+      "11/10": "FALSE",
+      "11/11": "FALSE",
+      "11/12": "FALSE",
+      "11/13": "FALSE",
+      "11/14": "FALSE",
       "11/15": "FALSE"
     }
   },
@@ -5003,7 +5195,7 @@
     "kpe": "21.0",
     "kdr": "0.64",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -5026,16 +5218,16 @@
   {
     "battalion": "fusiliers",
     "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "6",
+    "points": "7",
     "position": "Full Ranker",
     "rank": "Conscrit",
     "name": "migfonso",
     "discordId": "<@975334337572667422>",
-    "kills": "115",
-    "kpe": "23.0",
-    "kdr": "0.52",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "145",
+    "kpe": "24.2",
+    "kdr": "0.53",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -5052,7 +5244,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -5067,7 +5259,7 @@
     "kpe": "56.5",
     "kdr": "1.26",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -5093,45 +5285,13 @@
     "points": "4",
     "position": "Trial Ranker",
     "rank": "Conscrit",
-    "name": "rblian2233",
-    "discordId": "<@1104981267969220689>",
-    "kills": "116",
-    "kpe": "38.7",
-    "kdr": "0.63",
-    "activity": "3",
-    "activityPct": "30%",
-    "loa": "FALSE",
-    "grade": "C+",
-    "attendance": {
-      "11/2": "",
-      "11/3": "FALSE",
-      "11/4": "FALSE",
-      "11/5": "FALSE",
-      "11/6": "FALSE",
-      "11/7": "FALSE",
-      "11/8": "FALSE",
-      "11/9": "",
-      "11/10": "TRUE",
-      "11/11": "TRUE",
-      "11/12": "FALSE",
-      "11/13": "TRUE",
-      "11/14": "FALSE",
-      "11/15": "FALSE"
-    }
-  },
-  {
-    "battalion": "fusiliers",
-    "company": "3EME FUSILIERS \"RIVOLI\"",
-    "points": "4",
-    "position": "Trial Ranker",
-    "rank": "Conscrit",
     "name": "XluckfishyX",
     "discordId": "<@1525468270587678760>",
     "kills": "64",
     "kpe": "21.3",
     "kdr": "0.60",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -5163,7 +5323,7 @@
     "kpe": "48.5",
     "kdr": "1.04",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -5195,7 +5355,7 @@
     "kpe": "29.0",
     "kdr": "0.52",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -5227,7 +5387,7 @@
     "kpe": "26.0",
     "kdr": "0.58",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {

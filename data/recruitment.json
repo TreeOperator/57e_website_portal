@@ -1090,6 +1090,30 @@
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "bruhguy6278",
+    "discordId": "<@1569004315987681437>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "2",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Voltigeurs \"Austerlitz\"",
+    "points": "",
+    "position": "Recruteur",
     "rank": "Caporal Fourrier",
     "name": "IvanPetroteva112",
     "discordId": "<@1534194268342583447>",
@@ -1129,6 +1153,30 @@
     "stats": {
       "AS": "",
       "EU": "6",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat de Premier",
+    "name": "Alep_906",
+    "discordId": "<@1379876922917650564>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
       "MO": "0",
       "LT": "0"
     }
@@ -1207,30 +1255,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "bruhguy6278",
-    "discordId": "<@1569004315987681437>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "0",
-      "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
@@ -1251,30 +1275,6 @@
       "EU": "2",
       "MO": "1",
       "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Soldat de Premier",
-    "name": "Alep_906",
-    "discordId": "<@1379876922917650564>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "0",
-      "MO": "0",
-      "LT": "0"
     }
   },
   {

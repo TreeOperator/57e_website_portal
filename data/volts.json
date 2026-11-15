@@ -2,16 +2,16 @@
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "83",
+    "points": "84",
     "position": "CO de Compagnie",
     "rank": "Sergent Major",
     "name": "DmannKosmos",
     "discordId": "<@304044182937403393>",
-    "kills": "146",
-    "kpe": "24.3",
-    "kdr": "0.54",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "174",
+    "kpe": "24.9",
+    "kdr": "0.52",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -28,7 +28,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -43,7 +43,7 @@
     "kpe": "31.5",
     "kdr": "0.68",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -75,7 +75,7 @@
     "kpe": "40.0",
     "kdr": "1.01",
     "activity": "8",
-    "activityPct": "80%",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -98,18 +98,18 @@
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "212",
+    "points": "213",
     "position": "Etat Major",
     "rank": "Caporal Fourrier",
     "name": "Theelectron_0917",
     "discordId": "<@998821820029481011>",
-    "kills": "111",
-    "kpe": "27.8",
+    "kills": "148",
+    "kpe": "29.6",
     "kdr": "0.65",
-    "activity": "4",
-    "activityPct": "40%",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "FALSE",
-    "grade": "D",
+    "grade": "D+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -124,22 +124,22 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "37",
+    "points": "38",
     "position": "CO de Bataillon",
     "rank": "Sous-Lieutenant",
     "name": "FadeddGalaxies",
     "discordId": "<@723381586128535593>",
-    "kills": "377",
-    "kpe": "53.9",
-    "kdr": "1.14",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "425",
+    "kpe": "53.1",
+    "kdr": "1.10",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -156,22 +156,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "414",
+    "points": "415",
     "position": "Full Ranker",
     "rank": "Adjudant",
     "name": "nexxustheirinco",
     "discordId": "<@1251862462349967372>",
-    "kills": "326",
-    "kpe": "46.6",
-    "kdr": "1.08",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "367",
+    "kpe": "45.9",
+    "kdr": "1.04",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -188,22 +188,22 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "305",
+    "points": "306",
     "position": "FD",
     "rank": "Honorary Sergent",
     "name": "specopsgamin2",
     "discordId": "<@1256218216250871818>",
-    "kills": "197",
-    "kpe": "39.4",
-    "kdr": "0.90",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "250",
+    "kpe": "41.7",
+    "kdr": "0.89",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -220,21 +220,21 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "302",
+    "points": "303",
     "position": "Sapeur",
     "rank": "Honorary Sergent",
     "name": "imalexwhatsup",
     "discordId": "<@682136345371738296>",
-    "kills": "457",
-    "kpe": "45.7",
-    "kdr": "1.16",
-    "activity": "10",
+    "kills": "516",
+    "kpe": "46.9",
+    "kdr": "1.17",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "C+",
@@ -252,7 +252,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -267,7 +267,7 @@
     "kpe": "42.3",
     "kdr": "1.17",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "TRUE",
     "grade": "C",
     "attendance": {
@@ -290,16 +290,16 @@
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "288",
+    "points": "290",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "Ryo09suke21",
     "discordId": "<@1383337565263888395>",
-    "kills": "275",
-    "kpe": "39.3",
-    "kdr": "1.11",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "348",
+    "kpe": "43.5",
+    "kdr": "1.18",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -316,7 +316,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -331,7 +331,7 @@
     "kpe": "41.0",
     "kdr": "1.08",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -386,16 +386,16 @@
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "109",
+    "points": "110",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "K3NZ130",
     "discordId": "<@786765450234691585>",
-    "kills": "260",
-    "kpe": "65.0",
-    "kdr": "1.81",
-    "activity": "4",
-    "activityPct": "40%",
+    "kills": "323",
+    "kpe": "64.6",
+    "kdr": "1.66",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -412,22 +412,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "165",
+    "points": "166",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "NeriffZhyrene",
     "discordId": "<@1477672780987236403>",
-    "kills": "330",
-    "kpe": "41.3",
+    "kills": "387",
+    "kpe": "43.0",
     "kdr": "1.20",
-    "activity": "8",
-    "activityPct": "80%",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -444,21 +444,21 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "338",
+    "points": "339",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "JazTom_0i",
     "discordId": "<@1354888034599829604>",
-    "kills": "294",
-    "kpe": "29.4",
-    "kdr": "0.82",
-    "activity": "10",
+    "kills": "343",
+    "kpe": "31.2",
+    "kdr": "0.86",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "D+",
@@ -476,24 +476,24 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "87",
+    "points": "88",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "DabberDabDDab",
     "discordId": "<@914440529809379359>",
-    "kills": "387",
-    "kpe": "48.4",
+    "kills": "443",
+    "kpe": "49.2",
     "kdr": "1.38",
-    "activity": "8",
-    "activityPct": "80%",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
-    "grade": "C+",
+    "grade": "B-",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -508,7 +508,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -523,7 +523,7 @@
     "kpe": "33.8",
     "kdr": "0.72",
     "activity": "8",
-    "activityPct": "80%",
+    "activityPct": "73%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -555,7 +555,7 @@
     "kpe": "54.0",
     "kdr": "1.10",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "B",
     "attendance": {
@@ -587,7 +587,7 @@
     "kpe": "61.7",
     "kdr": "1.11",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -610,16 +610,16 @@
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "102",
+    "points": "104",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "X3RN0N",
     "discordId": "<@1137924575246692392>",
-    "kills": "212",
-    "kpe": "35.3",
-    "kdr": "0.95",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "260",
+    "kpe": "37.1",
+    "kdr": "0.94",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -636,24 +636,24 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "35",
+    "points": "37",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "TeferiOrigin",
     "discordId": "<@728231131413217402>",
-    "kills": "235",
-    "kpe": "47.0",
-    "kdr": "1.28",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "298",
+    "kpe": "49.7",
+    "kdr": "1.32",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "TRUE",
-    "grade": "C+",
+    "grade": "B-",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -668,22 +668,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "37",
+    "points": "38",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "MatchlockS_t1gn200",
     "discordId": "<@1294603431025049628>",
-    "kills": "223",
-    "kpe": "44.6",
-    "kdr": "1.08",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "289",
+    "kpe": "48.2",
+    "kdr": "1.17",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -700,24 +700,24 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "46",
+    "points": "47",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "qwerty100255",
     "discordId": "<@1014773896035188808>",
-    "kills": "28",
-    "kpe": "28.0",
-    "kdr": "0.90",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "66",
+    "kpe": "33.0",
+    "kdr": "0.83",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "D+",
+    "grade": "C-",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -732,24 +732,24 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "147",
+    "points": "148",
     "position": "Veteran",
     "rank": "Caporal Fourrier",
     "name": "lance101game",
     "discordId": "<@901405987381051422>",
-    "kills": "40",
-    "kpe": "40.0",
-    "kdr": "1.38",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "104",
+    "kpe": "52.0",
+    "kdr": "1.32",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
-    "grade": "C",
+    "grade": "B-",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -764,24 +764,24 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "29",
+    "points": "30",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "KFCIDK134",
     "discordId": "<@1414053006760214703>",
-    "kills": "419",
-    "kpe": "52.4",
-    "kdr": "1.53",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "484",
+    "kpe": "53.8",
+    "kdr": "1.54",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
-    "grade": "B-",
+    "grade": "B",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -796,7 +796,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -811,7 +811,7 @@
     "kpe": "41.0",
     "kdr": "0.93",
     "activity": "1",
-    "activityPct": "10%",
+    "activityPct": "9%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -866,18 +866,18 @@
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "106",
+    "points": "107",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "NIZAM2928INDO",
     "discordId": "<@1375816845306892368>",
-    "kills": "184",
-    "kpe": "30.7",
-    "kdr": "0.76",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "231",
+    "kpe": "33.0",
+    "kdr": "0.77",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
-    "grade": "D+",
+    "grade": "C-",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -892,24 +892,24 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "85",
+    "points": "87",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "Baconiqol",
     "discordId": "<@1294309748400717864>",
-    "kills": "442",
-    "kpe": "63.1",
-    "kdr": "1.39",
-    "activity": "7",
-    "activityPct": "70%",
+    "kills": "493",
+    "kpe": "61.6",
+    "kdr": "1.42",
+    "activity": "8",
+    "activityPct": "73%",
     "loa": "FALSE",
-    "grade": "A-",
+    "grade": "B+",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -924,22 +924,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "38",
+    "points": "39",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "bruhguy6278",
     "discordId": "<@1569004315987681437>",
-    "kills": "359",
-    "kpe": "39.9",
-    "kdr": "1.27",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "406",
+    "kpe": "40.6",
+    "kdr": "1.28",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -956,22 +956,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "1ER VOLTIGEURS \"AUSTERLITZ\"",
-    "points": "61",
+    "points": "62",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "bosslkn",
     "discordId": "<@736613971036995665>",
-    "kills": "163",
-    "kpe": "40.8",
-    "kdr": "0.84",
-    "activity": "4",
-    "activityPct": "40%",
+    "kills": "209",
+    "kpe": "41.8",
+    "kdr": "0.83",
+    "activity": "5",
+    "activityPct": "45%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -988,22 +988,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "338",
+    "points": "339",
     "position": "CO de Compagnie",
     "rank": "Sous-Lieutenant",
     "name": "xQcLuxi",
     "discordId": "<@668417341331079179>",
-    "kills": "307",
-    "kpe": "34.1",
-    "kdr": "0.68",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "361",
+    "kpe": "36.1",
+    "kdr": "0.70",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -1020,21 +1020,21 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "381",
+    "points": "382",
     "position": "XO de Compagnie",
     "rank": "Adjudant Sous-Officier",
     "name": "1Tanyaaaaa",
     "discordId": "<@720559732175142932>",
-    "kills": "247",
-    "kpe": "24.7",
-    "kdr": "0.79",
-    "activity": "10",
+    "kills": "255",
+    "kpe": "23.2",
+    "kdr": "0.72",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "D",
@@ -1052,7 +1052,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1067,7 +1067,7 @@
     "kpe": "40.9",
     "kdr": "0.92",
     "activity": "9",
-    "activityPct": "90%",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -1099,7 +1099,7 @@
     "kpe": "48.2",
     "kdr": "0.88",
     "activity": "6",
-    "activityPct": "60%",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1122,18 +1122,18 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "216",
+    "points": "217",
     "position": "Tambour",
     "rank": "Honorary Sergent",
     "name": "Yurilici0us",
     "discordId": "<@886232463888777216>",
-    "kills": "417",
-    "kpe": "52.1",
-    "kdr": "1.16",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "483",
+    "kpe": "53.7",
+    "kdr": "1.20",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
-    "grade": "B-",
+    "grade": "B",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -1148,21 +1148,21 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "48",
+    "points": "49",
     "position": "FD",
     "rank": "Honorary Sergent",
     "name": "1EndTrapKosmos",
     "discordId": "<@1128990025946779719>",
-    "kills": "134",
-    "kpe": "13.4",
-    "kdr": "0.36",
-    "activity": "10",
+    "kills": "163",
+    "kpe": "14.8",
+    "kdr": "0.39",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "D-",
@@ -1180,7 +1180,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1195,7 +1195,7 @@
     "kpe": "50.1",
     "kdr": "1.15",
     "activity": "7",
-    "activityPct": "70%",
+    "activityPct": "64%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1227,7 +1227,7 @@
     "kpe": "61.0",
     "kdr": "1.06",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -1291,7 +1291,7 @@
     "kpe": "51.3",
     "kdr": "1.26",
     "activity": "6",
-    "activityPct": "60%",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1314,15 +1314,15 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "294",
+    "points": "295",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "Soccer_lover986",
     "discordId": "<@955361919756300290>",
-    "kills": "517",
-    "kpe": "51.7",
-    "kdr": "1.30",
-    "activity": "10",
+    "kills": "582",
+    "kpe": "52.9",
+    "kdr": "1.33",
+    "activity": "11",
     "activityPct": "100%",
     "loa": "FALSE",
     "grade": "B-",
@@ -1340,24 +1340,24 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "129",
+    "points": "130",
     "position": "Tambour",
     "rank": "Caporal Fourrier",
     "name": "Deegman4",
     "discordId": "<@1316405502233542656>",
-    "kills": "293",
-    "kpe": "48.8",
-    "kdr": "0.99",
-    "activity": "6",
-    "activityPct": "60%",
+    "kills": "353",
+    "kpe": "50.4",
+    "kdr": "1.00",
+    "activity": "7",
+    "activityPct": "64%",
     "loa": "FALSE",
-    "grade": "C+",
+    "grade": "B-",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -1372,22 +1372,22 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "169",
+    "points": "170",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "wkjfstd",
     "discordId": "<@1418588873906458624>",
-    "kills": "51",
-    "kpe": "51.0",
-    "kdr": "0.96",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "98",
+    "kpe": "49.0",
+    "kdr": "0.89",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1404,7 +1404,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1419,7 +1419,7 @@
     "kpe": "40.0",
     "kdr": "0.96",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -1442,16 +1442,16 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "155",
+    "points": "156",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "PogPug2",
     "discordId": "<@787549796219093054>",
-    "kills": "47",
-    "kpe": "47.0",
-    "kdr": "1.02",
-    "activity": "1",
-    "activityPct": "10%",
+    "kills": "96",
+    "kpe": "48.0",
+    "kdr": "0.98",
+    "activity": "2",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1468,22 +1468,22 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "223",
+    "points": "224",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "keaksjwj",
     "discordId": "<@1287759709088120885>",
-    "kills": "397",
-    "kpe": "44.1",
-    "kdr": "1.40",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "454",
+    "kpe": "45.4",
+    "kdr": "1.39",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1500,7 +1500,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1515,7 +1515,7 @@
     "kpe": "43.8",
     "kdr": "0.95",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -1538,18 +1538,18 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "210",
+    "points": "211",
     "position": "Tambour",
     "rank": "Caporal Fourrier",
     "name": "Your_InternetBoy",
     "discordId": "<@1357706941266395178>",
-    "kills": "464",
-    "kpe": "51.6",
-    "kdr": "0.90",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "536",
+    "kpe": "53.6",
+    "kdr": "0.92",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
-    "grade": "B-",
+    "grade": "B",
     "attendance": {
       "11/2": "",
       "11/3": "TRUE",
@@ -1564,22 +1564,22 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "150",
+    "points": "151",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "garenrbx",
     "discordId": "<@896000500242190376>",
-    "kills": "228",
-    "kpe": "45.6",
-    "kdr": "1.16",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "280",
+    "kpe": "46.7",
+    "kdr": "1.18",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1596,22 +1596,22 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "155",
+    "points": "156",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "Meme_gamer360",
     "discordId": "<@786499363152199690>",
-    "kills": "273",
-    "kpe": "30.3",
-    "kdr": "0.67",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "299",
+    "kpe": "29.9",
+    "kdr": "0.64",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -1628,7 +1628,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1643,7 +1643,7 @@
     "kpe": "62.7",
     "kdr": "1.18",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -1675,7 +1675,7 @@
     "kpe": "44.8",
     "kdr": "0.87",
     "activity": "4",
-    "activityPct": "40%",
+    "activityPct": "36%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1698,16 +1698,16 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "116",
+    "points": "117",
     "position": "FD",
     "rank": "Caporal Fourrier",
     "name": "FugdeDaGreat",
     "discordId": "<@861563537666998302>",
-    "kills": "136",
-    "kpe": "27.2",
-    "kdr": "0.73",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "164",
+    "kpe": "27.3",
+    "kdr": "0.69",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -1724,7 +1724,7 @@
       "11/12": "TRUE",
       "11/13": "TRUE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1771,7 +1771,7 @@
     "kpe": "80.0",
     "kdr": "2.09",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -1794,16 +1794,16 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "160",
+    "points": "161",
     "position": "Trial Ranker",
     "rank": "Caporal Fourrier",
     "name": "jikil2002",
     "discordId": "<@1203973871125143594>",
-    "kills": "250",
-    "kpe": "31.3",
-    "kdr": "0.75",
-    "activity": "8",
-    "activityPct": "80%",
+    "kills": "296",
+    "kpe": "32.9",
+    "kdr": "0.78",
+    "activity": "9",
+    "activityPct": "82%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -1820,22 +1820,22 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "122",
+    "points": "123",
     "position": "Trial Ranker",
     "rank": "Caporal Fourrier",
     "name": "PanzerMXVI",
     "discordId": "<@903121415719489586>",
-    "kills": "229",
-    "kpe": "45.8",
-    "kdr": "0.97",
-    "activity": "5",
-    "activityPct": "50%",
+    "kills": "279",
+    "kpe": "46.5",
+    "kdr": "0.96",
+    "activity": "6",
+    "activityPct": "55%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1852,7 +1852,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1867,7 +1867,7 @@
     "kpe": "47.0",
     "kdr": "0.97",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1890,16 +1890,16 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "50",
+    "points": "51",
     "position": "Trial Ranker",
     "rank": "Caporal Fourrier",
     "name": "TheAceLadMayhem",
     "discordId": "<@881716327486726164>",
-    "kills": "88",
-    "kpe": "44.0",
-    "kdr": "1.17",
-    "activity": "2",
-    "activityPct": "20%",
+    "kills": "143",
+    "kpe": "47.7",
+    "kdr": "1.27",
+    "activity": "3",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -1916,24 +1916,24 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "FALSE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "112",
+    "points": "113",
     "position": "Full Ranker",
     "rank": "Caporal Fourrier",
     "name": "doctor_RUSSIAMAN312",
     "discordId": "<@1324927571699171498>",
-    "kills": "157",
-    "kpe": "52.3",
-    "kdr": "0.92",
-    "activity": "3",
-    "activityPct": "30%",
+    "kills": "222",
+    "kpe": "55.5",
+    "kdr": "1.03",
+    "activity": "4",
+    "activityPct": "36%",
     "loa": "FALSE",
-    "grade": "B-",
+    "grade": "B",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -1948,7 +1948,7 @@
       "11/12": "FALSE",
       "11/13": "TRUE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -1995,7 +1995,7 @@
     "kpe": "76.3",
     "kdr": "1.39",
     "activity": "3",
-    "activityPct": "30%",
+    "activityPct": "27%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -2018,16 +2018,16 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "53",
+    "points": "54",
     "position": "Full Ranker",
     "rank": "Caporal de Premier",
     "name": "Atomic0040",
     "discordId": "<@1236541811732910110>",
-    "kills": "347",
-    "kpe": "38.6",
-    "kdr": "0.98",
-    "activity": "9",
-    "activityPct": "90%",
+    "kills": "401",
+    "kpe": "40.1",
+    "kdr": "1.05",
+    "activity": "10",
+    "activityPct": "91%",
     "loa": "FALSE",
     "grade": "C",
     "attendance": {
@@ -2044,7 +2044,7 @@
       "11/12": "TRUE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -2059,7 +2059,7 @@
     "kpe": "51.4",
     "kdr": "1.04",
     "activity": "8",
-    "activityPct": "80%",
+    "activityPct": "73%",
     "loa": "TRUE",
     "grade": "B-",
     "attendance": {
@@ -2082,18 +2082,18 @@
   {
     "battalion": "volts",
     "company": "2EME VOLTIGEURS \"ARCOLE\"",
-    "points": "5",
+    "points": "6",
     "position": "Full Ranker",
     "rank": "Caporal",
     "name": "staryyyyx0",
     "discordId": "<@1386329745020682300>",
-    "kills": "81",
-    "kpe": "27.0",
-    "kdr": "1.31",
-    "activity": "3",
-    "activityPct": "30%",
+    "kills": "171",
+    "kpe": "42.8",
+    "kdr": "1.51",
+    "activity": "4",
+    "activityPct": "36%",
     "loa": "FALSE",
-    "grade": "D",
+    "grade": "C",
     "attendance": {
       "11/2": "",
       "11/3": "FALSE",
@@ -2108,7 +2108,7 @@
       "11/12": "FALSE",
       "11/13": "FALSE",
       "11/14": "TRUE",
-      "11/15": "FALSE"
+      "11/15": "TRUE"
     }
   },
   {
@@ -2123,7 +2123,7 @@
     "kpe": "34.0",
     "kdr": "0.65",
     "activity": "2",
-    "activityPct": "20%",
+    "activityPct": "18%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {

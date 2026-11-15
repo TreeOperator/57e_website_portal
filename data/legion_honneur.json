@@ -8804,8 +8804,16 @@
     "profileLink": "https://www.roblox.com/users/2891206053/profile",
     "medal": "Pendantif d'Elite",
     "class": "de Bronze",
-    "reason": "Active recipient of 7e's Pendantif d'Elite",
+    "reason": "Active recipient of 7e's Pendantif d'Élite",
     "awardedDate": "15/Aug/2026"
+  },
+  {
+    "username": "qwqertnhsj",
+    "profileLink": "https://www.roblox.com/users/1957850618/profile",
+    "medal": "Pendantif d'Elite",
+    "class": "de Bronze",
+    "reason": "https://imgur.com/a/Gz6WSvq",
+    "awardedDate": "14/Nov/2026"
   },
   {
     "username": "Partholonn",
@@ -12491,8 +12499,8 @@
     "username": "FillinTheBlock",
     "profileLink": "https://www.roblox.com/users/5314082614",
     "medal": "Pendantif Benevole",
-    "class": "de Bronze",
-    "reason": "Cinquième Inspection 04/12/2026",
+    "class": "d'Argent",
+    "reason": "Cinquième Inspection 04/12/2026, 15/11/26",
     "awardedDate": ""
   },
   {
@@ -13331,8 +13339,8 @@
     "username": "ChiefBerdan",
     "profileLink": "https://www.roblox.com/users/1639174170/profile",
     "medal": "Médaille du Croix de Battaile",
-    "class": "de Bronze",
-    "reason": "Cinq Ceremony 5/17/26",
+    "class": "d'Argent",
+    "reason": "Cinq Ceremony 5/17/26, 15/11/26",
     "awardedDate": ""
   },
   {
@@ -22126,5 +22134,37 @@
     "class": "de Bronze",
     "reason": "Premier Ceremony 14/11/2026",
     "awardedDate": ""
+  },
+  {
+    "username": "Julioplaysgames_YT",
+    "profileLink": "https://www.roblox.com/users/2003790787/profile",
+    "medal": "Médaille du Croix de Battaile",
+    "class": "de Bronze",
+    "reason": "Cinquieme Inspection 15/11/2026",
+    "awardedDate": "15/Nov/2026"
+  },
+  {
+    "username": "Metalore_jumper",
+    "profileLink": "https://www.roblox.com/users/3878484959/profile",
+    "medal": "Médaille du Mérite en Recrutement",
+    "class": "de Bronze",
+    "reason": "Cinquieme Inspection 15/11/2026",
+    "awardedDate": "15/Nov/2026"
+  },
+  {
+    "username": "Abysali",
+    "profileLink": "https://www.roblox.com/users/1018214451/profile",
+    "medal": "Pendantif Benevole",
+    "class": "de Bronze",
+    "reason": "Cinquieme Inspection 15/11/2026",
+    "awardedDate": "15/Nov/2026"
+  },
+  {
+    "username": "UniversalGabe",
+    "profileLink": "https://www.roblox.com/users/471435244/profile",
+    "medal": "Cinquième Ordre du Mérite",
+    "class": "Légionnaire",
+    "reason": "Cinquieme Inspection 15/11/2026",
+    "awardedDate": "15/Nov/2026"
   }
 ]

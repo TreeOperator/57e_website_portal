@@ -2764,7 +2764,7 @@
     "profileLink": "https://www.roblox.com/users/1320156463/profile",
     "type": "veneration",
     "label": "Rank 12",
-    "status": "Expired",
+    "status": "Active",
     "date": "5/12/2026"
   },
   {
@@ -2851,9 +2851,9 @@
     "username": "WrednySlodziak21",
     "profileLink": "https://www.roblox.com/users/3013588513/profile",
     "type": "veneration",
-    "label": "Rank 4",
+    "label": "Rank 5",
     "status": "Active",
-    "date": "11/9/2026"
+    "date": "11/15/2026"
   },
   {
     "username": "SamFleurye",
@@ -3179,9 +3179,9 @@
     "username": "M4rkAltair",
     "profileLink": "https://www.roblox.com/users/2750391476/profile",
     "type": "veneration",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Active",
-    "date": "11/9/2026"
+    "date": "11/15/2026"
   },
   {
     "username": "paphawin9084",
@@ -3299,9 +3299,9 @@
     "username": "name9027",
     "profileLink": "https://www.roblox.com/users/1267341817/profile",
     "type": "veneration",
-    "label": "Rank 1",
+    "label": "Rank 3",
     "status": "Active",
-    "date": "8/17/2026"
+    "date": "11/15/2026"
   },
   {
     "username": "EIectric_man",
@@ -3435,9 +3435,9 @@
     "username": "garenrbx",
     "profileLink": "https://www.roblox.com/users/3169319344/profile",
     "type": "veneration",
-    "label": "Rank 2",
+    "label": "Rank 3",
     "status": "Active",
-    "date": "9/24/2026"
+    "date": "11/15/2026"
   },
   {
     "username": "ArcoBoyo",
@@ -3638,5 +3638,21 @@
     "label": "Rank 2",
     "status": "Active",
     "date": "11/9/2026"
+  },
+  {
+    "username": "toto132aa",
+    "profileLink": "https://www.roblox.com/users/1073549657/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "11/15/2026"
+  },
+  {
+    "username": "StuSpectular",
+    "profileLink": "https://www.roblox.com/users/3722114204/profile",
+    "type": "veneration",
+    "label": "Rank 1",
+    "status": "Active",
+    "date": "11/15/2026"
   }
 ]
