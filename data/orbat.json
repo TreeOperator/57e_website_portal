@@ -74,13 +74,13 @@
   {
     "group": "Quartier Général de Recrutement",
     "position": "Etat Major",
-    "rank": "Sous-Lieutenant",
+    "rank": "Capitaine",
     "name": "cuhrabs"
   },
   {
     "group": "Quartier Général de Recrutement",
     "position": "Etat Major",
-    "rank": "Adjudant Sous-Officier",
+    "rank": "Sous-Lieutenant",
     "name": "S_Cormac"
   },
   {
@@ -230,7 +230,7 @@
   {
     "group": "Quartier Général des 3eme Fusiliers",
     "position": "Commandant",
-    "rank": "Lieutenant",
+    "rank": "Capitaine",
     "name": "cuhrabs"
   },
   {
@@ -254,7 +254,7 @@
   {
     "group": "Quartier Général du Administration",
     "position": "Commandant",
-    "rank": "Adjudant Sous-Officier",
+    "rank": "Sous-Lieutenant",
     "name": "S_Cormac"
   },
   {

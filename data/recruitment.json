@@ -559,6 +559,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal de Premier",
+    "name": "ilikemilk4k",
+    "discordId": "<@821660670843682857>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Semi-Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "9",
+      "MO": "2",
+      "LT": "4"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "2eme Voltigeurs \"Arcole\"",
     "points": "",
     "position": "Recruteur",
@@ -799,7 +823,7 @@
   },
   {
     "battalion": "recruitment",
-    "company": "2eme Fusiliers \"La Martinique\"",
+    "company": "1er Fusiliers \"Les Terribles\"",
     "points": "",
     "position": "Recruteur",
     "rank": "Soldat de Premier",
@@ -867,6 +891,30 @@
       "EU": "0",
       "MO": "0",
       "LT": "1"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Voltigeurs \"Austerlitz\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal",
+    "name": "bruhguy6278",
+    "discordId": "<@1569004315987681437>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "3",
+      "MO": "0",
+      "LT": "0"
     }
   },
   {
@@ -1090,30 +1138,6 @@
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "Caporal",
-    "name": "bruhguy6278",
-    "discordId": "<@1569004315987681437>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "0",
-      "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
-    "points": "",
-    "position": "Recruteur",
     "rank": "Caporal Fourrier",
     "name": "IvanPetroteva112",
     "discordId": "<@1534194268342583447>",
@@ -1129,30 +1153,6 @@
     "stats": {
       "AS": "",
       "EU": "7",
-      "MO": "0",
-      "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "shizhi_teto",
-    "discordId": "<@1371429297059004428>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "6",
       "MO": "0",
       "LT": "0"
     }
@@ -1177,6 +1177,30 @@
     "stats": {
       "AS": "",
       "EU": "0",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
+    "name": "shizhi_teto",
+    "discordId": "<@1371429297059004428>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "6",
       "MO": "0",
       "LT": "0"
     }
@@ -2893,6 +2917,30 @@
     "rank": "Soldat",
     "name": "ABzSHOPx31284",
     "discordId": "<@1550841998955643021>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "1",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "Clydebabymckenzie",
+    "discordId": "<@1350437854685429844>",
     "kills": "",
     "kpe": "",
     "kdr": "",
