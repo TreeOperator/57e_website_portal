@@ -816,6 +816,14 @@
     "date": ""
   },
   {
+    "username": "Honoreux",
+    "profileLink": "https://www.roblox.com/users/111713175/profile",
+    "type": "veneration",
+    "label": "Rank 9",
+    "status": "Expired",
+    "date": "8/25/2023"
+  },
+  {
     "username": "GryyVonLoudon",
     "profileLink": "https://www.roblox.com/users/265145777/profile",
     "type": "veneration",
@@ -2515,9 +2523,9 @@
     "username": "cem000010",
     "profileLink": "https://www.roblox.com/users/826790636/profile",
     "type": "veneration",
-    "label": "Rank 3",
+    "label": "Rank 4",
     "status": "Active",
-    "date": "8/29/2026"
+    "date": "11/18/2026"
   },
   {
     "username": "lukajz1",
@@ -2958,6 +2966,14 @@
     "label": "Rank 4",
     "status": "Active",
     "date": "8/15/2026"
+  },
+  {
+    "username": "JBRULE9",
+    "profileLink": "https://www.roblox.com/users/1111568229/profile",
+    "type": "veneration",
+    "label": "Rank 3",
+    "status": "Active",
+    "date": "10/24/2026"
   },
   {
     "username": "8npx",
@@ -3662,5 +3678,13 @@
     "label": "Rank 1",
     "status": "Active",
     "date": "11/15/2026"
+  },
+  {
+    "username": "re1vis",
+    "profileLink": "https://www.roblox.com/users/4570944466/profile",
+    "type": "veneration",
+    "label": "Rank 12",
+    "status": "Active",
+    "date": "11/18/2026"
   }
 ]

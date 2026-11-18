@@ -216,7 +216,7 @@
     "medal": "Gold",
     "stats": {
       "AS": "",
-      "EU": "9",
+      "EU": "10",
       "MO": "1",
       "LT": "2"
     }
@@ -563,22 +563,22 @@
     "points": "",
     "position": "Recruteur",
     "rank": "Caporal de Premier",
-    "name": "ilikemilk4k",
-    "discordId": "<@821660670843682857>",
+    "name": "Lost_survivor1989",
+    "discordId": "<@1542106643725160530>",
     "kills": "",
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Inactive",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "",
+    "medal": "Bronze",
     "stats": {
       "AS": "",
-      "EU": "9",
-      "MO": "2",
-      "LT": "4"
+      "EU": "13",
+      "MO": "1",
+      "LT": "11"
     }
   },
   {
@@ -627,30 +627,6 @@
       "EU": "3",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal de Premier",
-    "name": "Lost_survivor1989",
-    "discordId": "<@1542106643725160530>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Bronze",
-    "stats": {
-      "AS": "",
-      "EU": "13",
-      "MO": "0",
-      "LT": "10"
     }
   },
   {
@@ -1979,6 +1955,30 @@
     "points": "",
     "position": "Recruteur",
     "rank": "",
+    "name": "JulyDisaster",
+    "discordId": "<@1033227215359443034>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "2",
+      "MO": "0",
+      "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
     "name": "neverquitgamble",
     "discordId": "<@969558521534361671>",
     "kills": "",
@@ -2979,6 +2979,30 @@
       "EU": "1",
       "MO": "0",
       "LT": "0"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "3eme Fusiliers \"Rivoli\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Soldat",
+    "name": "soldier_renald",
+    "discordId": "<@1488918060864634900>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "",
+      "EU": "0",
+      "MO": "1",
+      "LT": "1"
     }
   }
 ]
