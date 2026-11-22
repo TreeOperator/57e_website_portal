@@ -93,6 +93,24 @@
     "battalion": "recruitment",
     "company": "Etat Major du Recrutement",
     "points": "",
+    "position": "Recruitment Staff",
+    "rank": "Adj.",
+    "name": "nexxustheirinco",
+    "discordId": "",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "",
+    "loa": "",
+    "grade": "",
+    "attendance": {},
+    "medal": ""
+  },
+  {
+    "battalion": "recruitment",
+    "company": "Etat Major du Recrutement",
+    "points": "",
     "position": "Recruitment Overseer",
     "rank": "Chud-de-Battalion",
     "name": "kjvif",
@@ -216,7 +234,7 @@
     "medal": "Gold",
     "stats": {
       "AS": "",
-      "EU": "11",
+      "EU": "10",
       "MO": "1",
       "LT": "2"
     }
@@ -252,30 +270,6 @@
     "position": "Recruteur",
     "rank": "Caporal Fourrier",
     "name": "Your_Internetboy",
-    "discordId": "<@1357706941266395178>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Semi-Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Silver",
-    "stats": {
-      "AS": "",
-      "EU": "22",
-      "MO": "4",
-      "LT": "8"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "2eme Voltigeurs \"Arcole\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "Your_internetboy",
     "discordId": "<@1357706941266395178>",
     "kills": "",
     "kpe": "",
@@ -1015,10 +1009,10 @@
   },
   {
     "battalion": "recruitment",
-    "company": "",
+    "company": "3eme Fusiliers \"Rivoli\"",
     "points": "",
     "position": "Recruteur",
-    "rank": "",
+    "rank": "Soldat de Premier",
     "name": "JulyDisaster",
     "discordId": "<@1033227215359443034>",
     "kills": "",
@@ -1241,16 +1235,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Active",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
       "AS": "",
-      "EU": "0",
-      "MO": "6",
-      "LT": "6"
+      "EU": "1",
+      "MO": "5",
+      "LT": "5"
     }
   },
   {
@@ -3051,30 +3045,6 @@
       "EU": "0",
       "MO": "0",
       "LT": "0"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "test",
-    "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "0",
-      "MO": "1",
-      "LT": "1"
     }
   }
 ]
