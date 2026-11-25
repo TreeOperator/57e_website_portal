@@ -12286,5 +12286,37 @@
       "10/3": "FALSE",
       "10/4": "FALSE"
     }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "0",
+    "position": "Merc",
+    "rank": "Sous-Lieutenant",
+    "name": "ARMMOR0013",
+    "discordId": "<@882238669203832882>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {
+      "9/21": "",
+      "9/22": "FALSE",
+      "9/23": "FALSE",
+      "9/24": "FALSE",
+      "9/25": "FALSE",
+      "9/26": "FALSE",
+      "9/27": "FALSE",
+      "9/28": "",
+      "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "FALSE",
+      "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
   }
 ]
