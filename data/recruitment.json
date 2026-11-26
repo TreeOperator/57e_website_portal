@@ -22,7 +22,7 @@
     "company": "Etat Major du Recrutement",
     "points": "",
     "position": "Recruitment XO",
-    "rank": "Cpl-F.",
+    "rank": "Sgt.",
     "name": "TrollOperator2",
     "discordId": "",
     "kills": "",
@@ -155,16 +155,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "",
-      "EU": "13",
-      "MO": "1",
-      "LT": "3"
+      "AS": "13",
+      "EU": "3",
+      "MO": "3",
+      "LT": "193"
     }
   },
   {
@@ -185,10 +185,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "",
-      "EU": "25",
+      "AS": "25",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "179"
     }
   },
   {
@@ -209,10 +209,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "",
-      "EU": "65",
-      "MO": "9",
-      "LT": "48"
+      "AS": "65",
+      "EU": "48",
+      "MO": "11",
+      "LT": "148"
     }
   },
   {
@@ -227,16 +227,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "",
-      "EU": "10",
-      "MO": "1",
-      "LT": "2"
+      "AS": "10",
+      "EU": "2",
+      "MO": "3",
+      "LT": "106"
     }
   },
   {
@@ -257,10 +257,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "16",
+      "AS": "16",
+      "EU": "5",
       "MO": "0",
-      "LT": "5"
+      "LT": "90"
     }
   },
   {
@@ -275,16 +275,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "22",
-      "MO": "4",
-      "LT": "8"
+      "AS": "22",
+      "EU": "8",
+      "MO": "8",
+      "LT": "88"
     }
   },
   {
@@ -305,10 +305,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "25",
+      "AS": "25",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "86"
     }
   },
   {
@@ -329,10 +329,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "10",
+      "AS": "10",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "72"
     }
   },
   {
@@ -353,10 +353,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "67"
     }
   },
   {
@@ -377,10 +377,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "10",
+      "AS": "10",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "64"
     }
   },
   {
@@ -401,10 +401,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "18",
+      "AS": "18",
+      "EU": "2",
       "MO": "0",
-      "LT": "2"
+      "LT": "60"
     }
   },
   {
@@ -419,16 +419,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "Bronze",
+    "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "31",
-      "MO": "1",
-      "LT": "17"
+      "AS": "31",
+      "EU": "17",
+      "MO": "2",
+      "LT": "55"
     }
   },
   {
@@ -447,12 +447,12 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "Bronze",
+    "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "25",
+      "AS": "25",
+      "EU": "22",
       "MO": "1",
-      "LT": "22"
+      "LT": "51"
     }
   },
   {
@@ -473,10 +473,10 @@
     "attendance": {},
     "medal": "Silver",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "50"
     }
   },
   {
@@ -497,10 +497,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "41"
     }
   },
   {
@@ -515,16 +515,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "Bronze",
+    "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "15",
-      "MO": "3",
-      "LT": "11"
+      "AS": "15",
+      "EU": "11",
+      "MO": "8",
+      "LT": "38"
     }
   },
   {
@@ -545,10 +545,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "11",
+      "AS": "11",
+      "EU": "4",
       "MO": "0",
-      "LT": "4"
+      "LT": "32"
     }
   },
   {
@@ -563,16 +563,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "15",
-      "MO": "1",
-      "LT": "11"
+      "AS": "17",
+      "EU": "12",
+      "MO": "6",
+      "LT": "30"
     }
   },
   {
@@ -591,12 +591,12 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "",
+    "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "9",
-      "MO": "2",
-      "LT": "4"
+      "AS": "9",
+      "EU": "4",
+      "MO": "5",
+      "LT": "26"
     }
   },
   {
@@ -615,12 +615,12 @@
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
-    "medal": "",
+    "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "15",
-      "MO": "0",
-      "LT": "8"
+      "AS": "15",
+      "EU": "8",
+      "MO": "1",
+      "LT": "24"
     }
   },
   {
@@ -641,10 +641,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "23"
     }
   },
   {
@@ -665,10 +665,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "7",
+      "AS": "7",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "21"
     }
   },
   {
@@ -689,10 +689,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "13",
+      "AS": "13",
+      "EU": "3",
       "MO": "0",
-      "LT": "3"
+      "LT": "16"
     }
   },
   {
@@ -713,10 +713,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "5",
+      "AS": "5",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "15"
     }
   },
   {
@@ -731,16 +731,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "9",
-      "MO": "2",
-      "LT": "2"
+      "AS": "9",
+      "EU": "2",
+      "MO": "11",
+      "LT": "15"
     }
   },
   {
@@ -761,10 +761,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "14",
+      "AS": "14",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "14"
     }
   },
   {
@@ -785,10 +785,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "5",
+      "AS": "5",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "14"
     }
   },
   {
@@ -809,10 +809,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "10",
+      "AS": "10",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "14"
     }
   },
   {
@@ -833,10 +833,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "9",
+      "AS": "9",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "14"
     }
   },
   {
@@ -857,10 +857,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "11",
+      "AS": "11",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "11"
     }
   },
   {
@@ -881,10 +881,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "11"
     }
   },
   {
@@ -899,16 +899,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "10",
-      "MO": "0",
-      "LT": "0"
+      "AS": "10",
+      "EU": "0",
+      "MO": "2",
+      "LT": "10"
     }
   },
   {
@@ -923,16 +923,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
-      "MO": "0",
-      "LT": "0"
+      "AS": "3",
+      "EU": "0",
+      "MO": "2",
+      "LT": "10"
     }
   },
   {
@@ -953,10 +953,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "",
-      "EU": "9",
+      "AS": "9",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "9"
     }
   },
   {
@@ -977,10 +977,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "9",
+      "AS": "9",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "9"
     }
   },
   {
@@ -1001,10 +1001,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "5",
+      "AS": "5",
+      "EU": "4",
       "MO": "0",
-      "LT": "4"
+      "LT": "9"
     }
   },
   {
@@ -1019,16 +1019,88 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "5",
+      "EU": "4",
+      "MO": "9",
+      "LT": "9"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Lieutenant",
+    "name": "Powerwizardy",
+    "discordId": "<@992789193212317726>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "7",
+      "EU": "1",
+      "MO": "7",
+      "LT": "8"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Voltigeurs \"Austerlitz\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal Fourrier",
+    "name": "IvanPetroteva112",
+    "discordId": "<@1534194268342583447>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
     "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "5",
-      "MO": "4",
-      "LT": "4"
+      "AS": "7",
+      "EU": "1",
+      "MO": "5",
+      "LT": "8"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Lieutenant",
+    "name": "powerwizardy",
+    "discordId": "<@992789193212317726>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "7",
+      "EU": "1",
+      "MO": "7",
+      "LT": "8"
     }
   },
   {
@@ -1049,10 +1121,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "7",
+      "AS": "7",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "7"
     }
   },
   {
@@ -1073,10 +1145,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "6",
+      "AS": "6",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "7"
     }
   },
   {
@@ -1097,10 +1169,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "5",
-      "MO": "0",
-      "LT": "1"
+      "AS": "5",
+      "EU": "1",
+      "MO": "1",
+      "LT": "7"
     }
   },
   {
@@ -1121,10 +1193,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "7"
     }
   },
   {
@@ -1145,34 +1217,10 @@
     "attendance": {},
     "medal": "Bronze",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Voltigeurs \"Austerlitz\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal Fourrier",
-    "name": "IvanPetroteva112",
-    "discordId": "<@1534194268342583447>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "7",
-      "MO": "0",
-      "LT": "0"
+      "LT": "7"
     }
   },
   {
@@ -1193,10 +1241,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
+      "AS": "0",
       "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "7"
     }
   },
   {
@@ -1217,10 +1265,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "6",
+      "AS": "6",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "6"
     }
   },
   {
@@ -1235,16 +1283,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Semi-Active",
+    "activityPct": "Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
-      "MO": "5",
-      "LT": "5"
+      "AS": "1",
+      "EU": "5",
+      "MO": "6",
+      "LT": "6"
     }
   },
   {
@@ -1265,10 +1313,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "5"
     }
   },
   {
@@ -1289,10 +1337,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "5",
+      "AS": "5",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "5"
     }
   },
   {
@@ -1313,10 +1361,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "4",
+      "AS": "4",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "5"
     }
   },
   {
@@ -1331,40 +1379,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "1",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Lieutenant",
-    "name": "Powerwizardy",
-    "discordId": "<@992789193212317726>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "4",
-      "MO": "0",
-      "LT": "0"
+      "AS": "2",
+      "EU": "1",
+      "MO": "2",
+      "LT": "5"
     }
   },
   {
@@ -1385,10 +1409,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "4",
+      "AS": "4",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "4"
     }
   },
   {
@@ -1409,10 +1433,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "4",
+      "AS": "4",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "4"
     }
   },
   {
@@ -1433,10 +1457,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "4"
     }
   },
   {
@@ -1457,10 +1481,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "4"
     }
   },
   {
@@ -1481,34 +1505,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
-      "MO": "3",
-      "LT": "3"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Lieutenant",
-    "name": "powerwizardy",
-    "discordId": "<@992789193212317726>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "",
-      "EU": "4",
-      "MO": "0",
-      "LT": "0"
+      "AS": "1",
+      "EU": "3",
+      "MO": "4",
+      "LT": "4"
     }
   },
   {
@@ -1529,10 +1529,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "3"
     }
   },
   {
@@ -1553,10 +1553,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "3"
     }
   },
   {
@@ -1577,10 +1577,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "3"
     }
   },
   {
@@ -1601,10 +1601,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "3",
+      "AS": "3",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "3"
     }
   },
   {
@@ -1625,10 +1625,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "1",
       "MO": "1",
-      "LT": "1"
+      "LT": "3"
     }
   },
   {
@@ -1649,10 +1649,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "3"
     }
   },
   {
@@ -1673,10 +1673,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "3"
     }
   },
   {
@@ -1697,10 +1697,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "3"
     }
   },
   {
@@ -1715,16 +1715,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "0",
-      "LT": "0"
+      "AS": "2",
+      "EU": "0",
+      "MO": "2",
+      "LT": "3"
     }
   },
   {
@@ -1745,10 +1745,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1769,10 +1769,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1793,10 +1793,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1817,10 +1817,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1841,10 +1841,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1865,10 +1865,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "0",
-      "LT": "0"
+      "AS": "2",
+      "EU": "0",
+      "MO": "1",
+      "LT": "2"
     }
   },
   {
@@ -1889,10 +1889,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1913,10 +1913,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1937,10 +1937,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -1961,10 +1961,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
+      "AS": "1",
       "EU": "1",
       "MO": "0",
-      "LT": "1"
+      "LT": "2"
     }
   },
   {
@@ -1985,8 +1985,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "2",
       "MO": "0",
       "LT": "2"
     }
@@ -2009,10 +2009,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
+      "AS": "1",
       "EU": "1",
       "MO": "1",
-      "LT": "1"
+      "LT": "2"
     }
   },
   {
@@ -2033,10 +2033,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
+      "AS": "2",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "2"
     }
   },
   {
@@ -2057,8 +2057,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "2",
       "MO": "0",
       "LT": "2"
     }
@@ -2075,16 +2075,16 @@
     "kpe": "",
     "kdr": "",
     "activity": "",
-    "activityPct": "Inactive",
+    "activityPct": "Semi-Active",
     "loa": "FALSE",
     "grade": "",
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "2",
-      "MO": "0",
-      "LT": "0"
+      "AS": "2",
+      "EU": "0",
+      "MO": "2",
+      "LT": "2"
     }
   },
   {
@@ -2105,8 +2105,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "2",
       "MO": "2",
       "LT": "2"
     }
@@ -2129,10 +2129,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2153,10 +2153,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2177,10 +2177,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2201,10 +2201,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2225,10 +2225,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2249,10 +2249,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2273,10 +2273,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2297,10 +2297,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2321,10 +2321,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2345,10 +2345,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2369,10 +2369,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2393,10 +2393,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2417,10 +2417,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2441,10 +2441,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2465,10 +2465,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2489,10 +2489,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2513,10 +2513,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2537,10 +2537,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2561,10 +2561,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2585,10 +2585,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2609,10 +2609,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2633,10 +2633,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2657,10 +2657,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2681,10 +2681,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2705,10 +2705,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2729,10 +2729,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2753,10 +2753,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2777,10 +2777,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2801,10 +2801,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2825,10 +2825,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2849,10 +2849,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2873,8 +2873,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
       "LT": "1"
     }
@@ -2897,8 +2897,8 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "0",
+      "AS": "0",
+      "EU": "1",
       "MO": "0",
       "LT": "1"
     }
@@ -2921,10 +2921,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2945,10 +2945,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2969,10 +2969,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -2993,10 +2993,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
+      "AS": "1",
+      "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   },
   {
@@ -3017,10 +3017,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
-      "MO": "0",
-      "LT": "0"
+      "AS": "1",
+      "EU": "0",
+      "MO": "1",
+      "LT": "1"
     }
   },
   {
@@ -3041,10 +3041,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
-      "EU": "1",
-      "MO": "0",
-      "LT": "0"
+      "AS": "1",
+      "EU": "0",
+      "MO": "1",
+      "LT": "1"
     }
   },
   {
@@ -3065,10 +3065,10 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "",
+      "AS": "0",
       "EU": "0",
       "MO": "0",
-      "LT": "0"
+      "LT": "1"
     }
   }
 ]
