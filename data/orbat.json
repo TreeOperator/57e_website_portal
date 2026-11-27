@@ -20,8 +20,20 @@
   {
     "group": "Quartier Général des 1er Grenadiers",
     "position": "Commandant",
-    "rank": "Marshal",
+    "rank": "Maréchal",
     "name": "Orpios"
+  },
+  {
+    "group": "Quartier Général des 1er Grenadiers",
+    "position": "Exécutif",
+    "rank": "Maréchal",
+    "name": "Tarek"
+  },
+  {
+    "group": "Quartier Général des 1er Grenadiers",
+    "position": "Etat Major",
+    "rank": "",
+    "name": "tarek is me btw"
   },
   {
     "group": "Quartier Général des 2eme Grenadiers",

@@ -209,10 +209,10 @@
     "attendance": {},
     "medal": "Gold",
     "stats": {
-      "AS": "65",
+      "AS": "67",
       "EU": "48",
-      "MO": "11",
-      "LT": "148"
+      "MO": "13",
+      "LT": "150"
     }
   },
   {
@@ -521,9 +521,33 @@
     "attendance": {},
     "medal": "",
     "stats": {
-      "AS": "15",
+      "AS": "18",
       "EU": "11",
-      "MO": "8",
+      "MO": "11",
+      "LT": "41"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal de Premier",
+    "name": "Lost_survivor1989",
+    "discordId": "<@1542106643725160530>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "Bronze",
+    "stats": {
+      "AS": "23",
+      "EU": "14",
+      "MO": "14",
       "LT": "38"
     }
   },
@@ -549,30 +573,6 @@
       "EU": "4",
       "MO": "0",
       "LT": "32"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal de Premier",
-    "name": "Lost_survivor1989",
-    "discordId": "<@1542106643725160530>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Bronze",
-    "stats": {
-      "AS": "17",
-      "EU": "12",
-      "MO": "6",
-      "LT": "30"
     }
   },
   {
@@ -841,6 +841,54 @@
   },
   {
     "battalion": "recruitment",
+    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Lieutenant",
+    "name": "Powerwizardy",
+    "discordId": "<@992789193212317726>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "10",
+      "EU": "2",
+      "MO": "11",
+      "LT": "12"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Lieutenant",
+    "name": "powerwizardy",
+    "discordId": "<@992789193212317726>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "10",
+      "EU": "2",
+      "MO": "11",
+      "LT": "12"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "",
     "points": "",
     "position": "Recruteur",
@@ -1033,30 +1081,6 @@
   },
   {
     "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Lieutenant",
-    "name": "Powerwizardy",
-    "discordId": "<@992789193212317726>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "7",
-      "EU": "1",
-      "MO": "7",
-      "LT": "8"
-    }
-  },
-  {
-    "battalion": "recruitment",
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
@@ -1076,30 +1100,6 @@
       "AS": "7",
       "EU": "1",
       "MO": "5",
-      "LT": "8"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Lieutenant",
-    "name": "powerwizardy",
-    "discordId": "<@992789193212317726>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "7",
-      "EU": "1",
-      "MO": "7",
       "LT": "8"
     }
   },
