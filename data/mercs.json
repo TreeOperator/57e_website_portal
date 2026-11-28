@@ -107,7 +107,7 @@
     "kpe": "51.0",
     "kdr": "1.44",
     "activity": "2",
-    "activityPct": "40%",
+    "activityPct": "33%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -523,7 +523,7 @@
     "kpe": "39.5",
     "kdr": "0.88",
     "activity": "2",
-    "activityPct": "40%",
+    "activityPct": "33%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -555,7 +555,7 @@
     "kpe": "34.5",
     "kdr": "1.35",
     "activity": "4",
-    "activityPct": "80%",
+    "activityPct": "67%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -587,7 +587,7 @@
     "kpe": "67.0",
     "kdr": "1.49",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -651,7 +651,7 @@
     "kpe": "63.0",
     "kdr": "1.17",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -747,7 +747,7 @@
     "kpe": "28.0",
     "kdr": "0.80",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -834,18 +834,18 @@
   {
     "battalion": "mercs",
     "company": "MERCS",
-    "points": "39",
+    "points": "40",
     "position": "Merc",
     "rank": "Conscrit",
     "name": "Bast2k",
     "discordId": "",
-    "kills": "42",
-    "kpe": "42.0",
-    "kdr": "0.78",
-    "activity": "1",
-    "activityPct": "20%",
+    "kills": "68",
+    "kpe": "34.0",
+    "kdr": "0.83",
+    "activity": "2",
+    "activityPct": "33%",
     "loa": "FALSE",
-    "grade": "C",
+    "grade": "D+",
     "attendance": {
       "9/21": "",
       "9/22": "FALSE",
@@ -858,7 +858,7 @@
       "9/29": "FALSE",
       "9/30": "FALSE",
       "10/1": "FALSE",
-      "10/2": "FALSE",
+      "10/2": "TRUE",
       "10/3": "FALSE",
       "10/4": "FALSE"
     }
@@ -875,7 +875,7 @@
     "kpe": "38.3",
     "kdr": "1.32",
     "activity": "3",
-    "activityPct": "60%",
+    "activityPct": "50%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -971,7 +971,7 @@
     "kpe": "94.0",
     "kdr": "1.84",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "S",
     "attendance": {
@@ -1003,7 +1003,7 @@
     "kpe": "73.0",
     "kdr": "1.30",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -1163,7 +1163,7 @@
     "kpe": "67.0",
     "kdr": "2.03",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -1547,7 +1547,7 @@
     "kpe": "54.0",
     "kdr": "1.46",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -1675,7 +1675,7 @@
     "kpe": "83.0",
     "kdr": "1.20",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -1707,7 +1707,7 @@
     "kpe": "36.0",
     "kdr": "0.62",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -1963,7 +1963,7 @@
     "kpe": "86.0",
     "kdr": "1.77",
     "activity": "3",
-    "activityPct": "60%",
+    "activityPct": "50%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -1979,6 +1979,38 @@
       "9/30": "FALSE",
       "10/1": "FALSE",
       "10/2": "FALSE",
+      "10/3": "FALSE",
+      "10/4": "FALSE"
+    }
+  },
+  {
+    "battalion": "mercs",
+    "company": "MERCS",
+    "points": "8",
+    "position": "Merc",
+    "rank": "Soldat de Premier",
+    "name": "seldcuth",
+    "discordId": "<@788062147443032085>",
+    "kills": "257",
+    "kpe": "42.8",
+    "kdr": "1.35",
+    "activity": "6",
+    "activityPct": "100%",
+    "loa": "FALSE",
+    "grade": "C",
+    "attendance": {
+      "9/21": "",
+      "9/22": "TRUE",
+      "9/23": "FALSE",
+      "9/24": "TRUE",
+      "9/25": "FALSE",
+      "9/26": "TRUE",
+      "9/27": "TRUE",
+      "9/28": "",
+      "9/29": "FALSE",
+      "9/30": "FALSE",
+      "10/1": "TRUE",
+      "10/2": "TRUE",
       "10/3": "FALSE",
       "10/4": "FALSE"
     }
@@ -2027,7 +2059,7 @@
     "kpe": "52.0",
     "kdr": "1.00",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -2091,7 +2123,7 @@
     "kpe": "72.0",
     "kdr": "1.50",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -2234,38 +2266,6 @@
       "9/29": "FALSE",
       "9/30": "FALSE",
       "10/1": "FALSE",
-      "10/2": "FALSE",
-      "10/3": "FALSE",
-      "10/4": "FALSE"
-    }
-  },
-  {
-    "battalion": "mercs",
-    "company": "MERCS",
-    "points": "7",
-    "position": "Merc",
-    "rank": "Soldat de Premier",
-    "name": "seldcuth",
-    "discordId": "<@788062147443032085>",
-    "kills": "210",
-    "kpe": "42.0",
-    "kdr": "1.36",
-    "activity": "5",
-    "activityPct": "100%",
-    "loa": "FALSE",
-    "grade": "C",
-    "attendance": {
-      "9/21": "",
-      "9/22": "TRUE",
-      "9/23": "FALSE",
-      "9/24": "TRUE",
-      "9/25": "FALSE",
-      "9/26": "TRUE",
-      "9/27": "TRUE",
-      "9/28": "",
-      "9/29": "FALSE",
-      "9/30": "FALSE",
-      "10/1": "TRUE",
       "10/2": "FALSE",
       "10/3": "FALSE",
       "10/4": "FALSE"
@@ -2443,7 +2443,7 @@
     "kpe": "49.0",
     "kdr": "1.11",
     "activity": "2",
-    "activityPct": "40%",
+    "activityPct": "33%",
     "loa": "FALSE",
     "grade": "C+",
     "attendance": {
@@ -2635,7 +2635,7 @@
     "kpe": "68.0",
     "kdr": "1.21",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -4555,7 +4555,7 @@
     "kpe": "65.0",
     "kdr": "1.18",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -4779,7 +4779,7 @@
     "kpe": "53.0",
     "kdr": "1.51",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -4939,7 +4939,7 @@
     "kpe": "57.0",
     "kdr": "1.68",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -5323,7 +5323,7 @@
     "kpe": "64.0",
     "kdr": "1.03",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B+",
     "attendance": {
@@ -5835,7 +5835,7 @@
     "kpe": "54.0",
     "kdr": "1.32",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "B-",
     "attendance": {
@@ -5963,7 +5963,7 @@
     "kpe": "74.0",
     "kdr": "1.17",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {
@@ -6059,7 +6059,7 @@
     "kpe": "68.0",
     "kdr": "2.06",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -6155,7 +6155,7 @@
     "kpe": "35.0",
     "kdr": "0.74",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "D+",
     "attendance": {
@@ -6187,7 +6187,7 @@
     "kpe": "85.0",
     "kdr": "1.57",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A+",
     "attendance": {
@@ -6251,7 +6251,7 @@
     "kpe": "41.0",
     "kdr": "0.95",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "C-",
     "attendance": {
@@ -6379,7 +6379,7 @@
     "kpe": "70.0",
     "kdr": "1.37",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A-",
     "attendance": {
@@ -6443,7 +6443,7 @@
     "kpe": "27.0",
     "kdr": "1.08",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "D",
     "attendance": {
@@ -6475,7 +6475,7 @@
     "kpe": "73.0",
     "kdr": "1.30",
     "activity": "1",
-    "activityPct": "20%",
+    "activityPct": "17%",
     "loa": "FALSE",
     "grade": "A",
     "attendance": {

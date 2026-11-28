@@ -481,6 +481,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "1er Fusiliers \"Les Terribles\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Caporal de Premier",
+    "name": "Lost_survivor1989",
+    "discordId": "<@1542106643725160530>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "Bronze",
+    "stats": {
+      "AS": "26",
+      "EU": "15",
+      "MO": "18",
+      "LT": "44"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "1er Voltigeurs \"Austerlitz\"",
     "points": "",
     "position": "Recruteur",
@@ -525,30 +549,6 @@
       "EU": "11",
       "MO": "11",
       "LT": "41"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "1er Fusiliers \"Les Terribles\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Caporal de Premier",
-    "name": "Lost_survivor1989",
-    "discordId": "<@1542106643725160530>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "Bronze",
-    "stats": {
-      "AS": "23",
-      "EU": "14",
-      "MO": "14",
-      "LT": "38"
     }
   },
   {
@@ -793,6 +793,30 @@
   },
   {
     "battalion": "recruitment",
+    "company": "Grenadiers de Amiens \"Leipzig\"",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "Lieutenant",
+    "name": "powerwizardy",
+    "discordId": "<@992789193212317726>",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Active",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "11",
+      "EU": "3",
+      "MO": "13",
+      "LT": "14"
+    }
+  },
+  {
+    "battalion": "recruitment",
     "company": "2eme Voltigeurs \"Arcole\"",
     "points": "",
     "position": "Recruteur",
@@ -837,54 +861,6 @@
       "EU": "1",
       "MO": "0",
       "LT": "14"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Lieutenant",
-    "name": "Powerwizardy",
-    "discordId": "<@992789193212317726>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "10",
-      "EU": "2",
-      "MO": "11",
-      "LT": "12"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "Grenadiers de Amiens \"Leipzig\"",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "Lieutenant",
-    "name": "powerwizardy",
-    "discordId": "<@992789193212317726>",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Active",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "10",
-      "EU": "2",
-      "MO": "11",
-      "LT": "12"
     }
   },
   {
@@ -1757,6 +1733,30 @@
     "points": "",
     "position": "Recruteur",
     "rank": "",
+    "name": "OFsniper",
+    "discordId": "#N/A",
+    "kills": "",
+    "kpe": "",
+    "kdr": "",
+    "activity": "",
+    "activityPct": "Inactive",
+    "loa": "FALSE",
+    "grade": "",
+    "attendance": {},
+    "medal": "",
+    "stats": {
+      "AS": "1",
+      "EU": "1",
+      "MO": "1",
+      "LT": "2"
+    }
+  },
+  {
+    "battalion": "recruitment",
+    "company": "",
+    "points": "",
+    "position": "Recruteur",
+    "rank": "",
     "name": "Zaptiye_Amiri",
     "discordId": "#N/A",
     "kills": "",
@@ -2142,30 +2142,6 @@
     "position": "Recruteur",
     "rank": "",
     "name": "vachi132",
-    "discordId": "#N/A",
-    "kills": "",
-    "kpe": "",
-    "kdr": "",
-    "activity": "",
-    "activityPct": "Inactive",
-    "loa": "FALSE",
-    "grade": "",
-    "attendance": {},
-    "medal": "",
-    "stats": {
-      "AS": "1",
-      "EU": "0",
-      "MO": "0",
-      "LT": "1"
-    }
-  },
-  {
-    "battalion": "recruitment",
-    "company": "",
-    "points": "",
-    "position": "Recruteur",
-    "rank": "",
-    "name": "OFsniper",
     "discordId": "#N/A",
     "kills": "",
     "kpe": "",
